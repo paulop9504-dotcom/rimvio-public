@@ -1,0 +1,565 @@
+﻿
+> rimvio@0.1.0 build
+> next build
+
+??Next.js 16.2.6 (Turbopack)
+- Environments: .env.local
+
+node.exe : ??The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org
+/docs/messages/middleware-to-proxy
+위치 줄:1 문자:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (??The "middlewa...leware-to-proxy:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 10 errors:
+./lib/action-chat/transactional-flush.ts:12:10
+the name `saveKnowledgeEntity` is defined multiple times
+  [90m10 |[0m [36mimport[0m { sanitizePlaceNameForNavigation } [36mfrom[0m [32m"@/lib/action-chat/resolve-naviga
+tion-place"[0m;
+  [90m11 |[0m [36mimport[0m { saveKnowledgeEntity } [36mfrom[0m [32m"@/lib/knowledge/knowledge-entity-db"[0m;
+[31m[1m>[0m [90m12 |[0m [36mimport[0m { saveKnowledgeEntity } [36mfrom[0m [32m"@/lib/knowledge/knowledge-enti
+ty-db"[0m;
+  [90m   |[0m          [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mtype[0m [33mFlushExecutor[0m = (
+  [90m15 |[0m   item: [33mBatchPendingItem[0m,
+
+Ecmascript file had an error
+
+Import traces:
+  Client Component Browser:
+    ./lib/action-chat/transactional-flush.ts [Client Component Browser]
+    ./hooks/use-action-chat.ts [Client Component Browser]
+    ./components/action-chat-feed.tsx [Client Component Browser]
+    ./components/action-shorts-feed.tsx [Client Component Browser]
+    ./components/action-shorts-feed.tsx [Server Component]
+    ./components/action-shorts.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/action-chat/transactional-flush.ts [Client Component SSR]
+    ./hooks/use-action-chat.ts [Client Component SSR]
+    ./components/action-chat-feed.tsx [Client Component SSR]
+    ./components/action-shorts-feed.tsx [Client Component SSR]
+    ./components/action-shorts-feed.tsx [Server Component]
+    ./components/action-shorts.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+./lib/notification-shadow/priority-engine.ts:12:1
+Export ACTIONABLE_BOOST doesn't exist in target module
+  [90m10 |[0m   [33mShadowRouteTier[0m,
+  [90m11 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+[31m[1m>[0m [90m12 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m13 |[0m   [33mACTIONABLE_BOOST[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m14 |[0m   [33mCONTAINER_BOOST_MATCH[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m15 |[0m   [33mROUTE_THRESHOLDS[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m16 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m
+  [90m18 |[0m [36mfunction[0m minutesUntil(iso: string | [36mnull[0m | [36mundefined[0m, now = [33mDate[0m.no
+w()): number | [36mnull[0m {
+  [90m19 |[0m   [36mif[0m (!iso) {
+
+The export ACTIONABLE_BOOST was not found in module [project]/lib/notification-shadow/types.ts [app-client] (ecmascript
+).
+Did you mean to import DEFAULT_NOTIFICATION_COOLDOWN_MS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the req
+uested export doesn't exist.
+
+Import traces:
+  App Route:
+    ./lib/notification-shadow/priority-engine.ts
+    ./lib/notification-shadow/route-notification.ts
+    ./lib/notification-shadow/ingest-adapters.ts
+    ./lib/local-links/reminders.ts
+    ./lib/actions/schedule-link-execution.ts
+    ./lib/transport/transport-live-service.ts
+    ./app/api/transport/live/route.ts
+
+  Client Component Browser:
+    ./lib/notification-shadow/priority-engine.ts [Client Component Browser]
+    ./lib/notification-shadow/route-notification.ts [Client Component Browser]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component Browser]
+    ./lib/local-links/reminders.ts [Client Component Browser]
+    ./components/reminder-poller.tsx [Client Component Browser]
+    ./components/providers.tsx [Client Component Browser]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/notification-shadow/priority-engine.ts [Client Component SSR]
+    ./lib/notification-shadow/route-notification.ts [Client Component SSR]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component SSR]
+    ./lib/local-links/reminders.ts [Client Component SSR]
+    ./components/reminder-poller.tsx [Client Component SSR]
+    ./components/providers.tsx [Client Component SSR]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+
+./lib/notification-shadow/priority-engine.ts:12:1
+Export ACTIONABLE_BOOST doesn't exist in target module
+  [90m10 |[0m   [33mShadowRouteTier[0m,
+  [90m11 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+[31m[1m>[0m [90m12 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m13 |[0m   [33mACTIONABLE_BOOST[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m14 |[0m   [33mCONTAINER_BOOST_MATCH[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m15 |[0m   [33mROUTE_THRESHOLDS[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m16 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m
+  [90m18 |[0m [36mfunction[0m minutesUntil(iso: string | [36mnull[0m | [36mundefined[0m, now = [33mDate[0m.no
+w()): number | [36mnull[0m {
+  [90m19 |[0m   [36mif[0m (!iso) {
+
+The export ACTIONABLE_BOOST was not found in module [project]/lib/notification-shadow/types.ts [app-route] (ecmascript)
+.
+Did you mean to import DEFAULT_NOTIFICATION_COOLDOWN_MS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the req
+uested export doesn't exist.
+
+Import traces:
+  App Route:
+    ./lib/notification-shadow/priority-engine.ts
+    ./lib/notification-shadow/route-notification.ts
+    ./lib/notification-shadow/ingest-adapters.ts
+    ./lib/local-links/reminders.ts
+    ./lib/actions/schedule-link-execution.ts
+    ./lib/transport/transport-live-service.ts
+    ./app/api/transport/live/route.ts
+
+  Client Component Browser:
+    ./lib/notification-shadow/priority-engine.ts [Client Component Browser]
+    ./lib/notification-shadow/route-notification.ts [Client Component Browser]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component Browser]
+    ./lib/local-links/reminders.ts [Client Component Browser]
+    ./components/reminder-poller.tsx [Client Component Browser]
+    ./components/providers.tsx [Client Component Browser]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/notification-shadow/priority-engine.ts [Client Component SSR]
+    ./lib/notification-shadow/route-notification.ts [Client Component SSR]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component SSR]
+    ./lib/local-links/reminders.ts [Client Component SSR]
+    ./components/reminder-poller.tsx [Client Component SSR]
+    ./components/providers.tsx [Client Component SSR]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+
+./lib/notification-shadow/priority-engine.ts:12:1
+Export ACTIONABLE_BOOST doesn't exist in target module
+  [90m10 |[0m   [33mShadowRouteTier[0m,
+  [90m11 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+[31m[1m>[0m [90m12 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m13 |[0m   [33mACTIONABLE_BOOST[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m14 |[0m   [33mCONTAINER_BOOST_MATCH[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m15 |[0m   [33mROUTE_THRESHOLDS[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m16 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m
+  [90m18 |[0m [36mfunction[0m minutesUntil(iso: string | [36mnull[0m | [36mundefined[0m, now = [33mDate[0m.no
+w()): number | [36mnull[0m {
+  [90m19 |[0m   [36mif[0m (!iso) {
+
+The export ACTIONABLE_BOOST was not found in module [project]/lib/notification-shadow/types.ts [app-ssr] (ecmascript).
+Did you mean to import DEFAULT_NOTIFICATION_COOLDOWN_MS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the req
+uested export doesn't exist.
+
+Import traces:
+  App Route:
+    ./lib/notification-shadow/priority-engine.ts
+    ./lib/notification-shadow/route-notification.ts
+    ./lib/notification-shadow/ingest-adapters.ts
+    ./lib/local-links/reminders.ts
+    ./lib/actions/schedule-link-execution.ts
+    ./lib/transport/transport-live-service.ts
+    ./app/api/transport/live/route.ts
+
+  Client Component Browser:
+    ./lib/notification-shadow/priority-engine.ts [Client Component Browser]
+    ./lib/notification-shadow/route-notification.ts [Client Component Browser]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component Browser]
+    ./lib/local-links/reminders.ts [Client Component Browser]
+    ./components/reminder-poller.tsx [Client Component Browser]
+    ./components/providers.tsx [Client Component Browser]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/notification-shadow/priority-engine.ts [Client Component SSR]
+    ./lib/notification-shadow/route-notification.ts [Client Component SSR]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component SSR]
+    ./lib/local-links/reminders.ts [Client Component SSR]
+    ./components/reminder-poller.tsx [Client Component SSR]
+    ./components/providers.tsx [Client Component SSR]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+
+./lib/notification-shadow/priority-engine.ts:12:1
+Export CONTAINER_BOOST_MATCH doesn't exist in target module
+  [90m10 |[0m   [33mShadowRouteTier[0m,
+  [90m11 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+[31m[1m>[0m [90m12 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m13 |[0m   [33mACTIONABLE_BOOST[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m14 |[0m   [33mCONTAINER_BOOST_MATCH[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m15 |[0m   [33mROUTE_THRESHOLDS[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m16 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m
+  [90m18 |[0m [36mfunction[0m minutesUntil(iso: string | [36mnull[0m | [36mundefined[0m, now = [33mDate[0m.no
+w()): number | [36mnull[0m {
+  [90m19 |[0m   [36mif[0m (!iso) {
+
+The export CONTAINER_BOOST_MATCH was not found in module [project]/lib/notification-shadow/types.ts [app-client] (ecmas
+cript).
+Did you mean to import DEFAULT_NOTIFICATION_COOLDOWN_MS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the req
+uested export doesn't exist.
+
+Import traces:
+  App Route:
+    ./lib/notification-shadow/priority-engine.ts
+    ./lib/notification-shadow/route-notification.ts
+    ./lib/notification-shadow/ingest-adapters.ts
+    ./lib/local-links/reminders.ts
+    ./lib/actions/schedule-link-execution.ts
+    ./lib/transport/transport-live-service.ts
+    ./app/api/transport/live/route.ts
+
+  Client Component Browser:
+    ./lib/notification-shadow/priority-engine.ts [Client Component Browser]
+    ./lib/notification-shadow/route-notification.ts [Client Component Browser]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component Browser]
+    ./lib/local-links/reminders.ts [Client Component Browser]
+    ./components/reminder-poller.tsx [Client Component Browser]
+    ./components/providers.tsx [Client Component Browser]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/notification-shadow/priority-engine.ts [Client Component SSR]
+    ./lib/notification-shadow/route-notification.ts [Client Component SSR]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component SSR]
+    ./lib/local-links/reminders.ts [Client Component SSR]
+    ./components/reminder-poller.tsx [Client Component SSR]
+    ./components/providers.tsx [Client Component SSR]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+
+./lib/notification-shadow/priority-engine.ts:12:1
+Export CONTAINER_BOOST_MATCH doesn't exist in target module
+  [90m10 |[0m   [33mShadowRouteTier[0m,
+  [90m11 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+[31m[1m>[0m [90m12 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m13 |[0m   [33mACTIONABLE_BOOST[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m14 |[0m   [33mCONTAINER_BOOST_MATCH[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m15 |[0m   [33mROUTE_THRESHOLDS[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m16 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m
+  [90m18 |[0m [36mfunction[0m minutesUntil(iso: string | [36mnull[0m | [36mundefined[0m, now = [33mDate[0m.no
+w()): number | [36mnull[0m {
+  [90m19 |[0m   [36mif[0m (!iso) {
+
+The export CONTAINER_BOOST_MATCH was not found in module [project]/lib/notification-shadow/types.ts [app-route] (ecmasc
+ript).
+Did you mean to import DEFAULT_NOTIFICATION_COOLDOWN_MS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the req
+uested export doesn't exist.
+
+Import traces:
+  App Route:
+    ./lib/notification-shadow/priority-engine.ts
+    ./lib/notification-shadow/route-notification.ts
+    ./lib/notification-shadow/ingest-adapters.ts
+    ./lib/local-links/reminders.ts
+    ./lib/actions/schedule-link-execution.ts
+    ./lib/transport/transport-live-service.ts
+    ./app/api/transport/live/route.ts
+
+  Client Component Browser:
+    ./lib/notification-shadow/priority-engine.ts [Client Component Browser]
+    ./lib/notification-shadow/route-notification.ts [Client Component Browser]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component Browser]
+    ./lib/local-links/reminders.ts [Client Component Browser]
+    ./components/reminder-poller.tsx [Client Component Browser]
+    ./components/providers.tsx [Client Component Browser]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/notification-shadow/priority-engine.ts [Client Component SSR]
+    ./lib/notification-shadow/route-notification.ts [Client Component SSR]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component SSR]
+    ./lib/local-links/reminders.ts [Client Component SSR]
+    ./components/reminder-poller.tsx [Client Component SSR]
+    ./components/providers.tsx [Client Component SSR]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+
+./lib/notification-shadow/priority-engine.ts:12:1
+Export CONTAINER_BOOST_MATCH doesn't exist in target module
+  [90m10 |[0m   [33mShadowRouteTier[0m,
+  [90m11 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+[31m[1m>[0m [90m12 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m13 |[0m   [33mACTIONABLE_BOOST[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m14 |[0m   [33mCONTAINER_BOOST_MATCH[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m15 |[0m   [33mROUTE_THRESHOLDS[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m16 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m
+  [90m18 |[0m [36mfunction[0m minutesUntil(iso: string | [36mnull[0m | [36mundefined[0m, now = [33mDate[0m.no
+w()): number | [36mnull[0m {
+  [90m19 |[0m   [36mif[0m (!iso) {
+
+The export CONTAINER_BOOST_MATCH was not found in module [project]/lib/notification-shadow/types.ts [app-ssr] (ecmascri
+pt).
+Did you mean to import DEFAULT_NOTIFICATION_COOLDOWN_MS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the req
+uested export doesn't exist.
+
+Import traces:
+  App Route:
+    ./lib/notification-shadow/priority-engine.ts
+    ./lib/notification-shadow/route-notification.ts
+    ./lib/notification-shadow/ingest-adapters.ts
+    ./lib/local-links/reminders.ts
+    ./lib/actions/schedule-link-execution.ts
+    ./lib/transport/transport-live-service.ts
+    ./app/api/transport/live/route.ts
+
+  Client Component Browser:
+    ./lib/notification-shadow/priority-engine.ts [Client Component Browser]
+    ./lib/notification-shadow/route-notification.ts [Client Component Browser]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component Browser]
+    ./lib/local-links/reminders.ts [Client Component Browser]
+    ./components/reminder-poller.tsx [Client Component Browser]
+    ./components/providers.tsx [Client Component Browser]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/notification-shadow/priority-engine.ts [Client Component SSR]
+    ./lib/notification-shadow/route-notification.ts [Client Component SSR]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component SSR]
+    ./lib/local-links/reminders.ts [Client Component SSR]
+    ./components/reminder-poller.tsx [Client Component SSR]
+    ./components/providers.tsx [Client Component SSR]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+
+./lib/notification-shadow/priority-engine.ts:12:1
+Export ROUTE_THRESHOLDS doesn't exist in target module
+  [90m10 |[0m   [33mShadowRouteTier[0m,
+  [90m11 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+[31m[1m>[0m [90m12 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m13 |[0m   [33mACTIONABLE_BOOST[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m14 |[0m   [33mCONTAINER_BOOST_MATCH[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m15 |[0m   [33mROUTE_THRESHOLDS[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m16 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m
+  [90m18 |[0m [36mfunction[0m minutesUntil(iso: string | [36mnull[0m | [36mundefined[0m, now = [33mDate[0m.no
+w()): number | [36mnull[0m {
+  [90m19 |[0m   [36mif[0m (!iso) {
+
+The export ROUTE_THRESHOLDS was not found in module [project]/lib/notification-shadow/types.ts [app-client] (ecmascript
+).
+Did you mean to import DEFAULT_NOTIFICATION_COOLDOWN_MS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the req
+uested export doesn't exist.
+
+Import traces:
+  App Route:
+    ./lib/notification-shadow/priority-engine.ts
+    ./lib/notification-shadow/route-notification.ts
+    ./lib/notification-shadow/ingest-adapters.ts
+    ./lib/local-links/reminders.ts
+    ./lib/actions/schedule-link-execution.ts
+    ./lib/transport/transport-live-service.ts
+    ./app/api/transport/live/route.ts
+
+  Client Component Browser:
+    ./lib/notification-shadow/priority-engine.ts [Client Component Browser]
+    ./lib/notification-shadow/route-notification.ts [Client Component Browser]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component Browser]
+    ./lib/local-links/reminders.ts [Client Component Browser]
+    ./components/reminder-poller.tsx [Client Component Browser]
+    ./components/providers.tsx [Client Component Browser]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/notification-shadow/priority-engine.ts [Client Component SSR]
+    ./lib/notification-shadow/route-notification.ts [Client Component SSR]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component SSR]
+    ./lib/local-links/reminders.ts [Client Component SSR]
+    ./components/reminder-poller.tsx [Client Component SSR]
+    ./components/providers.tsx [Client Component SSR]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+
+./lib/notification-shadow/priority-engine.ts:12:1
+Export ROUTE_THRESHOLDS doesn't exist in target module
+  [90m10 |[0m   [33mShadowRouteTier[0m,
+  [90m11 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+[31m[1m>[0m [90m12 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m13 |[0m   [33mACTIONABLE_BOOST[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m14 |[0m   [33mCONTAINER_BOOST_MATCH[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m15 |[0m   [33mROUTE_THRESHOLDS[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m16 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m
+  [90m18 |[0m [36mfunction[0m minutesUntil(iso: string | [36mnull[0m | [36mundefined[0m, now = [33mDate[0m.no
+w()): number | [36mnull[0m {
+  [90m19 |[0m   [36mif[0m (!iso) {
+
+The export ROUTE_THRESHOLDS was not found in module [project]/lib/notification-shadow/types.ts [app-route] (ecmascript)
+.
+Did you mean to import DEFAULT_NOTIFICATION_COOLDOWN_MS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the req
+uested export doesn't exist.
+
+Import traces:
+  App Route:
+    ./lib/notification-shadow/priority-engine.ts
+    ./lib/notification-shadow/route-notification.ts
+    ./lib/notification-shadow/ingest-adapters.ts
+    ./lib/local-links/reminders.ts
+    ./lib/actions/schedule-link-execution.ts
+    ./lib/transport/transport-live-service.ts
+    ./app/api/transport/live/route.ts
+
+  Client Component Browser:
+    ./lib/notification-shadow/priority-engine.ts [Client Component Browser]
+    ./lib/notification-shadow/route-notification.ts [Client Component Browser]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component Browser]
+    ./lib/local-links/reminders.ts [Client Component Browser]
+    ./components/reminder-poller.tsx [Client Component Browser]
+    ./components/providers.tsx [Client Component Browser]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/notification-shadow/priority-engine.ts [Client Component SSR]
+    ./lib/notification-shadow/route-notification.ts [Client Component SSR]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component SSR]
+    ./lib/local-links/reminders.ts [Client Component SSR]
+    ./components/reminder-poller.tsx [Client Component SSR]
+    ./components/providers.tsx [Client Component SSR]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+
+./lib/notification-shadow/priority-engine.ts:12:1
+Export ROUTE_THRESHOLDS doesn't exist in target module
+  [90m10 |[0m   [33mShadowRouteTier[0m,
+  [90m11 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+[31m[1m>[0m [90m12 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m13 |[0m   [33mACTIONABLE_BOOST[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m14 |[0m   [33mCONTAINER_BOOST_MATCH[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m15 |[0m   [33mROUTE_THRESHOLDS[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m16 |[0m } [36mfrom[0m [32m"@/lib/notification-shadow/types"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m
+  [90m18 |[0m [36mfunction[0m minutesUntil(iso: string | [36mnull[0m | [36mundefined[0m, now = [33mDate[0m.no
+w()): number | [36mnull[0m {
+  [90m19 |[0m   [36mif[0m (!iso) {
+
+The export ROUTE_THRESHOLDS was not found in module [project]/lib/notification-shadow/types.ts [app-ssr] (ecmascript).
+Did you mean to import DEFAULT_NOTIFICATION_COOLDOWN_MS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the req
+uested export doesn't exist.
+
+Import traces:
+  App Route:
+    ./lib/notification-shadow/priority-engine.ts
+    ./lib/notification-shadow/route-notification.ts
+    ./lib/notification-shadow/ingest-adapters.ts
+    ./lib/local-links/reminders.ts
+    ./lib/actions/schedule-link-execution.ts
+    ./lib/transport/transport-live-service.ts
+    ./app/api/transport/live/route.ts
+
+  Client Component Browser:
+    ./lib/notification-shadow/priority-engine.ts [Client Component Browser]
+    ./lib/notification-shadow/route-notification.ts [Client Component Browser]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component Browser]
+    ./lib/local-links/reminders.ts [Client Component Browser]
+    ./components/reminder-poller.tsx [Client Component Browser]
+    ./components/providers.tsx [Client Component Browser]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/notification-shadow/priority-engine.ts [Client Component SSR]
+    ./lib/notification-shadow/route-notification.ts [Client Component SSR]
+    ./lib/notification-shadow/ingest-adapters.ts [Client Component SSR]
+    ./lib/local-links/reminders.ts [Client Component SSR]
+    ./components/reminder-poller.tsx [Client Component SSR]
+    ./components/providers.tsx [Client Component SSR]
+    ./components/providers.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+
+    at <unknown> (./lib/action-chat/transactional-flush.ts:12:10)
+    at <unknown> (./lib/notification-shadow/priority-engine.ts:12:1)
+    at <unknown> (./lib/notification-shadow/priority-engine.ts:12:1)
+    at <unknown> (./lib/notification-shadow/priority-engine.ts:12:1)
+    at <unknown> (./lib/notification-shadow/priority-engine.ts:12:1)
+    at <unknown> (./lib/notification-shadow/priority-engine.ts:12:1)
+    at <unknown> (./lib/notification-shadow/priority-engine.ts:12:1)
+    at <unknown> (./lib/notification-shadow/priority-engine.ts:12:1)
+    at <unknown> (./lib/notification-shadow/priority-engine.ts:12:1)
+    at <unknown> (./lib/notification-shadow/priority-engine.ts:12:1)

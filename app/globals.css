@@ -1,0 +1,3706 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+  --color-rimvio-canvas: var(--rimvio-canvas);
+  --color-rimvio-base: var(--rimvio-base);
+  --color-rimvio-surface: var(--rimvio-surface);
+  --color-rimvio-surface-muted: var(--rimvio-surface-muted);
+  --color-rimvio-surface-raised: var(--rimvio-surface-raised);
+  --color-rimvio-neon-purple: var(--rimvio-neon-purple);
+  --color-rimvio-neon-cyan: var(--rimvio-neon-cyan);
+  --color-rimvio-neon-magenta: var(--rimvio-neon-magenta);
+  --color-rimvio-neon-amber: var(--rimvio-neon-amber);
+  --color-rimvio-neon-green: var(--rimvio-neon-green);
+  --animate-shimmer: shimmer 1.8s ease-in-out infinite;
+  --animate-magic-pulse: magic-pulse 2.4s ease-in-out infinite;
+}
+
+:root {
+  /* Retro Raincloud — dusty periwinkle shell, white content, readable ink */
+  --rimvio-canvas: #f2f3f5;
+  --rimvio-base: #ffffff;
+  --rimvio-surface: #ffffff;
+  --rimvio-surface-muted: #f2f3f5;
+  --rimvio-surface-raised: #ebedef;
+  --rimvio-sidebar: #e3e5e8;
+  --rimvio-highlight-green: #23a559;
+  --rimvio-highlight-green-soft: #e8f5ee;
+  --rimvio-text: #060607;
+  --rimvio-text-muted: #4e5058;
+  --rimvio-text-dim: #6d7178;
+  --rimvio-neon-purple: #5865f2;
+  --rimvio-neon-purple-deep: #4752c4;
+  --rimvio-neon-cyan: #00a8fc;
+  --rimvio-neon-magenta: #ed4245;
+  --rimvio-neon-amber: #faa81a;
+  --rimvio-neon-orange: #f26522;
+  --rimvio-neon-green: #23a559;
+  --rimvio-neon-amber-fill: rgba(255, 214, 10, 0.12);
+  --rimvio-neon-amber-border: rgba(255, 214, 10, 0.38);
+  --rimvio-neon-amber-glow: rgba(255, 214, 10, 0.22);
+  --rimvio-neon-amber-glow-strong: rgba(255, 214, 10, 0.38);
+  --chat-bubble-user-warm-border: rgba(255, 159, 10, 0.32);
+  --rimvio-neon-border: rgba(88, 101, 242, 0.22);
+  --rimvio-neon-glow: rgba(88, 101, 242, 0.18);
+  --rimvio-edge-default: linear-gradient(
+    135deg,
+    rgba(88, 101, 242, 0.18) 0%,
+    rgba(0, 168, 252, 0.12) 50%,
+    rgba(88, 101, 242, 0.14) 100%
+  );
+  --rimvio-edge-cyan: linear-gradient(
+    135deg,
+    rgba(0, 168, 252, 0.28),
+    rgba(88, 101, 242, 0.16)
+  );
+  --rimvio-edge-magenta: linear-gradient(
+    135deg,
+    rgba(237, 66, 69, 0.28),
+    rgba(88, 101, 242, 0.14)
+  );
+  --rimvio-edge-amber: linear-gradient(
+    135deg,
+    rgba(250, 168, 26, 0.32),
+    rgba(237, 66, 69, 0.14)
+  );
+  --rimvio-edge-green: linear-gradient(
+    135deg,
+    rgba(35, 165, 89, 0.28),
+    rgba(0, 168, 252, 0.12)
+  );
+  --rimvio-edge-nav: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(88, 101, 242, 0.12) 50%,
+    transparent 100%
+  );
+  /* Seamless neon flow — duplicated tile + GPU translate (no background-position jump) */
+  --rimvio-neon-flow-double: linear-gradient(
+    90deg,
+    #bf5af2 0%,
+    #b07cff 6.25%,
+    #32d7ff 12.5%,
+    #5ce1ff 18.75%,
+    #ff375f 25%,
+    #ff5e94 31.25%,
+    #32d7ff 37.5%,
+    #b07cff 43.75%,
+    #bf5af2 50%,
+    #b07cff 56.25%,
+    #32d7ff 62.5%,
+    #5ce1ff 68.75%,
+    #ff375f 75%,
+    #ff5e94 81.25%,
+    #32d7ff 87.5%,
+    #b07cff 93.75%,
+    #bf5af2 100%
+  );
+  --rimvio-neon-flow-duration: 48s;
+  --rimvio-neon-flow-duration-live: 36s;
+
+  --background: #f2f3f5;
+  --foreground: #060607;
+  --card: #ffffff;
+  --card-foreground: #060607;
+  --popover: #ffffff;
+  --popover-foreground: #060607;
+  --primary: #5865f2;
+  --primary-foreground: #ffffff;
+  --secondary: #ebedef;
+  --secondary-foreground: #060607;
+  --muted: #f2f3f5;
+  --muted-foreground: #4e5058;
+  --accent: #e3e5e8;
+  --accent-foreground: #060607;
+  --destructive: #e3717d;
+  --border: rgba(6, 6, 7, 0.08);
+  --input: #ebedef;
+  --ring: rgba(88, 101, 242, 0.45);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.5rem;
+  /* Golden ratio (φ) — spacing & inbox proportions */
+  --phi: 1.6180339887;
+  --space-u: 0.625rem;
+  --space-phi: calc(var(--space-u) * var(--phi));
+  --space-phi2: calc(var(--space-u) * var(--phi) * var(--phi));
+  --space-phi3: calc(var(--space-u) * var(--phi) * var(--phi) * var(--phi));
+  --inbox-minor: 38.2%;
+  --inbox-major: 61.8%;
+  --golden-major: 61.8%;
+  --golden-minor: 38.2%;
+  --rimvio-accent: #5865f2;
+  --rimvio-accent-soft: #ebedef;
+  --rimvio-button-blue: #5865f2;
+  --rimvio-button-blue-pressed: #4752c4;
+  --rimvio-button-easing: cubic-bezier(0.4, 0, 0.2, 1);
+  --inbox-thumb: var(--space-phi3);
+  /* Responsive shell widths */
+  --shell-max-phone: 28rem;
+  --shell-max-phablet: 32rem;
+  --shell-max-tablet: 36rem;
+  --shell-max-laptop: 42rem;
+  --shell-max-desktop: 48rem;
+  --nav-rail-width: 5rem;
+  /* Feed bottom chrome — composer dock + fixed tab bar (mobile) */
+  --rimvio-bottom-nav-height: 2.875rem;
+  --rimvio-composer-bar-height: 4.5rem;
+  --rimvio-bottom-nav-offset: calc(
+    var(--rimvio-bottom-nav-height) +
+      max(0.25rem, env(safe-area-inset-bottom, 0px))
+  );
+  --rimvio-globe-ingest-bar-height: 3.75rem;
+  --rimvio-globe-ingest-offset: calc(
+    var(--rimvio-bottom-nav-offset) + var(--rimvio-globe-ingest-bar-height) + 0.35rem
+  );
+  --rimvio-feed-scroll-pad: calc(
+    var(--rimvio-composer-bar-height) + var(--rimvio-bottom-nav-offset) + 0.25rem
+  );
+  /* Toast placement — locked */
+  --toast-shift-left: 3.5cm;
+  --toast-shift-up: 1cm;
+  --toast-bottom-offset-inline: calc(
+    max(var(--space-phi), env(safe-area-inset-bottom)) + var(--space-u) + 2.5rem +
+      var(--space-phi2) * 0.42 + var(--toast-shift-up)
+  );
+  --toast-bottom-offset-feed: calc(
+    max(3.25rem, calc(env(safe-area-inset-bottom) + 2.85rem)) + 0.2rem +
+      var(--toast-shift-up)
+  );
+  --toast-bottom-offset: var(--toast-bottom-offset-inline);
+  --sidebar: #e3e5e8;
+  --sidebar-foreground: #060607;
+  --sidebar-primary: #5865f2;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f2f3f5;
+  --sidebar-accent-foreground: #060607;
+  --sidebar-border: rgba(0, 0, 0, 0.06);
+  --sidebar-ring: rgba(88, 101, 242, 0.4);
+}
+
+.dark {
+  --background: #1c1c1c;
+  --foreground: #f5f5f7;
+  --card: #262626;
+  --card-foreground: #f5f5f7;
+  --popover: #303030;
+  --popover-foreground: #f5f5f7;
+  --primary: #bf5af2;
+  --primary-foreground: #faf5ff;
+  --secondary: #161616;
+  --secondary-foreground: #f5f5f7;
+  --muted: #161616;
+  --muted-foreground: #98989d;
+  --accent: #303030;
+  --accent-foreground: #f5f5f7;
+  --destructive: #ff453a;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.08);
+  --ring: rgba(50, 215, 255, 0.55);
+  --sidebar: #262626;
+  --sidebar-foreground: #f5f5f7;
+  --sidebar-primary: #bf5af2;
+  --sidebar-primary-foreground: #faf5ff;
+  --sidebar-accent: #303030;
+  --sidebar-accent-foreground: #f5f5f7;
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --sidebar-ring: rgba(50, 215, 255, 0.5);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background:
+      radial-gradient(ellipse 80% 50% at 12% 0%, rgba(186, 192, 214, 0.28), transparent 58%),
+      radial-gradient(ellipse 65% 42% at 88% 8%, rgba(163, 178, 214, 0.18), transparent 55%),
+      radial-gradient(ellipse 90% 40% at 50% 100%, rgba(88, 101, 242, 0.04), transparent 62%);
+  }
+}
+
+/* ── Neon edge system (gradient border, black fill) ── */
+
+.rimvio-edge-card {
+  position: relative;
+  isolation: isolate;
+  background: var(--rimvio-surface);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.04),
+    0 4px 16px rgba(0, 0, 0, 0.03);
+}
+
+.rimvio-edge-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: var(--rimvio-edge-default);
+  opacity: 0.55;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.rimvio-edge-card--lg {
+  border-radius: 1.75rem;
+}
+
+.rimvio-edge-card--sm {
+  border-radius: 1rem;
+}
+
+.rimvio-edge-card--logo {
+  isolation: auto;
+  background: transparent;
+  --rimvio-edge-default: linear-gradient(
+    145deg,
+    rgba(50, 215, 255, 0.65),
+    rgba(191, 90, 242, 0.75),
+    rgba(255, 55, 95, 0.55)
+  );
+}
+
+.rimvio-edge-card--cyan::before {
+  background: var(--rimvio-edge-cyan);
+}
+
+.rimvio-edge-card--magenta::before {
+  background: var(--rimvio-edge-magenta);
+}
+
+.rimvio-edge-card--amber::before {
+  background: var(--rimvio-edge-amber);
+}
+
+.rimvio-edge-card--green::before {
+  background: var(--rimvio-edge-green);
+}
+
+/* @타이머 inline chip — running=soft green glow, paused=soft red glow */
+.inline-chat-timer-chip.rimvio-edge-card::before {
+  padding: 2.5px;
+  animation: none;
+  transition: background 0.3s ease;
+}
+
+.inline-chat-timer-chip--running.rimvio-edge-card {
+  box-shadow: 0 0 14px rgba(48, 209, 88, 0.18);
+}
+
+.inline-chat-timer-chip--running.rimvio-edge-card::before {
+  background: var(--rimvio-edge-green);
+}
+
+.inline-chat-timer-chip--paused.rimvio-edge-card {
+  box-shadow: 0 0 14px rgba(255, 55, 95, 0.2);
+}
+
+.inline-chat-timer-chip--paused.rimvio-edge-card::before {
+  background: var(--rimvio-edge-magenta);
+}
+
+.inline-chat-timer-chip--done.rimvio-edge-card {
+  box-shadow: 0 0 10px rgba(48, 209, 88, 0.12);
+}
+
+.inline-chat-timer-chip--done.rimvio-edge-card::before {
+  background: var(--rimvio-edge-green);
+}
+
+.rimvio-header-chrome {
+  position: relative;
+}
+
+.rimvio-header-chrome::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 1px;
+  background: var(--rimvio-edge-nav);
+  opacity: 0.85;
+}
+
+.rimvio-nav-bar {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Bottom tab row — top spacer, icon row at the screen edge */
+.rimvio-bottom-nav-safe {
+  flex: 0 0 auto;
+  width: 100%;
+  min-height: 0.375rem;
+}
+
+.rimvio-bottom-nav-grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.rimvio-bottom-nav-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: var(--rimvio-bottom-nav-height);
+  padding-inline: var(--space-phi2);
+  padding-bottom: max(0.25rem, env(safe-area-inset-bottom, 0px));
+}
+
+.rimvio-bottom-nav-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.rimvio-nav-bar::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  inset-inline: 0;
+  width: 100%;
+  height: 1px;
+  opacity: 1;
+  pointer-events: none;
+  background: var(--border);
+  box-shadow: none;
+}
+
+.chat-ambient-shell--composer-live .rimvio-nav-bar::before {
+  height: 1px;
+  opacity: 1;
+  background: color-mix(in oklch, var(--primary) 28%, var(--border));
+  box-shadow: none;
+}
+
+@keyframes rimvio-neon-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/* Brand mark — transparent PNG; no blend hack needed */
+.rimvio-brand-mark__img {
+  image-rendering: auto;
+}
+
+.rimvio-brand-mark__img--on-light {
+  filter: brightness(0);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes magic-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 8px 24px -8px rgba(123, 97, 255, 0.75);
+  }
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 12px 28px -6px rgba(123, 97, 255, 0.92);
+  }
+}
+
+
+@utility animate-shimmer {
+  animation: var(--animate-shimmer);
+  background-color: color-mix(in oklch, var(--muted) 72%, transparent);
+  background-image: linear-gradient(
+    105deg,
+    transparent 0%,
+    color-mix(in oklch, white 55%, transparent) 45%,
+    color-mix(in oklch, white 75%, transparent) 50%,
+    color-mix(in oklch, white 55%, transparent) 55%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+}
+
+@utility animate-magic-pulse {
+  animation: var(--animate-magic-pulse);
+}
+
+/* Inbox — φ vertical split (command ~38.2% · list ~61.8%) */
+@utility inbox-golden {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 0;
+  flex-direction: column;
+}
+
+@utility inbox-golden-input {
+  flex: 0 0 auto;
+  z-index: 30;
+  width: 100%;
+  min-width: 0;
+  padding-top: var(--space-u);
+  padding-bottom: calc(var(--space-u) * 1.25);
+  background: var(--rimvio-base);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.04);
+}
+
+@utility inbox-page-shell {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  height: 100%;
+  min-height: 0;
+  flex: 1 1 auto;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@utility inbox-page-scroll {
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.inbox-page-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+@utility inbox-golden-command {
+  flex: 0 0 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: var(--space-phi);
+}
+
+@utility inbox-golden-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@utility inbox-golden-scroll {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+@utility inbox-golden-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-u);
+  padding-inline: var(--space-phi);
+  padding-block: calc(var(--space-u) * var(--phi) * 0.75);
+  border-left: 3px solid transparent;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.zeigarnik-1 {
+  border-left-color: rgb(255 149 0 / 0.35);
+}
+
+.zeigarnik-2 {
+  border-left-color: rgb(255 149 0 / 0.65);
+  background: rgb(255 149 0 / 0.04);
+}
+
+.zeigarnik-3 {
+  border-left-color: rgb(255 59 48 / 0.75);
+  background: rgb(255 59 48 / 0.05);
+  animation: zeigarnik-pulse 2.5s ease-in-out infinite;
+}
+
+@keyframes zeigarnik-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.9;
+  }
+}
+
+@utility inbox-golden-empty {
+  flex: 1 1 var(--inbox-major);
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: var(--space-phi2);
+  padding-top: var(--space-phi3);
+  text-align: center;
+}
+
+/* Feed / room card — φ vertical split (visual ~61.8% · actions ~38.2%) */
+@utility feed-golden-card {
+  display: flex;
+  min-height: 0;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: var(--space-u);
+}
+
+@utility feed-golden-meta {
+  flex: 0 0 auto;
+}
+
+@utility feed-golden-visual {
+  flex: 1.618 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-u);
+  justify-content: center;
+}
+
+@utility feed-golden-actions {
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: calc(var(--space-u) * var(--phi));
+}
+
+@utility golden-aspect-media {
+  aspect-ratio: var(--phi) / 1;
+  width: 100%;
+  max-height: 100%;
+}
+
+@utility feed-hero-frame {
+  aspect-ratio: var(--phi) / 1;
+  width: min(100%, 16.5rem);
+  max-height: min(38dvh, 15.5rem);
+  margin-inline: auto;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+@utility feed-hero-frame-compact {
+  aspect-ratio: var(--phi) / 1;
+  width: 100%;
+  max-height: min(28dvh, 11.25rem);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+@utility room-visual-stack {
+  width: min(100%, 16.5rem);
+  margin-inline: auto;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-radius: 22px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 16px -8px rgba(0, 0, 0, 0.08);
+  ring: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+@utility shell-golden-body {
+  flex: 1 1 var(--golden-major);
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Responsive app grid (phone → desktop) ── */
+
+@utility app-viewport {
+  min-height: 100dvh;
+  width: 100%;
+  background-color: var(--background);
+}
+
+@utility app-shell-grid {
+  display: flex;
+  min-height: 100dvh;
+  width: 100%;
+  justify-content: center;
+}
+
+@utility app-shell-column {
+  width: 100%;
+  max-width: var(--shell-max-phone);
+  background-color: var(--rimvio-base);
+  color: var(--foreground);
+}
+
+/* 1:1 대화 — 카톡처럼 전체 너비·높이 */
+.app-shell-column--chat {
+  max-width: 100%;
+}
+
+@media (min-width: 480px) {
+  .app-shell-column--chat {
+    max-width: 30rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .app-shell-column--chat {
+    max-width: 32rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .app-shell-column {
+    max-width: var(--shell-max-phablet);
+  }
+}
+
+@media (min-width: 768px) {
+  .app-shell-column {
+    max-width: var(--shell-max-tablet);
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-shell-grid {
+    display: grid;
+    grid-template-columns: var(--nav-rail-width) minmax(0, 1fr);
+    justify-content: center;
+    max-width: calc(var(--shell-max-laptop) + var(--nav-rail-width));
+    margin-inline: auto;
+  }
+
+  .app-shell-column {
+    max-width: var(--shell-max-laptop);
+  }
+}
+
+@media (min-width: 1280px) {
+  .app-shell-grid {
+    max-width: calc(var(--shell-max-desktop) + var(--nav-rail-width));
+  }
+
+  .app-shell-column {
+    max-width: var(--shell-max-desktop);
+  }
+}
+
+#rimvio-bottom-nav-anchor {
+  display: none;
+}
+
+@utility app-nav-bottom-frame {
+  position: fixed;
+  inset-inline: 0;
+  bottom: 0;
+  z-index: 9999;
+  margin-inline: auto;
+  width: 100%;
+  min-height: var(--rimvio-bottom-nav-offset);
+  max-width: var(--shell-max-phone);
+  overflow: visible;
+  pointer-events: auto;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  isolation: isolate;
+  background: color-mix(in oklch, var(--rimvio-base) 96%, transparent);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 -1px 0 var(--border);
+}
+
+.rimvio-bottom-nav-shell.rimvio-nav-bar {
+  overflow: visible;
+}
+
+/*
+ * Immersive feed: reserve space so the composer sits above the fixed tab bar.
+ * (Composer z-index inside overflow:hidden cannot win vs this sibling.)
+ */
+@media (max-width: 1023px) {
+  body:has(.app-nav-bottom-frame) .app-shell-viewport.h-dvh {
+    padding-bottom: var(--rimvio-bottom-nav-offset);
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .app-nav-bottom-frame button,
+  .app-nav-bottom-frame [role="button"],
+  .rimvio-bottom-nav-tab {
+    position: relative;
+    z-index: 3;
+    pointer-events: auto !important;
+    min-height: 2.75rem;
+    min-width: 2.75rem;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .rimvio-bottom-nav-slot,
+  .rimvio-bottom-nav-slot svg,
+  .rimvio-bottom-nav-slot img,
+  .rimvio-brand-mark {
+    pointer-events: none;
+  }
+
+  .rimvio-bottom-nav-grid {
+    align-items: stretch;
+  }
+
+  /* Feed scroll must not compete with the fixed tab bar (globe/search immersive). */
+  [data-feed-slot-shell] {
+    max-height: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  .app-nav-bottom-frame {
+    max-width: var(--shell-max-phablet);
+  }
+}
+
+@media (min-width: 768px) {
+  .app-nav-bottom-frame {
+    max-width: var(--shell-max-tablet);
+  }
+}
+
+@utility app-nav-side {
+  display: flex;
+  position: sticky;
+  top: 0;
+  height: 100dvh;
+  width: var(--nav-rail-width);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-phi2);
+  border-right: 1px solid var(--sidebar-border);
+  background: var(--sidebar);
+  backdrop-filter: blur(12px);
+  padding-block: var(--space-phi2);
+}
+
+@utility app-inbox-layout {
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: minmax(14rem, var(--golden-minor)) minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+    gap: var(--space-phi);
+    align-items: stretch;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-inbox-layout .inbox-golden-command {
+    max-height: none;
+    flex: none;
+    justify-content: flex-start;
+    padding-top: 0;
+  }
+
+  .app-inbox-layout .inbox-golden-body,
+  .app-inbox-layout .inbox-golden-empty {
+    flex: none;
+    min-height: 0;
+  }
+}
+
+@utility app-inbox-list-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+@media (min-width: 1280px) {
+  .app-inbox-list-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-u);
+    padding: var(--space-u);
+  }
+
+  .app-inbox-list-grid > * {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px color-mix(in oklch, black 4%, transparent);
+  }
+}
+
+@utility app-feed-viewport {
+  flex: 1 1 0%;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mobile feed — composer sticky; portaled tab bar wins at z-200. */
+.rimvio-feed-composer-dock {
+  position: relative;
+  z-index: 40;
+}
+
+@media (max-width: 1023px) {
+  /*
+   * Sticky in flex column (not fixed) — fixed + overflow:hidden ancestors
+   * break composer tap/focus on iOS/Android WebViews.
+   */
+  .rimvio-feed-composer-dock {
+    position: sticky;
+    bottom: 0;
+    z-index: 40;
+    isolation: isolate;
+    flex-shrink: 0;
+    margin-inline: auto;
+    width: 100%;
+    max-width: var(--shell-max-phone);
+    /* Keep composer below portaled tab bar (z-200). */
+    padding-bottom: max(0.25rem, env(safe-area-inset-bottom, 0px));
+    background: linear-gradient(
+      to top,
+      var(--rimvio-base) 72%,
+      color-mix(in oklch, var(--rimvio-base) 88%, transparent) 100%
+    );
+  }
+
+  .rimvio-feed-composer-dock .rimvio-composer-bar {
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
+    touch-action: manipulation;
+  }
+
+  .rimvio-feed-composer-dock .rimvio-composer-field,
+  .rimvio-feed-composer-dock .rimvio-composer-mention-wrap {
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
+    touch-action: manipulation;
+  }
+
+  .rimvio-feed-composer-dock .rimvio-composer-mention-mirror {
+    pointer-events: none !important;
+    z-index: 0;
+  }
+
+  .rimvio-feed-composer-dock .rimvio-composer-textarea--mirror {
+    position: relative;
+    z-index: 3;
+    pointer-events: auto;
+    touch-action: manipulation;
+    user-select: text;
+    -webkit-user-select: text;
+    cursor: text;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .rimvio-feed-composer-dock {
+    max-width: var(--shell-max-phablet);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .rimvio-feed-composer-dock {
+    max-width: var(--shell-max-tablet);
+  }
+}
+
+/* Feed cold-start / context hero — reserve height to avoid layout jump */
+.feed-hero-slot {
+  min-height: 9.75rem;
+}
+
+.rimvio-feed-scroll-inset {
+  padding-bottom: var(--rimvio-feed-scroll-pad);
+  scroll-behavior: auto;
+  overscroll-behavior-y: contain;
+}
+
+@media (max-width: 1023px) {
+  /* Composer is a flex sibling (not overlay) — less bottom pad needed */
+  .rimvio-feed-scroll-inset {
+    padding-bottom: var(--space-phi);
+  }
+}
+
+@media (min-width: 1024px) {
+  .rimvio-feed-scroll-inset {
+    padding-bottom: 0.75rem;
+  }
+
+  .rimvio-feed-composer-dock {
+    position: relative;
+    inset: auto;
+    max-width: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-feed-viewport {
+    /* Desktop uses side rail — no bottom tab inset */
+  }
+}
+
+@utility app-feed-stage {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .app-feed-stage {
+    max-width: var(--shell-max-laptop);
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .app-feed-stage {
+    max-width: var(--shell-max-desktop);
+  }
+}
+
+@utility app-room-hub-grid {
+  display: grid;
+  gap: var(--space-phi);
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 768px) {
+  .app-room-hub-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .app-room-hub-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Sonner — TDS (토스) 하단 Toast — compact, 탭바 위 빈 공간 */
+[data-sonner-toaster] {
+  --width: max-content;
+  max-width: min(300px, calc(100vw - 1.75rem));
+  z-index: 50 !important;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Apple SD Gothic Neo",
+    "Pretendard Variable",
+    Pretendard,
+    system-ui,
+    sans-serif;
+}
+
+[data-sonner-toaster][data-x-position="center"] {
+  left: calc(50% - var(--toast-shift-left)) !important;
+  right: auto !important;
+  transform: translateX(-50%);
+}
+
+[data-sonner-toaster][data-y-position="bottom"] {
+  bottom: var(--toast-bottom-offset) !important;
+  top: auto !important;
+}
+
+/* Feed (fixed bottom tab) — 카드 아래 · 탭바 위 빈 띠 */
+body:has(.app-nav-bottom-frame) [data-sonner-toaster][data-y-position="bottom"] {
+  bottom: var(--toast-bottom-offset-feed) !important;
+}
+
+@media (min-width: 1024px) {
+  [data-sonner-toaster][data-y-position="bottom"] {
+    bottom: max(1rem, env(safe-area-inset-bottom)) !important;
+  }
+
+  body:has(.app-nav-bottom-frame) [data-sonner-toaster][data-y-position="bottom"] {
+    bottom: max(1rem, env(safe-area-inset-bottom)) !important;
+  }
+}
+
+[data-sonner-toast].rimvio-toast {
+  width: auto;
+  max-width: min(300px, calc(100vw - 1.75rem));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5625rem 0.875rem;
+  border-radius: 0.75rem;
+  border: none;
+  /* TDS grey800 */
+  background: rgba(51, 61, 75, 0.96);
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(0, 27, 55, 0.16);
+  transition:
+    transform 200ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 160ms ease,
+    height 200ms ease !important;
+}
+
+[data-sonner-toast].rimvio-toast [data-icon],
+[data-sonner-toast].rimvio-toast [data-close-button] {
+  display: none !important;
+}
+
+[data-sonner-toast].rimvio-toast [data-content] {
+  flex: 1;
+  min-width: 0;
+}
+
+[data-sonner-toast] .rimvio-toast-title {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: #fff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+[data-sonner-toast] .rimvio-toast-description {
+  margin: 0.0625rem 0 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  color: rgba(255, 255, 255, 0.72);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+/* TDS bottom Toast.Button — 우측 텍스트 액션 */
+[data-sonner-toast] .rimvio-toast-action {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: #4593fc;
+  white-space: nowrap;
+  transition: opacity 120ms ease;
+}
+
+[data-sonner-toast] .rimvio-toast-action:hover {
+  opacity: 0.82;
+}
+
+[data-sonner-toast] .rimvio-toast-cancel {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+[data-sonner-toast].rimvio-toast[data-mounted="true"] {
+  animation: rimvio-toast-in 200ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+[data-sonner-toast].rimvio-toast[data-removed="true"] {
+  animation: rimvio-toast-out 160ms cubic-bezier(0.4, 0, 0.9, 0.6) both;
+}
+
+@keyframes rimvio-toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rimvio-draw-heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  14% {
+    transform: scale(1.08);
+  }
+
+  28% {
+    transform: scale(0.96);
+  }
+
+  42% {
+    transform: scale(1.06);
+  }
+
+  56% {
+    transform: scale(0.98);
+  }
+
+  70% {
+    transform: scale(1.04);
+  }
+}
+
+@keyframes rimvio-draw-spin {
+  0% {
+    transform: rotate(-4deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(4deg) scale(1.04);
+  }
+
+  100% {
+    transform: rotate(-4deg) scale(1);
+  }
+}
+
+@keyframes rimvio-draw-glow {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(0.98);
+  }
+
+  50% {
+    opacity: 0.85;
+    transform: scale(1.03);
+  }
+}
+
+@keyframes rimvio-draw-pop {
+  0% {
+    transform: scale(0.82);
+    opacity: 0.5;
+  }
+
+  60% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@utility animate-rimvio-draw-heartbeat {
+  animation: rimvio-draw-heartbeat 0.85s ease-in-out infinite;
+}
+
+@utility animate-rimvio-draw-spin {
+  animation: rimvio-draw-spin 0.35s ease-in-out infinite;
+}
+
+@utility animate-rimvio-draw-glow {
+  animation: rimvio-draw-glow 1.1s ease-in-out infinite;
+}
+
+@utility animate-rimvio-draw-pop {
+  animation: rimvio-draw-pop 520ms cubic-bezier(0.22, 1.12, 0.36, 1) both;
+}
+
+@keyframes rimvio-purple-reveal-in {
+  0% {
+    opacity: 0;
+    transform: translateY(24px) scale(0.92);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@utility animate-rimvio-purple-reveal-in {
+  animation: rimvio-purple-reveal-in 520ms cubic-bezier(0.22, 1.12, 0.36, 1) both;
+}
+
+@keyframes rimvio-toast-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+
+/* ── Rimvio icon buttons (composer + chrome) ── */
+
+.rimvio-icon-btn {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 9999px;
+  color: var(--rimvio-text-muted);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  user-select: none;
+  transition:
+    transform 0.2s var(--rimvio-button-easing),
+    box-shadow 0.2s var(--rimvio-button-easing),
+    background-color 0.2s var(--rimvio-button-easing),
+    opacity 0.2s var(--rimvio-button-easing);
+}
+
+.rimvio-icon-btn--sm {
+  width: 2rem;
+  height: 2rem;
+}
+
+.rimvio-icon-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.rimvio-icon-btn:not(:disabled):active {
+  transform: scale(0.95);
+}
+
+.rimvio-icon-btn--primary {
+  background: var(--primary);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(88, 101, 242, 0.28);
+  border-radius: 14px;
+}
+
+@media (hover: hover) {
+  .rimvio-icon-btn--primary:not(:disabled):hover {
+    background: var(--rimvio-neon-purple-deep);
+  }
+}
+
+.rimvio-icon-btn--secondary {
+  background: var(--rimvio-surface-raised);
+  color: var(--rimvio-text-muted);
+  box-shadow: inset 0 0 0 1px var(--border);
+}
+
+.rimvio-icon-btn--ghost {
+  background: transparent;
+  color: var(--rimvio-text-muted);
+  box-shadow: none;
+}
+
+.rimvio-icon-btn--cyan {
+  background: rgba(50, 215, 255, 0.12);
+  color: var(--rimvio-neon-cyan);
+  box-shadow:
+    0 0 16px rgba(50, 215, 255, 0.2),
+    inset 0 0 0 1px rgba(50, 215, 255, 0.35);
+}
+
+.rimvio-icon-btn--magenta {
+  background: rgba(255, 55, 95, 0.12);
+  color: var(--rimvio-neon-magenta);
+  box-shadow:
+    0 0 16px rgba(255, 55, 95, 0.2),
+    inset 0 0 0 1px rgba(255, 55, 95, 0.35);
+}
+
+.rimvio-icon-btn--green {
+  background: rgba(48, 209, 88, 0.12);
+  color: var(--rimvio-neon-green);
+  box-shadow:
+    0 0 16px rgba(48, 209, 88, 0.2),
+    inset 0 0 0 1px rgba(48, 209, 88, 0.35);
+}
+
+.rimvio-composer-field {
+  display: flex;
+  min-height: 2.5rem;
+  flex: 1;
+  align-items: flex-end;
+  border-radius: 12px;
+  background: var(--rimvio-surface-raised);
+  padding: 0.5rem 0.75rem;
+  box-shadow: none;
+}
+
+.rimvio-composer-field textarea::placeholder {
+  color: var(--rimvio-text-dim);
+}
+
+.rimvio-composer-mention-wrap {
+  min-height: 1.25rem;
+}
+
+/* Mirror + textarea must share identical metrics — no font-weight drift on spans. */
+.rimvio-composer-mention-layer {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.375;
+  letter-spacing: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.rimvio-composer-mention-mirror {
+  z-index: 0;
+  padding: 0;
+  color: var(--foreground);
+}
+
+.rimvio-composer-mention-valid {
+  color: var(--rimvio-neon-cyan);
+}
+
+.rimvio-composer-textarea--mirror {
+  position: relative;
+  z-index: 1;
+  /* Near-transparent (not fully transparent) — iOS Safari skips keyboard with -webkit-text-fill-color: transparent */
+  color: rgba(46, 51, 56, 0.02);
+  caret-color: var(--foreground);
+  background: transparent;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .rimvio-composer-textarea--mirror {
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.02);
+  }
+}
+
+.rimvio-composer-textarea--mirror::placeholder {
+  color: var(--rimvio-text-dim);
+  -webkit-text-fill-color: var(--rimvio-text-dim);
+}
+
+.rimvio-composer-textarea--mirror::selection {
+  color: rgba(255, 255, 255, 0.02);
+  background: rgba(50, 215, 255, 0.28);
+}
+
+@supports (-webkit-touch-callout: none) {
+  .rimvio-composer-textarea--mirror::selection {
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.02);
+  }
+}
+
+.rimvio-menu-grid {
+  background: var(--rimvio-surface-muted);
+  box-shadow: inset 0 0 0 1px var(--border);
+}
+
+.rimvio-menu-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  border: none;
+  border-radius: 12px;
+  background: var(--rimvio-surface);
+  padding: 0.625rem 0.5rem;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--rimvio-text);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform 0.2s var(--rimvio-button-easing),
+    box-shadow 0.2s var(--rimvio-button-easing);
+}
+
+.rimvio-menu-tile:active {
+  transform: scale(0.97);
+}
+
+.rimvio-menu-tile--cyan {
+  box-shadow: inset 0 0 0 1px rgba(50, 215, 255, 0.22);
+}
+
+.rimvio-menu-tile--purple {
+  box-shadow: inset 0 0 0 1px rgba(191, 90, 242, 0.22);
+}
+
+.rimvio-menu-tile--magenta {
+  box-shadow: inset 0 0 0 1px rgba(255, 55, 95, 0.22);
+}
+
+.rimvio-menu-tile--green {
+  box-shadow: inset 0 0 0 1px rgba(48, 209, 88, 0.22);
+}
+
+.rimvio-chip-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 9999px;
+  background: var(--rimvio-surface);
+  padding: 0.375rem 0.75rem;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--rimvio-text-muted);
+  box-shadow: inset 0 0 0 1px var(--border);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform 0.2s var(--rimvio-button-easing),
+    box-shadow 0.2s var(--rimvio-button-easing),
+    color 0.2s var(--rimvio-button-easing);
+}
+
+.rimvio-chip-btn--active {
+  color: #ffffff;
+  background: var(--primary);
+  box-shadow: 0 2px 8px rgba(88, 101, 242, 0.22);
+}
+
+.rimvio-suggest-chip {
+  position: relative;
+  overflow: hidden;
+  border-radius: 9999px;
+  background: var(--rimvio-surface-raised);
+  padding: 0.25rem 0.625rem;
+  font-weight: 500;
+  color: var(--rimvio-text-muted);
+  box-shadow: inset 0 0 0 1px var(--border);
+}
+
+@media (hover: hover) {
+  .rimvio-suggest-chip:hover {
+    background: var(--accent);
+    color: var(--foreground);
+    box-shadow: inset 0 0 0 1px color-mix(in oklch, var(--primary) 22%, var(--border));
+  }
+}
+
+.rimvio-suggest-chip:active {
+  transform: scale(0.98);
+}
+
+.rimvio-list-pick-btn {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: none;
+  border-radius: 12px;
+  background: var(--rimvio-surface);
+  padding: 0.625rem 0.75rem;
+  text-align: left;
+  color: var(--rimvio-text);
+  box-shadow: inset 0 0 0 1px var(--border);
+  cursor: pointer;
+  transition:
+    transform 0.2s var(--rimvio-button-easing),
+    box-shadow 0.2s var(--rimvio-button-easing),
+    background-color 0.2s var(--rimvio-button-easing);
+}
+
+.rimvio-list-pick-btn:active {
+  transform: scale(0.99);
+}
+
+.rimvio-list-pick-btn--recommended {
+  background: color-mix(in oklch, var(--primary) 8%, var(--rimvio-surface));
+  box-shadow:
+    inset 0 0 0 1px color-mix(in oklch, var(--primary) 28%, var(--border)),
+    0 4px 14px rgba(88, 101, 242, 0.08);
+}
+
+/* ── Rimvio Master Button (black canvas tactile) ── */
+
+.rimvio-action-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 28px;
+  min-width: 160px;
+  border-radius: 14px;
+  background-color: var(--primary);
+  border: 1px solid color-mix(in oklch, var(--primary) 88%, black);
+  color: #ffffff;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Apple SD Gothic Neo",
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  box-shadow: 0 4px 14px rgba(88, 101, 242, 0.28);
+  transition:
+    transform 0.2s var(--rimvio-button-easing),
+    background-color 0.2s var(--rimvio-button-easing),
+    box-shadow 0.2s var(--rimvio-button-easing),
+    opacity 0.2s var(--rimvio-button-easing);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  user-select: none;
+  position: relative;
+  z-index: 1;
+}
+
+.rimvio-action-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+@media (hover: hover) {
+  .rimvio-action-button:not(:disabled):hover {
+    background-color: var(--rimvio-neon-purple-deep);
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 2px 10px rgba(88, 101, 242, 0.32);
+  }
+}
+
+.rimvio-action-button:not(:disabled):active {
+  background-color: var(--rimvio-neon-purple-deep);
+  transform: translateY(1px) scale(0.98);
+  box-shadow:
+    inset 3px 0 0 0 rgba(191, 90, 242, 0.65),
+    0 1px 8px rgba(0, 0, 0, 0.28);
+}
+
+.rimvio-action-button--secondary {
+  min-width: 0;
+  background: var(--rimvio-surface-raised);
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    inset 3px 0 0 0 rgba(50, 215, 255, 0.55),
+    0 2px 14px rgba(0, 0, 0, 0.22);
+}
+
+@media (hover: hover) {
+  .rimvio-action-button--secondary:not(:disabled):hover {
+    background: var(--rimvio-surface);
+    color: var(--rimvio-text);
+    box-shadow:
+      inset 0 0 0 1px rgba(50, 215, 255, 0.18),
+      0 0 24px rgba(50, 215, 255, 0.1);
+  }
+}
+
+.rimvio-action-button--secondary:not(:disabled):active {
+  background: var(--rimvio-surface-muted);
+}
+
+.rimvio-action-button--ghost {
+  min-width: 0;
+  padding: 10px 16px;
+  background: transparent;
+  color: var(--rimvio-neon-cyan);
+  border: 1px solid rgba(50, 215, 255, 0.28);
+  box-shadow: none;
+}
+
+@media (hover: hover) {
+  .rimvio-action-button--ghost:not(:disabled):hover {
+    background: rgba(50, 215, 255, 0.08);
+    box-shadow: 0 0 16px rgba(50, 215, 255, 0.12);
+  }
+}
+
+.rimvio-action-button--ghost:not(:disabled):active {
+  background: rgba(50, 215, 255, 0.14);
+}
+
+.rimvio-action-button--tile {
+  width: 100%;
+  min-width: 0;
+  justify-content: flex-start;
+  padding: 12px 14px;
+  text-align: left;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.rimvio-action-button--pill,
+.rimvio-action-button--ghost,
+.rimvio-action-button--compact {
+  min-width: 0;
+}
+
+.rimvio-action-button--pill {
+  min-width: 0;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.rimvio-action-button--compact {
+  min-width: 0;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 8px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 600;
+  background: var(--rimvio-surface);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: var(--rimvio-text);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+.rimvio-action-button--compact .rimvio-action-button__icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10px;
+  background: rgba(191, 90, 242, 0.12);
+  color: var(--rimvio-neon-purple);
+}
+
+.rimvio-action-button--compact .rimvio-action-button__content {
+  align-items: center;
+  text-align: center;
+}
+
+.rimvio-action-button--compact .rimvio-action-button__label {
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.rimvio-action-button__icon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 12px;
+  background: rgba(191, 90, 242, 0.14);
+  color: var(--rimvio-neon-purple);
+  transition: transform 0.2s var(--rimvio-button-easing);
+}
+
+.rimvio-action-button--secondary .rimvio-action-button__icon {
+  background: rgba(50, 215, 255, 0.12);
+  color: var(--rimvio-neon-cyan);
+}
+
+.rimvio-action-button:not(:disabled):active .rimvio-action-button__icon {
+  transform: scale(0.95);
+}
+
+.rimvio-action-button__content {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.rimvio-action-button__label {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.rimvio-action-button__hint {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.rimvio-action-button__trailing {
+  flex-shrink: 0;
+  opacity: 0.7;
+  transition: transform 0.2s var(--rimvio-button-easing);
+}
+
+@media (hover: hover) {
+  .rimvio-action-button:not(:disabled):hover .rimvio-action-button__trailing {
+    transform: translateX(2px);
+  }
+}
+
+/* ── Action-Centric Shell ── */
+
+.action-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  background: var(--rimvio-base);
+  color: var(--foreground);
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Text",
+    "SF Pro Display",
+    Inter,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+}
+
+/* 피드 — top-down list (Reminders) + composer pinned above tab bar */
+.action-shell--slot .rimvio-feed-scroll-inset {
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.action-shell--slot [data-feed-slot-bottom-stack] {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.action-shell--slot [data-feed-slot-stage] {
+  min-height: 0;
+  flex: 1 1 auto;
+  overscroll-behavior: none;
+}
+
+.action-shell--slot [data-feed-today-slots-panel] {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.action-shell--slot [data-feed-today-slot] {
+  transition: background-color 0.15s ease;
+}
+
+.action-shell--slot [data-feed-today-slot]:active {
+  background-color: color-mix(in oklch, white 8%, transparent);
+}
+
+@media (max-width: 1023px) {
+  .action-shell--slot .rimvio-feed-composer-dock {
+    padding-bottom: 0;
+    border-top: 1px solid var(--border);
+    background: var(--rimvio-base);
+  }
+}
+
+.chat-bubble {
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: min(72%, 15.5rem);
+  width: max-content;
+  padding: var(--chat-bubble-pad-y, 9px) var(--chat-bubble-pad-x, 13px);
+  font-size: 15px;
+  line-height: 1.43;
+  letter-spacing: -0.02em;
+  text-align: start;
+  white-space: pre-wrap;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.chat-bubble--user,
+.chat-bubble--ai {
+  --chat-bubble-r: 14px;
+  --chat-bubble-r-tight: 5px;
+  --chat-bubble-pad-y: 9px;
+  --chat-bubble-pad-x: 13px;
+}
+
+/* User — tail on the right (iMessage-style, no nub) */
+.chat-bubble--user-single,
+.chat-bubble--user-first {
+  border-radius: var(--chat-bubble-r) var(--chat-bubble-r) var(--chat-bubble-r-tight)
+    var(--chat-bubble-r);
+}
+
+.chat-bubble--user-middle {
+  border-radius: var(--chat-bubble-r) var(--chat-bubble-r-tight) var(--chat-bubble-r-tight)
+    var(--chat-bubble-r);
+}
+
+.chat-bubble--user-last {
+  border-radius: var(--chat-bubble-r) var(--chat-bubble-r-tight) var(--chat-bubble-r)
+    var(--chat-bubble-r);
+}
+
+/* AI — tail on the left */
+.chat-bubble--ai-single,
+.chat-bubble--ai-first {
+  border-radius: var(--chat-bubble-r) var(--chat-bubble-r) var(--chat-bubble-r)
+    var(--chat-bubble-r-tight);
+}
+
+.chat-bubble--ai-middle {
+  border-radius: var(--chat-bubble-r-tight) var(--chat-bubble-r) var(--chat-bubble-r)
+    var(--chat-bubble-r-tight);
+}
+
+.chat-bubble--ai-last {
+  border-radius: var(--chat-bubble-r-tight) var(--chat-bubble-r) var(--chat-bubble-r)
+    var(--chat-bubble-r);
+}
+
+.chat-bubble--user {
+  font-weight: 400;
+  color: #ffffff;
+  background: var(--primary);
+  box-shadow: 0 1px 3px rgba(88, 101, 242, 0.22);
+}
+
+.chat-bubble--ai {
+  font-weight: 400;
+  color: var(--foreground);
+  --chat-bubble-border: var(--border);
+  background: var(--rimvio-surface-raised);
+  box-shadow: inset 0 0 0 1px var(--chat-bubble-border);
+}
+
+.chat-bubble:has(.chat-bubble--thinking) {
+  max-width: none;
+  width: max-content;
+  --chat-bubble-pad-y: 8px;
+  --chat-bubble-pad-x: 11px;
+}
+
+.chat-bubble--thinking {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--rimvio-text-muted);
+  display: inline-flex;
+  align-items: center;
+}
+
+/* ── Inline chat chips (unified dark OS) ── */
+
+.rimvio-inline-chip {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: var(--rimvio-surface);
+  box-shadow:
+    inset 0 0 0 1px var(--border),
+    0 4px 18px rgba(0, 0, 0, 0.06);
+}
+
+.rimvio-inline-chip--sm {
+  max-width: min(100%, 320px);
+}
+
+.rimvio-inline-chip--md {
+  max-width: min(100%, 360px);
+}
+
+.rimvio-inline-chip--lg {
+  max-width: min(100%, 420px);
+}
+
+.rimvio-inline-chip--inline {
+  display: inline-flex;
+  width: auto;
+  max-width: min(100%, 280px);
+  flex-direction: column;
+  gap: 0.375rem;
+  padding: 0.625rem 0.75rem;
+}
+
+.rimvio-inline-chip__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 0.5rem 0.75rem;
+}
+
+.rimvio-inline-chip__body {
+  padding: 0.625rem 0.75rem;
+}
+
+.rimvio-inline-chip__title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.rimvio-inline-chip__meta {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.rimvio-inline-chip__lead {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.rimvio-inline-chip__text {
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.rimvio-inline-chip__text-muted {
+  font-size: 11px;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.rimvio-inline-chip__panel {
+  border-radius: 0.75rem;
+  background: var(--rimvio-surface-muted);
+  padding: 0.5rem 0.625rem;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+  font-size: 12px;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.rimvio-inline-chip__row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.75rem;
+  background: var(--rimvio-surface-muted);
+  padding: 0.375rem 0.5rem;
+  font-size: 12px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+.rimvio-inline-chip__row-time {
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.rimvio-inline-chip__row-title {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.rimvio-inline-chip__pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 9999px;
+  background: rgba(191, 90, 242, 0.12);
+  padding: 0.25rem 0.625rem;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--rimvio-neon-purple);
+}
+
+.rimvio-inline-chip__notice {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: none;
+  background: rgba(255, 214, 10, 0.1);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--rimvio-neon-amber);
+  box-shadow: inset 0 0 0 1px rgba(255, 214, 10, 0.28);
+}
+
+.rimvio-inline-chip__ghost-btn {
+  border-radius: 0.75rem;
+  border: none;
+  background: transparent;
+  padding: 0.625rem 0.75rem;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.72);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+  transition: background-color 0.2s var(--rimvio-button-easing);
+}
+
+.rimvio-inline-chip__ghost-btn:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.rimvio-inline-chip__status {
+  border-radius: 1rem;
+  background: var(--rimvio-surface-muted);
+  padding: 0.625rem 0.75rem;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+.rimvio-inline-chip__status--done {
+  background: rgba(48, 209, 88, 0.08);
+  box-shadow: inset 0 0 0 1px rgba(48, 209, 88, 0.22);
+}
+
+.rimvio-inline-chip__resolved {
+  border-radius: 0.75rem;
+  background: var(--rimvio-surface-muted);
+  padding: 0.5rem 0.75rem;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.38);
+  text-decoration: line-through;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.rimvio-inline-chip-card {
+  overflow: hidden;
+  border-radius: 0.75rem;
+  background: var(--rimvio-surface-raised);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.rimvio-inline-chip-card__header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 0.5rem 0.75rem;
+}
+
+.rimvio-inline-chip-card__embed {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--rimvio-surface-muted);
+}
+
+.rimvio-inline-chip-card__badge {
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.125rem 0.5rem;
+  font-size: 10px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.rimvio-strip-link-btn {
+  flex-shrink: 0;
+  border: none;
+  border-radius: 9999px;
+  background: transparent;
+  padding: 0.25rem 0.625rem;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.72);
+  transition: color 0.2s var(--rimvio-button-easing);
+}
+
+.rimvio-strip-link-btn:hover {
+  color: var(--rimvio-neon-cyan);
+}
+
+.rimvio-strip-icon-btn {
+  display: flex;
+  width: 2.25rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  background: transparent;
+}
+
+/* ── Chat ambient focus (composer + 1:1 bubble breath) ── */
+
+/* Mobile: svh is stabler than dvh when the URL bar / keyboard resizes */
+@media (max-width: 1023px) {
+  .app-shell-viewport.h-dvh {
+    height: 100svh;
+    max-height: 100svh;
+  }
+}
+
+.chat-ambient-shell {
+  --chat-ambient-strength: 0;
+  transition: --chat-ambient-strength 0.65s ease;
+}
+
+.chat-ambient-shell--plain {
+  transition: none;
+}
+
+.chat-ambient-shell--composer-live {
+  --chat-ambient-strength: 1;
+}
+
+.chat-ambient-composer-glow {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 0;
+  height: min(42dvh, 280px);
+  pointer-events: none;
+  opacity: calc(0.55 * var(--chat-ambient-strength));
+  transition: opacity 0.65s ease;
+  background:
+    radial-gradient(
+      ellipse 90% 72% at 50% 100%,
+      rgba(88, 101, 242, 0.1) 0%,
+      rgba(0, 168, 252, 0.05) 38%,
+      transparent 72%
+    );
+}
+
+.chat-ambient-wave {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  inset-inline: 0;
+  width: 100%;
+  height: 1px;
+  border-radius: 0;
+  pointer-events: none;
+  opacity: calc(0.85 * var(--chat-ambient-strength));
+  transition: opacity 0.65s ease;
+  background: color-mix(in oklch, var(--primary) 22%, var(--border));
+  box-shadow: none;
+}
+
+.chat-ambient-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: calc(0.35 * var(--chat-ambient-strength));
+  transition: opacity 0.65s ease;
+  background: radial-gradient(
+    ellipse 85% 55% at 50% 88%,
+    transparent 50%,
+    rgba(88, 101, 242, 0.04) 100%
+  );
+}
+
+@keyframes rimvio-ambient-wave-glow {
+  0%,
+  100% {
+    filter: brightness(1);
+    box-shadow:
+      0 0 9px rgba(191, 90, 242, 0.72),
+      0 0 19.5px rgba(50, 215, 255, 0.52),
+      0 0 30px rgba(255, 55, 95, 0.34),
+      0 -3px 21px rgba(191, 90, 242, 0.2);
+  }
+
+  50% {
+    filter: brightness(1.14);
+    box-shadow:
+      0 0 13.5px rgba(50, 215, 255, 0.82),
+      0 0 25.5px rgba(191, 90, 242, 0.58),
+      0 0 36px rgba(255, 55, 95, 0.42),
+      0 -4.5px 27px rgba(50, 215, 255, 0.24);
+  }
+}
+
+@keyframes rimvio-container-breathe {
+  0%,
+  100% {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.65);
+  }
+
+  50% {
+    box-shadow:
+      0 16px 48px rgba(0, 0, 0, 0.72),
+      0 0 36px rgba(50, 215, 255, 0.1),
+      0 0 48px rgba(191, 90, 242, 0.08);
+  }
+}
+
+.rimvio-composer-field--live {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.85);
+}
+
+@keyframes rimvio-composer-breathe {
+  0%,
+  100% {
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.65);
+  }
+
+  50% {
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.95);
+  }
+}
+
+.chat-message-focus {
+  position: relative;
+  z-index: 2;
+  pointer-events: auto;
+  margin-top: 0.75rem;
+  transition:
+    opacity  0.55s ease,
+    filter 0.55s ease,
+    transform 0.55s ease;
+}
+
+.chat-message-focus:first-child {
+  margin-top: 0;
+}
+
+.chat-message-focus[data-bubble-group="middle"],
+.chat-message-focus[data-bubble-group="last"] {
+  margin-top: 0.25rem;
+}
+
+.chat-message-focus[data-bubble-focus="rest"] {
+  opacity: 0.48;
+  filter: saturate(0.78) brightness(0.92);
+  transform: scale(0.992);
+}
+
+@keyframes rimvio-thought-breathe {
+  0%,
+  100% {
+    box-shadow:
+      inset 0 0 0 1px rgba(50, 215, 255, 0.18),
+      0 0 16px rgba(50, 215, 255, 0.06);
+  }
+
+  50% {
+    box-shadow:
+      inset 0 0 0 1px rgba(191, 90, 242, 0.32),
+      0 0 28px rgba(191, 90, 242, 0.12);
+  }
+}
+
+.chat-message-focus[data-bubble-focus="live"] .thought-bubble {
+  animation: rimvio-thought-breathe 4.2s ease-in-out infinite;
+}
+
+.chat-message-focus[data-bubble-focus="live"] .rimvio-container-card,
+.chat-message-focus[data-bubble-focus="live"] .container-card {
+  animation: rimvio-container-breathe 4s ease-in-out infinite;
+}
+
+/* Phone/tablet: marquee wave repaints the whole feed column on Android */
+@media (max-width: 1023px) {
+  .chat-ambient-shell {
+    /* Do not use contain:* here — breaks composer focus on mobile */
+    transition: none;
+    overflow-x: hidden;
+  }
+
+  .chat-ambient-composer-glow,
+  .chat-ambient-vignette,
+  .chat-ambient-wave {
+    transition: opacity 0.2s ease;
+  }
+
+  .chat-ambient-wave {
+    width: 100%;
+    animation: none !important;
+    will-change: auto;
+    transform: none;
+  }
+
+  .rimvio-nav-bar::before {
+    width: 100%;
+    animation: none !important;
+    will-change: auto;
+    transform: none;
+    background: var(--rimvio-edge-nav);
+    background-image: none;
+  }
+
+  .chat-ambient-shell--composer-live .rimvio-nav-bar::before {
+    animation: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chat-ambient-wave,
+  .rimvio-nav-bar::before,
+  .rimvio-composer-field--live,
+  .chat-message-focus[data-bubble-focus="live"] .rimvio-container-card,
+  .chat-message-focus[data-bubble-focus="live"] .container-card,
+  .chat-message-focus[data-bubble-focus="live"] .thought-bubble {
+    animation: none !important;
+  }
+
+  .chat-message-focus[data-bubble-focus="rest"] {
+    opacity: 0.72;
+    transform: none;
+  }
+}
+
+.rimvio-container-card,
+.container-card {
+  position: relative;
+  isolation: isolate;
+  background: var(--rimvio-surface);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 16px;
+  padding: 14px 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.65);
+}
+
+.rimvio-container-card--compact {
+  padding: 10px 12px;
+  border-radius: 14px;
+}
+
+.rimvio-container-card--compact .rimvio-container-card__header,
+.rimvio-container-card--compact .container-card__header {
+  gap: 10px;
+  padding-bottom: 0;
+}
+
+.rimvio-container-card--compact .rimvio-container-card__icon,
+.rimvio-container-card--compact .container-card__icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 12px;
+}
+
+.rimvio-container-card--compact .rimvio-container-card__icon .size-\[18px\],
+.rimvio-container-card--compact .container-card__icon .size-\[18px\] {
+  width: 16px;
+  height: 16px;
+}
+
+.rimvio-container-card--compact .rimvio-container-card__title,
+.rimvio-container-card--compact .container-card__title {
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.rimvio-container-card--compact .rimvio-container-card__chips,
+.rimvio-container-card--compact .container-card__chips {
+  margin-top: 6px;
+  gap: 4px;
+}
+
+.rimvio-container-card--compact .rimvio-container-card__chip,
+.rimvio-container-card--compact .container-card__chip {
+  padding: 2px 8px;
+  font-size: 10px;
+}
+
+.rimvio-container-card--compact .rimvio-container-card__footer,
+.rimvio-container-card--compact .container-card__footer {
+  margin-top: 0;
+  margin-inline: -12px;
+  margin-bottom: -10px;
+  padding: 8px 12px 10px;
+  background: transparent;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.rimvio-container-card::before,
+.container-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 14px;
+  bottom: 14px;
+  width: 3px;
+  border-radius: 0 4px 4px 0;
+  background: rgba(255, 255, 255, 0.28);
+  pointer-events: none;
+}
+
+.rimvio-point-surface::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 14px;
+  bottom: 14px;
+  width: 3px;
+  border-radius: 0 4px 4px 0;
+  background: linear-gradient(180deg, rgba(50, 215, 255, 0.85), rgba(191, 90, 242, 0.78));
+  pointer-events: none;
+}
+
+.rimvio-container-card.rimvio-point-surface::before,
+.container-card.rimvio-point-surface::before {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.rimvio-point-accent.rimvio-edge-card::before {
+  inset: auto;
+  left: 0;
+  top: 12px;
+  bottom: 12px;
+  width: 3px;
+  height: auto;
+  padding: 0;
+  border-radius: 0 4px 4px 0;
+  background: linear-gradient(180deg, rgba(50, 215, 255, 0.85), rgba(191, 90, 242, 0.78));
+  -webkit-mask: none;
+  mask: none;
+  animation: none;
+}
+
+.rimvio-point-surface {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.rimvio-accent-submit-btn {
+  background: var(--rimvio-surface-raised);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: inset 3px 0 0 0 rgba(191, 90, 242, 0.82);
+}
+
+.rimvio-container-card__header,
+.container-card__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding-bottom: 8px;
+}
+
+.rimvio-container-card__icon,
+.container-card__icon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
+.rimvio-container-card__title,
+.container-card__title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+}
+
+.rimvio-container-card__subtitle,
+.container-card__subtitle {
+  margin-top: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.rimvio-container-card__chips,
+.container-card__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.rimvio-container-card__chip,
+.container-card__chip {
+  display: inline-flex;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.rimvio-container-card__body,
+.container-card__body {
+  padding-bottom: 12px;
+}
+
+.rimvio-container-card__body-text,
+.container-card__body-text {
+  font-size: 14px;
+  line-height: 1.55;
+  letter-spacing: -0.015em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.rimvio-container-card__meta,
+.container-card__meta {
+  padding-bottom: 12px;
+}
+
+.rimvio-container-card__footer,
+.container-card__footer {
+  margin-top: 2px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.12));
+  margin-inline: -16px;
+  margin-bottom: -14px;
+  padding: 8px 16px 12px;
+}
+
+.rimvio-container-card__action-row,
+.container-card__action-row {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  scrollbar-width: none;
+}
+
+.rimvio-container-card__action-row::-webkit-scrollbar,
+.container-card__action-row::-webkit-scrollbar {
+  display: none;
+}
+
+.rimvio-container-card__action-row .rimvio-action-button,
+.container-card__action-row .rimvio-action-button {
+  flex-shrink: 0;
+}
+
+.rimvio-container-card__action-row .rimvio-action-button--tile,
+.container-card__action-row .rimvio-action-button--tile {
+  min-width: 132px;
+  max-width: 200px;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.rimvio-container-card__action-row .rimvio-action-button--pill,
+.container-card__action-row .rimvio-action-button--pill {
+  padding: 7px 12px;
+  font-size: 12px;
+}
+
+.rimvio-container-card__action-row .rimvio-action-button,
+.rimvio-container-card__action-row .rimvio-action-button--secondary,
+.container-card__action-row .rimvio-action-button,
+.container-card__action-row .rimvio-action-button--secondary {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  color: #ffffff;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+@media (hover: hover) {
+  .rimvio-container-card__action-row .rimvio-action-button:not(:disabled):hover,
+  .rimvio-container-card__action-row .rimvio-action-button--secondary:not(:disabled):hover,
+  .container-card__action-row .rimvio-action-button:not(:disabled):hover,
+  .container-card__action-row .rimvio-action-button--secondary:not(:disabled):hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    box-shadow: none;
+    transform: none;
+  }
+}
+
+.rimvio-container-card__action-row .rimvio-action-button:not(:disabled):active,
+.rimvio-container-card__action-row .rimvio-action-button--secondary:not(:disabled):active,
+.container-card__action-row .rimvio-action-button:not(:disabled):active,
+.container-card__action-row .rimvio-action-button--secondary:not(:disabled):active {
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: none;
+  transform: scale(0.99);
+}
+
+.rimvio-container-card__action-row .rimvio-action-button__icon:not(.rimvio-action-button__icon--brand),
+.rimvio-container-card__action-row .rimvio-action-button--secondary .rimvio-action-button__icon:not(.rimvio-action-button__icon--brand),
+.container-card__action-row .rimvio-action-button__icon:not(.rimvio-action-button__icon--brand),
+.container-card__action-row .rimvio-action-button--secondary .rimvio-action-button__icon:not(.rimvio-action-button__icon--brand) {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.rimvio-container-card__action-row .rimvio-action-button__icon--brand,
+.container-card__action-row .rimvio-action-button__icon--brand {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 999px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.rimvio-container-card__action-row .rimvio-action-button__label,
+.container-card__action-row .rimvio-action-button__label {
+  color: #ffffff;
+}
+
+/* ── iOS-style Action App Icons ── */
+
+.rimvio-action-app-icon {
+  display: flex;
+  width: 4.75rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rimvio-action-app-icon:active {
+  transform: scale(0.92);
+}
+
+@media (hover: hover) {
+  .rimvio-action-app-icon:hover {
+    transform: scale(1.04);
+  }
+
+  .rimvio-action-app-icon:active {
+    transform: scale(0.92);
+  }
+}
+
+.rimvio-action-app-icon__squircle {
+  border-radius: 22.37%;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.08),
+    0 6px 16px rgba(0, 0, 0, 0.12);
+  transition:
+    box-shadow 0.18s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rimvio-action-app-icon__squircle--emphasis {
+  box-shadow:
+    0 0 0 2px rgba(255, 255, 255, 0.75),
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    0 10px 24px rgba(74, 144, 226, 0.28);
+}
+
+.rimvio-action-app-icon:active .rimvio-action-app-icon__squircle {
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.06),
+    0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.rimvio-action-app-icon__label {
+  display: -webkit-box;
+  max-width: 100%;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-align: center;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Text",
+    Inter,
+    sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #374151;
+}
+
+.rimvio-action-app-icon__badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  min-width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #ff3b30;
+  padding: 0 5px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+  box-shadow: 0 1px 4px rgba(255, 59, 48, 0.45);
+}
+
+.rimvio-action-app-icon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 14px 12px;
+  padding: 2px 0;
+}
+
+.rimvio-action-app-icon-grid--scroll {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+}
+
+.rimvio-action-app-icon-grid--scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.rimvio-action-app-icon--lg {
+  width: 5.5rem;
+}
+
+/* Container chain — Snap & Mesh */
+.container-chain-strip {
+  position: relative;
+}
+
+.container-chain-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 2rem;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  font-size: 12px;
+  font-weight: 600;
+  color: #374151;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.container-chain-chip--active {
+  border-color: color-mix(in srgb, var(--chip-accent) 45%, transparent);
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--chip-accent) 22%, transparent);
+}
+
+.container-chain-chip--dragging {
+  box-shadow: 0 10px 28px rgba(74, 144, 226, 0.28);
+  border-color: rgba(74, 144, 226, 0.35);
+}
+
+.container-chain-chip__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.container-chain-chip__label {
+  max-width: 7rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.container-chain-chip-wrap--snap-target .container-chain-chip {
+  animation: container-chain-snap-pulse 0.55s ease-in-out infinite;
+  border-color: rgba(74, 144, 226, 0.45);
+}
+
+@keyframes container-chain-snap-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 4px 14px rgba(74, 144, 226, 0.12);
+  }
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 8px 22px rgba(74, 144, 226, 0.28);
+  }
+}
+
+.container-chain-hybrid {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid rgba(74, 144, 226, 0.18);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(243, 244, 246, 0.92) 100%
+  );
+  padding: 12px 14px;
+  box-shadow: 0 10px 32px rgba(74, 144, 226, 0.12);
+}
+
+.container-chain-hybrid__glow {
+  position: absolute;
+  inset: -40% auto auto -20%;
+  width: 60%;
+  height: 120%;
+  background: radial-gradient(circle, rgba(74, 144, 226, 0.16), transparent 70%);
+  pointer-events: none;
+}
+
+.container-chain-hybrid__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 12px;
+  background: rgba(74, 144, 226, 0.12);
+  color: #4a90e2;
+  flex-shrink: 0;
+}
+
+.context-tab-card--dragging {
+  box-shadow: 0 8px 20px rgba(74, 144, 226, 0.22);
+}
+
+/* —— Rimvio 1:1 DM chat —— */
+.rimvio-dm-chat-bg {
+  background:
+    radial-gradient(ellipse 90% 55% at 50% -15%, rgba(88, 101, 242, 0.06), transparent 55%),
+    radial-gradient(ellipse 50% 45% at 100% 80%, rgba(0, 168, 252, 0.05), transparent 50%),
+    var(--background);
+}
+
+.rimvio-dm-live-pill {
+  border-radius: 9999px;
+  padding: 0.2rem 0.55rem;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--rimvio-neon-cyan);
+  background: rgba(50, 215, 255, 0.12);
+  border: 1px solid rgba(50, 215, 255, 0.35);
+  box-shadow: 0 0 12px rgba(50, 215, 255, 0.2);
+}
+
+.rimvio-dm-live-pill svg {
+  animation: rimvio-dm-pulse 2s ease-in-out infinite;
+}
+
+@keyframes rimvio-dm-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+
+.rimvio-dm-composer {
+  border-top: 1px solid var(--border);
+  background: var(--card);
+}
+
+.rimvio-dm-send-btn {
+  background: linear-gradient(
+    135deg,
+    var(--rimvio-neon-purple) 0%,
+    var(--rimvio-neon-purple-deep) 55%,
+    #7b2cbf 100%
+  );
+  box-shadow: 0 4px 18px rgba(191, 90, 242, 0.45);
+}
+
+.rimvio-dm-send-btn:not(:disabled):active {
+  transform: scale(0.96);
+}
+
+.rimvio-dm-header-glass {
+  border-bottom: 1px solid var(--border);
+  background: var(--card);
+}
+
+.context-tab-card--snap-target {
+  animation: container-chain-snap-pulse 0.55s ease-in-out infinite;
+  box-shadow: 0 0 0 1px rgba(123, 97, 255, 0.45);
+}
+
+.fixed-container-bar__slot--snap-target {
+  animation: container-chain-snap-pulse 0.55s ease-in-out infinite;
+  border-color: rgba(16, 185, 129, 0.45) !important;
+}
+
+@keyframes rimvio-globe-idle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rimvio-globe-atmosphere-pulse {
+  0%,
+  100% {
+    opacity: 0.72;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes rimvio-globe-star-twinkle {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
+
+/* Immersive home — default dark space (sheets / legacy) */
+.rimvio-globe-space {
+  --globe-pin-scale: 1;
+  background: radial-gradient(ellipse 120% 80% at 50% 20%, #142238 0%, #060a14 45%, #010308 100%);
+}
+
+[data-globe-context-pin-card] {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+/* Toss-style home globe — Google Earth sky + Toss gray floor */
+.rimvio-globe-space--toss {
+  background: linear-gradient(
+    180deg,
+    #c5e3ff 0%,
+    #e8f3ff 38%,
+    #f2f4f6 72%,
+    #eef1f4 100%
+  );
+}
+
+/* Overview — post-process contrast (levels-style via CSS filter) */
+[data-rimvio-globe-3d][data-globe-detail="space"] canvas,
+[data-rimvio-globe-3d][data-globe-detail="region"] canvas {
+  filter: contrast(1.18) brightness(0.96) saturate(0.88);
+}
+
+/* Street zoom — slightly lifted contrast; raw CARTO tiles underneath */
+[data-rimvio-globe-3d][data-globe-detail="city"] canvas,
+[data-rimvio-globe-3d][data-globe-detail="neighborhood"] canvas,
+[data-rimvio-globe-3d][data-globe-detail="street"] canvas,
+[data-rimvio-globe-3d][data-globe-detail="pin"] canvas {
+  filter: contrast(1.12) brightness(1.01) saturate(0.94);
+}
+
+/* Room shared globe — 2D Toss map on sphere */
+.rimvio-globe-earth-surface__map--toss {
+  filter: saturate(0.86) brightness(1.08) contrast(1.04) hue-rotate(-6deg);
+}
+
+.rimvio-globe-earth-surface__shade--toss {
+  background: radial-gradient(
+    circle at 38% 32%,
+    rgba(255, 255, 255, 0.22) 0%,
+    transparent 42%
+  );
+  mix-blend-mode: soft-light;
+}
+
+.rimvio-globe-home-canvas {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+@keyframes rimvio-globe-surface-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rimvio-globe-surface-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+[data-rimvio-globe-hub] [data-rimvio-globe-3d],
+[data-rimvio-globe-hub] [data-rimvio-globe-vector-map] {
+  position: absolute;
+  inset: 0;
+}
+
+[data-rimvio-globe-handoff="globe"] [data-rimvio-globe-3d] {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+[data-rimvio-globe-handoff="globe"] [data-rimvio-globe-vector-map] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+[data-rimvio-globe-handoff="to-vector"] [data-rimvio-globe-3d] {
+  visibility: visible;
+  pointer-events: none;
+  animation: rimvio-globe-surface-fade-out var(--rimvio-globe-crossfade-ms, 520ms)
+    cubic-bezier(0.32, 0.72, 0, 1) forwards;
+}
+
+[data-rimvio-globe-handoff="to-vector"] [data-rimvio-globe-vector-map] {
+  visibility: visible;
+  pointer-events: none;
+  animation: rimvio-globe-surface-fade-in var(--rimvio-globe-crossfade-ms, 520ms)
+    cubic-bezier(0.32, 0.72, 0, 1) forwards;
+}
+
+[data-rimvio-globe-handoff="vector"] [data-rimvio-globe-3d] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  content-visibility: hidden;
+}
+
+[data-rimvio-globe-handoff="vector"] [data-rimvio-globe-vector-map] {
+  opacity: 1;
+  visibility: visible;
+}
+
+[data-rimvio-globe-handoff="to-globe"] [data-rimvio-globe-3d] {
+  visibility: visible;
+  pointer-events: none;
+  animation: rimvio-globe-surface-fade-in var(--rimvio-globe-crossfade-ms, 520ms)
+    cubic-bezier(0.32, 0.72, 0, 1) forwards;
+}
+
+[data-rimvio-globe-handoff="to-globe"] [data-rimvio-globe-vector-map] {
+  visibility: visible;
+  pointer-events: none;
+  animation: rimvio-globe-surface-fade-out var(--rimvio-globe-crossfade-ms, 520ms)
+    cubic-bezier(0.32, 0.72, 0, 1) forwards;
+}
+
+[data-rimvio-globe-vector-map] {
+  background: #f2f4f6;
+}
+
+[data-rimvio-globe-vector-map] .maplibregl-map,
+[data-rimvio-globe-vector-map] .maplibregl-canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+[data-rimvio-globe-vector-map] .maplibregl-marker {
+  z-index: 3;
+}
+
+[data-rimvio-globe-vector-map] .maplibregl-canvas {
+  outline: none;
+}
+
+[data-rimvio-globe-vector-map] .maplibregl-ctrl-bottom-right {
+  display: none;
+}
+
+/* Immersive home — globe fills shell column; pin sheet shifts globe into visible center */
+.app-shell-grid--globe-home {
+  max-width: 100%;
+}
+
+.app-shell-column--globe-home {
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .app-shell-grid--globe-home {
+    width: 100%;
+    max-width: none;
+  }
+
+  .app-shell-column--globe-home {
+    max-width: none;
+  }
+}
+
+@media (min-width: 768px) {
+  body:has([data-pin-open-sheet]) [data-rimvio-globe-3d] {
+    transform: translateX(calc(min(92vw, 420px) * -0.5));
+    transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
+  }
+}
+
+.rimvio-globe-stars {
+  background-image:
+    radial-gradient(1px 1px at 12% 18%, rgba(255, 255, 255, 0.75), transparent),
+    radial-gradient(1px 1px at 28% 62%, rgba(255, 255, 255, 0.55), transparent),
+    radial-gradient(1.5px 1.5px at 44% 24%, rgba(200, 220, 255, 0.7), transparent),
+    radial-gradient(1px 1px at 58% 78%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(1px 1px at 72% 34%, rgba(255, 255, 255, 0.65), transparent),
+    radial-gradient(1.5px 1.5px at 84% 56%, rgba(220, 235, 255, 0.6), transparent),
+    radial-gradient(1px 1px at 18% 88%, rgba(255, 255, 255, 0.4), transparent),
+    radial-gradient(1px 1px at 92% 12%, rgba(255, 255, 255, 0.55), transparent),
+    radial-gradient(1px 1px at 36% 42%, rgba(255, 255, 255, 0.35), transparent),
+    radial-gradient(1px 1px at 66% 8%, rgba(255, 255, 255, 0.5), transparent);
+  animation: rimvio-globe-star-twinkle 8s ease-in-out infinite;
+}
+
+.rimvio-globe-sphere-aura {
+  border-color: rgba(96, 165, 250, 0.22);
+  box-shadow:
+    0 0 48px rgba(56, 189, 248, 0.28),
+    0 0 96px rgba(37, 99, 235, 0.14),
+    0 24px 64px rgba(0, 0, 0, 0.55),
+    inset 0 0 56px rgba(0, 0, 0, 0.42);
+}
+
+.rimvio-globe-spin {
+  animation: rimvio-globe-idle 300s linear infinite;
+  transform-origin: 50% 50%;
+  will-change: transform;
+}
+
+.rimvio-globe-touch-surface {
+  touch-action: none;
+  cursor: grab;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.rimvio-globe-touch-surface.rimvio-globe-touch-active {
+  cursor: grabbing;
+}
+
+[data-rimvio-globe-3d] canvas {
+  touch-action: none;
+}
+
+[data-rimvio-globe-3d][data-globe-interacting="true"] canvas {
+  will-change: transform;
+}
+
+.rimvio-globe-satellite-shade {
+  background: radial-gradient(
+    circle at 38% 32%,
+    rgba(255, 255, 255, 0.14) 0%,
+    transparent 38%
+  );
+  mix-blend-mode: soft-light;
+}
+
+.rimvio-globe-atmosphere {
+  background: radial-gradient(
+    circle at 50% 50%,
+    transparent 58%,
+    rgba(56, 189, 248, 0.06) 72%,
+    rgba(37, 99, 235, 0.22) 86%,
+    rgba(15, 23, 42, 0.55) 96%,
+    rgba(5, 8, 16, 0.92) 100%
+  );
+  animation: rimvio-globe-atmosphere-pulse 10s ease-in-out infinite;
+}
+
+.rimvio-globe-terminator {
+  background: radial-gradient(
+    circle at 62% 48%,
+    transparent 52%,
+    rgba(0, 0, 0, 0.08) 68%,
+    rgba(0, 0, 0, 0.35) 88%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+}
+
+.rimvio-globe-earth-limb {
+  background: radial-gradient(
+    circle at 50% 50%,
+    transparent 54%,
+    rgba(0, 0, 0, 0.12) 72%,
+    rgba(0, 0, 0, 0.42) 88%,
+    rgba(0, 0, 0, 0.72) 100%
+  );
+}
+
+.rimvio-globe-ambient--toss {
+  background-image:
+    radial-gradient(ellipse 88% 58% at 50% 22%, rgba(49, 130, 246, 0.2), transparent 68%),
+    radial-gradient(ellipse 55% 42% at 50% 48%, rgba(255, 255, 255, 0.35), transparent 72%),
+    radial-gradient(1px 1px at 14% 22%, rgba(49, 130, 246, 0.22), transparent),
+    radial-gradient(1px 1px at 78% 34%, rgba(49, 130, 246, 0.18), transparent),
+    radial-gradient(1px 1px at 42% 72%, rgba(49, 130, 246, 0.14), transparent);
+}
+
+.rimvio-globe-vignette--toss {
+  background: radial-gradient(
+    ellipse 85% 75% at 50% 46%,
+    transparent 52%,
+    rgba(25, 31, 40, 0.04) 100%
+  );
+}
+
+.rimvio-globe-hint--toss {
+  color: #8b95a1;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(2, 32, 71, 0.06);
+  box-shadow: 0 2px 12px rgba(2, 32, 71, 0.06);
+}
+
+.rimvio-globe-space[data-globe-detail="space"] .rimvio-globe-3d-pin:not(.rimvio-globe-3d-pin--cluster),
+.rimvio-globe-space[data-globe-detail="region"] .rimvio-globe-3d-pin:not(.rimvio-globe-3d-pin--cluster) {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+.rimvio-globe-space[data-globe-detail="space"] .rimvio-globe-3d-pin__peers,
+.rimvio-globe-space[data-globe-detail="region"] .rimvio-globe-3d-pin__peers {
+  display: none;
+}
+
+.rimvio-globe-space[data-globe-detail="space"] .rimvio-globe-3d-pin__title {
+  -webkit-line-clamp: 1;
+  font-size: 0.625rem;
+  line-height: 1.15;
+}
+
+.rimvio-globe-space[data-globe-detail="region"] .rimvio-globe-3d-pin__title {
+  -webkit-line-clamp: 1;
+}
+
+.rimvio-globe-3d-pin {
+  display: flex;
+  width: max-content;
+  max-width: 8.5rem;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.3rem;
+  border: 0;
+  background: transparent;
+  padding: 0.35rem;
+  margin: -0.35rem;
+  cursor: pointer;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+  /* Anchor dot tip to lat/lng — CSS2D must not use scale (breaks geo lock). */
+  transform: translate(-50%, -100%);
+  transform-origin: center bottom;
+  transition: opacity 150ms ease;
+  will-change: opacity;
+  font-family: inherit;
+}
+
+.rimvio-globe-3d-pin__card {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  border-radius: 0.875rem;
+  border: 1px solid rgba(2, 32, 71, 0.06);
+  background: #ffffff;
+  padding: 0.45rem 0.55rem;
+  padding-top: 0.65rem;
+  box-shadow:
+    0 2px 8px rgba(2, 32, 71, 0.06),
+    0 8px 24px rgba(49, 130, 246, 0.08);
+  transform: scale(var(--globe-pin-scale, 1));
+  transform-origin: center bottom;
+}
+
+.rimvio-globe-3d-pin__share-corner {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  z-index: 2;
+  display: inline-flex;
+  max-width: calc(100% + 0.35rem);
+  align-items: center;
+  gap: 0.1rem;
+  border-radius: 9999px;
+  border: 1.5px solid #ffffff;
+  background: #3182f6;
+  padding: 0.12rem 0.38rem;
+  box-shadow: 0 2px 8px rgba(49, 130, 246, 0.28);
+  color: #ffffff;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.rimvio-globe-3d-pin__share-corner--shared {
+  background: #ffffff;
+  padding: 0.1rem 0.22rem 0.1rem 0.1rem;
+  color: #191f28;
+}
+
+.rimvio-globe-3d-pin__share-avatars {
+  display: inline-flex;
+  align-items: center;
+}
+
+.rimvio-globe-3d-pin__share-avatar {
+  display: inline-flex;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 9999px;
+  border: 1px solid #ffffff;
+  margin-left: -0.18rem;
+  font-size: 7px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.rimvio-globe-3d-pin__share-avatars .rimvio-globe-3d-pin__share-avatar:first-child {
+  margin-left: 0;
+}
+
+.rimvio-globe-3d-pin__share-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rimvio-globe-3d-pin__share-more {
+  padding-right: 0.12rem;
+  font-size: 7px;
+  font-weight: 700;
+  color: #3182f6;
+}
+
+.rimvio-globe-3d-pin__dot {
+  display: block;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 9999px;
+  border: 2px solid #ffffff;
+  background: #3182f6;
+  box-shadow: 0 2px 6px rgba(49, 130, 246, 0.35);
+  transform: scale(var(--globe-pin-scale, 1));
+  transform-origin: center center;
+}
+
+.rimvio-globe-3d-pin--active .rimvio-globe-3d-pin__card {
+  border-color: rgba(49, 130, 246, 0.35);
+  box-shadow:
+    0 4px 14px rgba(49, 130, 246, 0.16),
+    0 0 0 3px rgba(49, 130, 246, 0.12);
+}
+
+.rimvio-globe-3d-pin--active .rimvio-globe-3d-pin__dot {
+  background: #1b64da;
+  box-shadow: 0 2px 8px rgba(27, 100, 218, 0.45);
+}
+
+.rimvio-globe-3d-pin__title {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: #191f28;
+  text-align: left;
+}
+
+.rimvio-globe-3d-pin__peers {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.rimvio-globe-3d-pin__peer-avatars {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.rimvio-globe-3d-pin__peer-avatar {
+  display: flex;
+  width: 1rem;
+  height: 1rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 9999px;
+  border: 1.5px solid #ffffff;
+  margin-left: -0.28rem;
+  font-size: 7px;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(2, 32, 71, 0.12);
+}
+
+.rimvio-globe-3d-pin__peer-avatars .rimvio-globe-3d-pin__peer-avatar:first-child {
+  margin-left: 0;
+}
+
+.rimvio-globe-3d-pin__peer-avatar-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rimvio-globe-3d-pin__peer-names {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #6b7684;
+}
+
+.rimvio-globe-3d-pin__meta {
+  border-radius: 9999px;
+  background: #e8f3ff;
+  padding: 0.1rem 0.35rem;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #3182f6;
+}
+
+.rimvio-globe-3d-pin--departure .rimvio-globe-3d-pin__card {
+  border-color: rgba(139, 149, 161, 0.22);
+  background: #f9fbff;
+}
+
+.rimvio-globe-3d-pin--departure .rimvio-globe-3d-pin__dot {
+  background: #8b95a1;
+  box-shadow: 0 2px 6px rgba(139, 149, 161, 0.35);
+}
+
+.rimvio-globe-3d-pin--departure.rimvio-globe-3d-pin--active .rimvio-globe-3d-pin__card {
+  border-color: rgba(49, 130, 246, 0.28);
+}
+
+.rimvio-globe-3d-pin--departure.rimvio-globe-3d-pin--active .rimvio-globe-3d-pin__dot {
+  background: #3182f6;
+  box-shadow: 0 2px 8px rgba(49, 130, 246, 0.4);
+}
+
+.rimvio-globe-3d-pin--relocating {
+  z-index: 30;
+  cursor: grabbing;
+}
+
+.rimvio-globe-3d-pin--relocating .rimvio-globe-3d-pin__card {
+  border-color: rgba(49, 130, 246, 0.55);
+  box-shadow:
+    0 0 0 3px rgba(49, 130, 246, 0.22),
+    0 12px 28px rgba(0, 0, 0, 0.28);
+  transform: scale(1.06);
+}
+
+.rimvio-globe-3d-pin--relocating .rimvio-globe-3d-pin__dot {
+  background: #3182f6;
+  box-shadow: 0 0 0 6px rgba(49, 130, 246, 0.18);
+}
+
+.rimvio-globe-3d-pin--cluster {
+  max-width: 3.25rem;
+}
+
+.rimvio-globe-3d-pin__card--cluster {
+  align-items: center;
+  min-width: 2.75rem;
+  padding: 0.35rem 0.5rem;
+  background: linear-gradient(145deg, #3182f6 0%, #1b64da 100%);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.rimvio-globe-3d-pin--cluster .rimvio-globe-3d-pin__meta {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 9px;
+}
+
+.rimvio-globe-3d-pin__cluster-count {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.rimvio-globe-3d-pin--cluster .rimvio-globe-3d-pin__dot {
+  background: #1b64da;
+}
+
+.rimvio-globe-3d-viewer-pin {
+  position: relative;
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.rimvio-globe-3d-viewer-pin__accuracy {
+  position: absolute;
+  width: calc(2.4rem * var(--accuracy-scale, 1));
+  height: calc(2.4rem * var(--accuracy-scale, 1));
+  border-radius: 9999px;
+  border: 1.5px solid rgba(240, 68, 82, 0.38);
+  background: rgba(240, 68, 82, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.65);
+}
+
+.rimvio-globe-3d-viewer-pin__ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: rgba(240, 68, 82, 0.18);
+  animation: rimvio-globe-viewer-pulse 2s ease-out infinite;
+}
+
+.rimvio-globe-3d-viewer-pin__dot {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 9999px;
+  border: 2px solid #ffffff;
+  background: #f04452;
+  box-shadow: 0 2px 10px rgba(240, 68, 82, 0.55);
+}
+
+@keyframes rimvio-globe-viewer-pulse {
+  0% {
+    transform: scale(0.55);
+    opacity: 0.9;
+  }
+  70% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rimvio-globe-spin,
+  .rimvio-globe-stars,
+  .rimvio-globe-atmosphere,
+  .rimvio-globe-ambient--toss,
+  .rimvio-globe-3d-viewer-pin__ring {
+    animation: none;
+  }
+}

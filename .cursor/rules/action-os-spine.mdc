@@ -1,0 +1,46 @@
+---
+description: Action OS spine — active 4 pillars vs frozen backlog (no overlap)
+alwaysApply: true
+---
+
+# Action OS spine (locked focus)
+
+Full spec: `docs/ACTION_OS_SPINE.md`
+
+## Only build this loop
+
+```
+Context (calendar · notification · chat · link)
+  → @ Action Contract Registry
+  → Proactive prep surface (MAIN + AUX)
+  → Archive fold + telemetry
+  → Learning rollup → MAIN ranking
+```
+
+## Active (in order)
+
+1. **@ registry** — App Intents–style `featureId`, slots, MAIN resolver, `sourceRef`
+2. **Proactive sharpen** — prep/calendar SSOT only; sharper domain + MAIN
+3. **Context maintain** — four ingest axes only (no 5th)
+4. **Archive → ranking** — rollup feeds MAIN resolver on prep surface
+
+## Frozen — do not implement
+
+- Life Replay / archive UI
+- Server-side archive sync
+- Screen ambient / vision context
+- New ingest path (5th context axis)
+- Domain LLM action candidate expansion before `@` registry is fixed
+- Silent Ghost / Figma bridge (other repo)
+
+## Reject in review
+
+- Parallel event stores or suggestion surfaces outside prep/calendar
+- New `sourceRef` families beyond calendar / notification / chat / link
+- LLM action domains not registered in `@` contract registry
+- Archive UI or server sync work
+- Importing Ghost truth-log / projection / site patterns
+
+## Substrate (never remove)
+
+EventCandidate SSOT, lifecycle + fold gate, confirm/slot collect, telemetry 4 kinds, NL ingress as fallback to same contracts.

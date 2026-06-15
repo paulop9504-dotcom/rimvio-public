@@ -1,0 +1,17 @@
+# Paths excluded from rimvio-public sync (see docs/GIT_PUBLIC_SHARE.md)
+docs/investor/
+docs/INVESTOR_ONE_PAGER.md
+docs/INVESTOR_FORM_DRAFT.md
+docs/RIMVIO_CONSTITUTION.md
+docs/RIMVIO_EXPERIENCE_LAYERS.md
+docs/RIMVIO_SCOPE_AI.md
+docs/RIMVIO_STORY_LAYER.md
+docs/DEPLOY_RIMVIO_APP_DNS.md
+docs/RIMVIO_KPI.md
+docs/RIMVIO_HANDOFF.md
+docs/RIMVIO_*_V1_REPORT.md
+supabase/sql-editor/
+tmp-*
+tsc-errors.txt
+.cursor/rules/local-*.mdc
+private/

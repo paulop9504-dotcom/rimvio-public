@@ -1,0 +1,3027 @@
+[
+  {
+    "id": "crawl-view-AKR20260527076600530-0",
+    "user_id": null,
+    "original_url": "https://www.yna.co.kr/view/AKR20260527076600530",
+    "title": "제6호 태풍 장미 발생…내달 1일 오키나와 남쪽까지 북상",
+    "thumbnail_url": "https://img9.yna.co.kr/photo/ap/2023/06/02/PAP20230602199001009_P4.jpg",
+    "domain": "yna.co.kr",
+    "category": "uncategorized",
+    "actions": [
+      {
+        "id": "ed95f5a9-198b-4ca5-853e-33ab9f9ce524",
+        "kind": "copy",
+        "label": "📋 제6호 태풍 장미 발생…내… 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "제6호 태풍 장미 발생…내달 1일 오키나와 남쪽까지 북상"
+        }
+      },
+      {
+        "id": "eb4750ea-4f03-40e1-973d-510c195a217c",
+        "kind": "open",
+        "label": "📌 3줄 요약/핵심어",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%20%ED%95%B5%EC%8B%AC%20%ED%82%A4%EC%9B%8C%EB%93%9C%205%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%A0%9C6%ED%98%B8%20%ED%83%9C%ED%92%8D%20%EC%9E%A5%EB%AF%B8%20%EB%B0%9C%EC%83%9D%E2%80%A6%EB%82%B4%EB%8B%AC%201%EC%9D%BC%20%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80%20%EB%82%A8%EC%AA%BD%EA%B9%8C%EC%A7%80%20%EB%B6%81%EC%83%81%0Ahttps%3A%2F%2Fwww.yna.co.kr%2Fview%2FAKR20260527076600530",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 한국어로 3줄 요약하고 핵심 키워드 5개만 bullet로 정리해줘.\n제목: 제6호 태풍 장미 발생…내달 1일 오키나와 남쪽까지 북상\nhttps://www.yna.co.kr/view/AKR20260527076600530"
+        }
+      },
+      {
+        "id": "a369e714-3727-434d-a9c9-a7120f66d9ea",
+        "kind": "open",
+        "label": "🔊 오디오로 듣기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.yna.co.kr%2Fview%2FAKR20260527076600530",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://www.yna.co.kr/view/AKR20260527076600530"
+        }
+      },
+      {
+        "id": "b8de6870-7675-4dbf-a1e6-70b41bd68bb6",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%A0%9C6%ED%98%B8%20%ED%83%9C%ED%92%8D%20%EC%9E%A5%EB%AF%B8%20%EB%B0%9C%EC%83%9D%E2%80%A6%EB%82%B4%EB%8B%AC%201%EC%9D%BC%20%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80%20%EB%82%A8%EC%AA%BD%EA%B9%8C%EC%A7%80%20%EB%B6%81%EC%83%81%0Ahttps%3A%2F%2Fwww.yna.co.kr%2Fview%2FAKR20260527076600530",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 제6호 태풍 장미 발생…내달 1일 오키나와 남쪽까지 북상\nhttps://www.yna.co.kr/view/AKR20260527076600530"
+        }
+      },
+      {
+        "id": "7848b640-78da-4994-a78d-6b7f80e395ae",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "제6호 태풍 장미 발생…내달 1일 오키나와 남쪽까지 북상",
+          "url": "https://www.yna.co.kr/view/AKR20260527076600530"
+        }
+      },
+      {
+        "id": "76218508-9c1a-4def-aaae-953910fb22c5",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "16c092ce-3fc5-482c-9f54-689eec2a739a",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://www.yna.co.kr/view/AKR20260527076600530",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "제6호 태풍 장미 발생…내달 1일 오키나와 남쪽까지 북상"
+        }
+      },
+      {
+        "id": "5276f10a-bf39-4bfc-ae06-c2b9297bb349",
+        "kind": "open",
+        "label": "🔗 제6호 태풍 장미 발생…내달 1일… 열기",
+        "href": "https://www.yna.co.kr/view/AKR20260527076600530",
+        "payload": {
+          "icon": "external-link",
+          "fallbackHref": "https://www.yna.co.kr/view/AKR20260527076600530",
+          "copyText": "제6호 태풍 장미 발생…내달 1일 오키나와 남쪽까지 북상"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "generic",
+    "created_at": "2026-05-27T06:49:10.048Z",
+    "expires_at": "2026-06-03T06:49:10.048Z"
+  },
+  {
+    "id": "crawl-pricing-1",
+    "user_id": null,
+    "original_url": "https://github.com/pricing",
+    "title": "Pricing · Plans for every developer",
+    "thumbnail_url": "https://github.githubassets.com/assets/pricing-1d2e2fb4b121.png",
+    "domain": "github.com",
+    "category": "research",
+    "actions": [
+      {
+        "id": "2e330a65-6698-4530-ab73-06bd939e3b6b",
+        "kind": "open",
+        "label": "📂 저장소 열기",
+        "href": "https://github.com/pricing",
+        "payload": {
+          "icon": "github",
+          "copyText": "Pricing · Plans for every developer"
+        }
+      },
+      {
+        "id": "3f94ee55-7d1e-4084-9398-692d1e3bb89c",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Pricing%20%C2%B7%20Plans%20for%20every%20developer%0Ahttps%3A%2F%2Fgithub.com%2Fpricing",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: Pricing · Plans for every developer\nhttps://github.com/pricing"
+        }
+      },
+      {
+        "id": "4ca669a7-eaf8-436e-bbb1-e20c5a42d34f",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "Pricing · Plans for every developer",
+          "url": "https://github.com/pricing"
+        }
+      },
+      {
+        "id": "0af3da3d-9e6b-40a1-8e22-9bd58e0c17f2",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "ecf7577b-bf05-4fb0-aeb1-ea0c9bdc6958",
+        "kind": "remind",
+        "label": "⏰ 나중에 다시",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.remind_later",
+          "delayMinutes": 120
+        }
+      },
+      {
+        "id": "395240a8-2f38-4cd3-b623-7e4fcb48c315",
+        "kind": "open",
+        "label": "🤖 AI에게 물어보기",
+        "href": "https://www.perplexity.ai/search?q=%EC%9D%B4%20%EB%A7%81%ED%81%AC%20%EA%B8%B0%EC%A4%80%EC%9C%BC%EB%A1%9C%20%EC%A7%88%EB%AC%B8%EC%97%90%20%EB%8B%B5%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Pricing%20%C2%B7%20Plans%20for%20every%20developer%0Ahttps%3A%2F%2Fgithub.com%2Fpricing",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "이 링크 기준으로 질문에 답해줘.\n제목: Pricing · Plans for every developer\nhttps://github.com/pricing"
+        }
+      },
+      {
+        "id": "76508b23-3318-4a40-8371-997adae1afaa",
+        "kind": "open",
+        "label": "🌐 번역해서 읽기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fgithub.com%2Fpricing",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://github.com/pricing"
+        }
+      },
+      {
+        "id": "7e4a5b5e-fac4-4676-a1ef-eda29774bd97",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://github.com/pricing",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "Pricing · Plans for every developer"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "github",
+    "created_at": "2026-05-27T05:49:10.482Z",
+    "expires_at": "2026-06-03T06:49:10.482Z"
+  },
+  {
+    "id": "crawl-05-mourn-not-a-history-of-obituaries-in-american-2",
+    "user_id": null,
+    "original_url": "https://blogs.loc.gov/headlinesandheroes/2026/05/mourn-not-a-history-of-obituaries-in-american-newspapers/",
+    "title": "Mourn Not! A History of Obituaries in American Newspapers | Headlines & Heroes",
+    "thumbnail_url": "https://blogs.loc.gov/headlinesandheroes/files/2026/05/Obits-featured.jpg",
+    "domain": "blogs.loc.gov",
+    "category": "uncategorized",
+    "actions": [
+      {
+        "id": "7299befc-812b-4bc5-87e5-dfcf2d79f58e",
+        "kind": "copy",
+        "label": "📋 Mourn Not! A H… 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "Mourn Not! A History of Obituaries in American Newspapers | Headlines & Heroes"
+        }
+      },
+      {
+        "id": "8de3c253-5b68-4041-9639-f59a48d6e2c9",
+        "kind": "open",
+        "label": "📌 3줄 요약/핵심어",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%20%ED%95%B5%EC%8B%AC%20%ED%82%A4%EC%9B%8C%EB%93%9C%205%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Mourn%20Not!%20A%20History%20of%20Obituaries%20in%20American%20Newspapers%20%7C%20Headlines%20%26%20Heroes%0Ahttps%3A%2F%2Fblogs.loc.gov%2Fheadlinesandheroes%2F2026%2F05%2Fmourn-not-a-history-of-obituaries-in-american-newspapers%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 한국어로 3줄 요약하고 핵심 키워드 5개만 bullet로 정리해줘.\n제목: Mourn Not! A History of Obituaries in American Newspapers | Headlines & Heroes\nhttps://blogs.loc.gov/headlinesandheroes/2026/05/mourn-not-a-history-of-obituaries-in-american-newspapers/"
+        }
+      },
+      {
+        "id": "661d93ae-4739-48fc-9dfd-48c0209cbdaa",
+        "kind": "open",
+        "label": "🔊 오디오로 듣기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fblogs.loc.gov%2Fheadlinesandheroes%2F2026%2F05%2Fmourn-not-a-history-of-obituaries-in-american-newspapers%2F",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://blogs.loc.gov/headlinesandheroes/2026/05/mourn-not-a-history-of-obituaries-in-american-newspapers/"
+        }
+      },
+      {
+        "id": "db211eb3-20f2-4593-8622-78ba9e2e10f6",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Mourn%20Not!%20A%20History%20of%20Obituaries%20in%20American%20Newspapers%20%7C%20Headlines%20%26%20Heroes%0Ahttps%3A%2F%2Fblogs.loc.gov%2Fheadlinesandheroes%2F2026%2F05%2Fmourn-not-a-history-of-obituaries-in-american-newspapers%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: Mourn Not! A History of Obituaries in American Newspapers | Headlines & Heroes\nhttps://blogs.loc.gov/headlinesandheroes/2026/05/mourn-not-a-history-of-obituaries-in-american-newspapers/"
+        }
+      },
+      {
+        "id": "f88ec034-7bd4-40e7-b399-e169dd09e17b",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "Mourn Not! A History of Obituaries in American Newspapers | Headlines & Heroes",
+          "url": "https://blogs.loc.gov/headlinesandheroes/2026/05/mourn-not-a-history-of-obituaries-in-american-newspapers/"
+        }
+      },
+      {
+        "id": "effe551b-19d1-4d08-a41a-46e7905e1a1a",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "5c0682db-0827-4dc5-9b15-54f0161d42f1",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://blogs.loc.gov/headlinesandheroes/2026/05/mourn-not-a-history-of-obituaries-in-american-newspapers/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "Mourn Not! A History of Obituaries in American Newspapers | Headlines & Heroes"
+        }
+      },
+      {
+        "id": "a528daa6-65ad-4a70-9c42-c66a80bc59ce",
+        "kind": "open",
+        "label": "🔗 Mourn Not! A Histo… 열기",
+        "href": "https://blogs.loc.gov/headlinesandheroes/2026/05/mourn-not-a-history-of-obituaries-in-american-newspapers/",
+        "payload": {
+          "icon": "external-link",
+          "fallbackHref": "https://blogs.loc.gov/headlinesandheroes/2026/05/mourn-not-a-history-of-obituaries-in-american-newspapers/",
+          "copyText": "Mourn Not! A History of Obituaries in American Newspapers | Headlines & Heroes"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "generic",
+    "created_at": "2026-05-27T04:49:10.602Z",
+    "expires_at": "2026-06-03T06:49:10.602Z"
+  },
+  {
+    "id": "crawl-view-AKR20260527097851004-3",
+    "user_id": null,
+    "original_url": "https://www.yna.co.kr/view/AKR20260527097851004",
+    "title": "수서역 인근 배수관 정비중 토사 무너져내려…작업자 1명 사망(종합)",
+    "thumbnail_url": "https://img1.yna.co.kr/etc/inner/KR/2026/05/27/AKR20260527097851004_04_i_P4.jpg",
+    "domain": "yna.co.kr",
+    "category": "uncategorized",
+    "actions": [
+      {
+        "id": "88561557-69d9-40d5-9335-e2c63fe7baf4",
+        "kind": "copy",
+        "label": "📋 수서역 인근 배수관 정비중… 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "수서역 인근 배수관 정비중 토사 무너져내려…작업자 1명 사망(종합)"
+        }
+      },
+      {
+        "id": "5e9ed435-ab81-408b-ac45-6c17dedad818",
+        "kind": "open",
+        "label": "📌 3줄 요약/핵심어",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%20%ED%95%B5%EC%8B%AC%20%ED%82%A4%EC%9B%8C%EB%93%9C%205%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%88%98%EC%84%9C%EC%97%AD%20%EC%9D%B8%EA%B7%BC%20%EB%B0%B0%EC%88%98%EA%B4%80%20%EC%A0%95%EB%B9%84%EC%A4%91%20%ED%86%A0%EC%82%AC%20%EB%AC%B4%EB%84%88%EC%A0%B8%EB%82%B4%EB%A0%A4%E2%80%A6%EC%9E%91%EC%97%85%EC%9E%90%201%EB%AA%85%20%EC%82%AC%EB%A7%9D(%EC%A2%85%ED%95%A9)%0Ahttps%3A%2F%2Fwww.yna.co.kr%2Fview%2FAKR20260527097851004",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 한국어로 3줄 요약하고 핵심 키워드 5개만 bullet로 정리해줘.\n제목: 수서역 인근 배수관 정비중 토사 무너져내려…작업자 1명 사망(종합)\nhttps://www.yna.co.kr/view/AKR20260527097851004"
+        }
+      },
+      {
+        "id": "a876e81f-d767-4126-8744-496f93b4e79a",
+        "kind": "open",
+        "label": "🔊 오디오로 듣기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.yna.co.kr%2Fview%2FAKR20260527097851004",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://www.yna.co.kr/view/AKR20260527097851004"
+        }
+      },
+      {
+        "id": "e797247c-d4bc-4714-892e-31340b3aa424",
+        "kind": "open",
+        "label": "🚨 보험사 긴급출동",
+        "href": "https://search.naver.com/search.naver?query=%EC%9E%90%EB%8F%99%EC%B0%A8%20%EB%B3%B4%ED%97%98%20%EA%B8%B4%EA%B8%89%EC%B6%9C%EB%8F%99%20%EC%A0%84%ED%99%94",
+        "payload": {
+          "icon": "phone",
+          "copyText": "자동차 보험 긴급출동",
+          "fallbackHref": "https://search.naver.com/search.naver?query=%EC%88%98%EC%84%9C%EC%97%AD%20%EC%9D%B8%EA%B7%BC%20%EB%B0%B0%EC%88%98%EA%B4%80%20%EC%A0%95%EB%B9%84%EC%A4%91%20%ED%86%A0%EC%82%AC%20%EB%AC%B4%EB%84%88%EC%A0%B8%EB%82%B4%EB%A0%A4%E2%80%A6%EC%9E%91%EC%97%85%EC%9E%90%201%EB%AA%85%20%EC%82%AC%EB%A7%9D(%EC%A2%85%ED%95%A9)%20%EB%B3%B4%ED%97%98%EC%82%AC%20%EA%B8%B4%EA%B8%89%EC%B6%9C%EB%8F%99"
+        }
+      },
+      {
+        "id": "19b707b3-6abb-4078-979b-93ec816914ef",
+        "kind": "open",
+        "label": "🔧 가까운 정비소 연결",
+        "href": "https://map.naver.com/p/search/%EC%88%98%EC%84%9C%EC%97%AD%20%EC%9D%B8%EA%B7%BC%20%EB%B0%B0%EC%88%98%EA%B4%80%20%EC%A0%95%EB%B9%84%EC%A4%91%20%ED%86%A0%EC%82%AC%20%EB%AC%B4%EB%84%88%EC%A0%B8%EB%82%B4%EB%A0%A4%E2%80%A6%EC%9E%91%EC%97%85%EC%9E%90%201%EB%AA%85%20%EC%82%AC%EB%A7%9D(%EC%A2%85%ED%95%A9)%20%EC%A0%95%EB%B9%84%EC%86%8C",
+        "payload": {
+          "icon": "map",
+          "copyText": "수서역 인근 배수관 정비중 토사 무너져내려…작업자 1명 사망(종합) 정비소",
+          "fallbackHref": "http://m.map.kakao.com/scheme/search?q=%EC%88%98%EC%84%9C%EC%97%AD%20%EC%9D%B8%EA%B7%BC%20%EB%B0%B0%EC%88%98%EA%B4%80%20%EC%A0%95%EB%B9%84%EC%A4%91%20%ED%86%A0%EC%82%AC%20%EB%AC%B4%EB%84%88%EC%A0%B8%EB%82%B4%EB%A0%A4%E2%80%A6%EC%9E%91%EC%97%85%EC%9E%90%201%EB%AA%85%20%EC%82%AC%EB%A7%9D(%EC%A2%85%ED%95%A9)%20%EC%A0%95%EB%B9%84%EC%86%8C"
+        }
+      },
+      {
+        "id": "ba336e87-8756-4c9e-b21d-7a180e86fbaf",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%88%98%EC%84%9C%EC%97%AD%20%EC%9D%B8%EA%B7%BC%20%EB%B0%B0%EC%88%98%EA%B4%80%20%EC%A0%95%EB%B9%84%EC%A4%91%20%ED%86%A0%EC%82%AC%20%EB%AC%B4%EB%84%88%EC%A0%B8%EB%82%B4%EB%A0%A4%E2%80%A6%EC%9E%91%EC%97%85%EC%9E%90%201%EB%AA%85%20%EC%82%AC%EB%A7%9D(%EC%A2%85%ED%95%A9)%0Ahttps%3A%2F%2Fwww.yna.co.kr%2Fview%2FAKR20260527097851004",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 수서역 인근 배수관 정비중 토사 무너져내려…작업자 1명 사망(종합)\nhttps://www.yna.co.kr/view/AKR20260527097851004"
+        }
+      },
+      {
+        "id": "9b295c12-e2f5-407c-b0ec-e363cbf2d434",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "수서역 인근 배수관 정비중 토사 무너져내려…작업자 1명 사망(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20260527097851004"
+        }
+      },
+      {
+        "id": "d1cbecb4-ca88-4445-9c93-b448111b25a2",
+        "kind": "open",
+        "label": "🔗 수서역 인근 배수관 정비중 토사 … 열기",
+        "href": "https://www.yna.co.kr/view/AKR20260527097851004",
+        "payload": {
+          "icon": "external-link",
+          "fallbackHref": "https://www.yna.co.kr/view/AKR20260527097851004",
+          "copyText": "수서역 인근 배수관 정비중 토사 무너져내려…작업자 1명 사망(종합)"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "generic",
+    "created_at": "2026-05-27T03:49:10.649Z",
+    "expires_at": "2026-06-03T06:49:10.649Z"
+  },
+  {
+    "id": "crawl-article-2026052710991-4",
+    "user_id": null,
+    "original_url": "https://www.hankyung.com/article/2026052710991",
+    "title": "코치, 명품 소유 대신 '백꾸' 택한 젠지…커스텀 전략 적중했다",
+    "thumbnail_url": "https://img.hankyung.com/photo/202605/AA.44431747.1.jpg",
+    "domain": "hankyung.com",
+    "category": "uncategorized",
+    "actions": [
+      {
+        "id": "11c7900f-62be-4d73-b634-3c71b1fb2e97",
+        "kind": "copy",
+        "label": "📋 코치, 명품 소유 대신 '… 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "코치, 명품 소유 대신 '백꾸' 택한 젠지…커스텀 전략 적중했다"
+        }
+      },
+      {
+        "id": "f40ecaae-937d-4760-bc05-206594952a52",
+        "kind": "open",
+        "label": "📌 3줄 요약/핵심어",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%20%ED%95%B5%EC%8B%AC%20%ED%82%A4%EC%9B%8C%EB%93%9C%205%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%BD%94%EC%B9%98%2C%20%EB%AA%85%ED%92%88%20%EC%86%8C%EC%9C%A0%20%EB%8C%80%EC%8B%A0%20'%EB%B0%B1%EA%BE%B8'%20%ED%83%9D%ED%95%9C%20%EC%A0%A0%EC%A7%80%E2%80%A6%EC%BB%A4%EC%8A%A4%ED%85%80%20%EC%A0%84%EB%9E%B5%20%EC%A0%81%EC%A4%91%ED%96%88%EB%8B%A4%0Ahttps%3A%2F%2Fwww.hankyung.com%2Farticle%2F2026052710991",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 한국어로 3줄 요약하고 핵심 키워드 5개만 bullet로 정리해줘.\n제목: 코치, 명품 소유 대신 '백꾸' 택한 젠지…커스텀 전략 적중했다\nhttps://www.hankyung.com/article/2026052710991"
+        }
+      },
+      {
+        "id": "2b5024b6-53f2-48e4-a43c-c18cb2f587e8",
+        "kind": "open",
+        "label": "🔊 오디오로 듣기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.hankyung.com%2Farticle%2F2026052710991",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://www.hankyung.com/article/2026052710991"
+        }
+      },
+      {
+        "id": "e165369e-95c2-4cd0-a930-c197c8f5421c",
+        "kind": "open",
+        "label": "🖼 이미지/표 추출",
+        "href": "https://www.google.com/search?q=site:hankyung.com&tbm=isch",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://www.hankyung.com/article/2026052710991",
+          "fallbackHref": "https://www.perplexity.ai/search?q=%EC%BD%94%EC%B9%98%2C%20%EB%AA%85%ED%92%88%20%EC%86%8C%EC%9C%A0%20%EB%8C%80%EC%8B%A0%20'%EB%B0%B1%EA%BE%B8'%20%ED%83%9D%ED%95%9C%20%EC%A0%A0%EC%A7%80%E2%80%A6%EC%BB%A4%EC%8A%A4%ED%85%80%20%EC%A0%84%EB%9E%B5%20%EC%A0%81%EC%A4%91%ED%96%88%EB%8B%A4%20%EB%AC%B8%EC%84%9C%20%EC%86%8D%20%ED%91%9C%EC%99%80%20%EC%B0%A8%ED%8A%B8%EB%A7%8C%20%EB%AA%A9%EB%A1%9D%EC%9C%BC%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98%20https%3A%2F%2Fwww.hankyung.com%2Farticle%2F2026052710991"
+        }
+      },
+      {
+        "id": "e5d4564e-975c-4463-ac59-f638ac49320e",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%BD%94%EC%B9%98%2C%20%EB%AA%85%ED%92%88%20%EC%86%8C%EC%9C%A0%20%EB%8C%80%EC%8B%A0%20'%EB%B0%B1%EA%BE%B8'%20%ED%83%9D%ED%95%9C%20%EC%A0%A0%EC%A7%80%E2%80%A6%EC%BB%A4%EC%8A%A4%ED%85%80%20%EC%A0%84%EB%9E%B5%20%EC%A0%81%EC%A4%91%ED%96%88%EB%8B%A4%0Ahttps%3A%2F%2Fwww.hankyung.com%2Farticle%2F2026052710991",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 코치, 명품 소유 대신 '백꾸' 택한 젠지…커스텀 전략 적중했다\nhttps://www.hankyung.com/article/2026052710991"
+        }
+      },
+      {
+        "id": "22833ddd-021c-4a88-94f9-7de89cdbd667",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "코치, 명품 소유 대신 '백꾸' 택한 젠지…커스텀 전략 적중했다",
+          "url": "https://www.hankyung.com/article/2026052710991"
+        }
+      },
+      {
+        "id": "070fb917-0bc9-4383-82b9-745d42c98646",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://www.hankyung.com/article/2026052710991",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "코치, 명품 소유 대신 '백꾸' 택한 젠지…커스텀 전략 적중했다"
+        }
+      },
+      {
+        "id": "3d173694-94a0-450c-8493-9903e89a01f5",
+        "kind": "open",
+        "label": "🔗 코치, 명품 소유 대신 '백꾸' … 열기",
+        "href": "https://www.hankyung.com/article/2026052710991",
+        "payload": {
+          "icon": "external-link",
+          "fallbackHref": "https://www.hankyung.com/article/2026052710991",
+          "copyText": "코치, 명품 소유 대신 '백꾸' 택한 젠지…커스텀 전략 적중했다"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "generic",
+    "created_at": "2026-05-27T02:49:10.767Z",
+    "expires_at": "2026-06-03T06:49:10.767Z"
+  },
+  {
+    "id": "crawl-item-5",
+    "user_id": null,
+    "original_url": "https://news.ycombinator.com/item?id=48287678",
+    "title": "Sonny Rollins, jazz saxophonist, has died | Hacker News",
+    "thumbnail_url": "https://news.ycombinator.com/y18.svg",
+    "domain": "news.ycombinator.com",
+    "category": "uncategorized",
+    "actions": [
+      {
+        "id": "f3fc6863-4a82-4a32-af39-09b739cf9912",
+        "kind": "copy",
+        "label": "📋 Sonny Rollins,… 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "Sonny Rollins, jazz saxophonist, has died | Hacker News"
+        }
+      },
+      {
+        "id": "1f0eac03-428a-4814-841a-2a8407faab81",
+        "kind": "open",
+        "label": "📌 3줄 요약/핵심어",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%20%ED%95%B5%EC%8B%AC%20%ED%82%A4%EC%9B%8C%EB%93%9C%205%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Sonny%20Rollins%2C%20jazz%20saxophonist%2C%20has%20died%20%7C%20Hacker%20News%0Ahttps%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D48287678",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 한국어로 3줄 요약하고 핵심 키워드 5개만 bullet로 정리해줘.\n제목: Sonny Rollins, jazz saxophonist, has died | Hacker News\nhttps://news.ycombinator.com/item?id=48287678"
+        }
+      },
+      {
+        "id": "fbd911e0-47fd-4961-baf1-8755fc40ddf6",
+        "kind": "open",
+        "label": "🔊 오디오로 듣기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D48287678",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://news.ycombinator.com/item?id=48287678"
+        }
+      },
+      {
+        "id": "bec41165-ac91-4187-aad3-29e671b0d2f6",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Sonny%20Rollins%2C%20jazz%20saxophonist%2C%20has%20died%20%7C%20Hacker%20News%0Ahttps%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D48287678",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: Sonny Rollins, jazz saxophonist, has died | Hacker News\nhttps://news.ycombinator.com/item?id=48287678"
+        }
+      },
+      {
+        "id": "4b3efc51-b036-45b9-8547-392cb29f26fb",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "Sonny Rollins, jazz saxophonist, has died | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48287678"
+        }
+      },
+      {
+        "id": "f545eaaa-1f41-4c10-91a2-a6e25c5465d2",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "bcb4d51e-0b62-486f-87f4-3ecf24b196c1",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://news.ycombinator.com/item?id=48287678",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "Sonny Rollins, jazz saxophonist, has died | Hacker News"
+        }
+      },
+      {
+        "id": "a02637a8-e4f6-4271-af21-d2e5fed03ee0",
+        "kind": "open",
+        "label": "🔗 Sonny Rollins, jaz… 열기",
+        "href": "https://news.ycombinator.com/item?id=48287678",
+        "payload": {
+          "icon": "external-link",
+          "fallbackHref": "https://news.ycombinator.com/item?id=48287678",
+          "copyText": "Sonny Rollins, jazz saxophonist, has died | Hacker News"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "generic",
+    "created_at": "2026-05-27T01:49:10.937Z",
+    "expires_at": "2026-06-03T06:49:10.937Z"
+  },
+  {
+    "id": "crawl-the-forgotten-art-of-the-lan-party-6",
+    "user_id": null,
+    "original_url": "https://www.superjumpmagazine.com/the-forgotten-art-of-the-lan-party/",
+    "title": "The Forgotten Art of the LAN Party",
+    "thumbnail_url": "https://images.unsplash.com/photo-1560253023-3ec5d502959f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE5fHxnYW1pbmd8ZW58MHx8fHwxNzAxODU2MjI1fDA&ixlib=rb-4.0.3&q=80&w=2000",
+    "domain": "superjumpmagazine.com",
+    "category": "uncategorized",
+    "actions": [
+      {
+        "id": "a98768a7-6a90-42b8-baea-8484d67c1c86",
+        "kind": "copy",
+        "label": "📋 The Forgotten … 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "The Forgotten Art of the LAN Party"
+        }
+      },
+      {
+        "id": "f8c161ad-182f-431a-8ca5-9dffa7b980e4",
+        "kind": "open",
+        "label": "📅 예약 가능일 확인",
+        "href": "https://booking.naver.com/booking/3/search?query=The%20Forgotten%20Art%20of%20the%20LAN%20Party",
+        "payload": {
+          "icon": "link",
+          "copyText": "The Forgotten Art of the LAN Party",
+          "fallbackHref": "https://search.naver.com/search.naver?query=The%20Forgotten%20Art%20of%20the%20LAN%20Party%20%EC%98%88%EC%95%BD%20%EA%B0%80%EB%8A%A5%EC%9D%BC"
+        }
+      },
+      {
+        "id": "5d395796-7bec-4b08-9b46-d2ee16cdf5b0",
+        "kind": "open",
+        "label": "💬 견적 문의",
+        "href": "https://search.naver.com/search.naver?query=The%20Forgotten%20Art%20of%20the%20LAN%20Party%20%EA%B2%AC%EC%A0%81%20%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8",
+        "payload": {
+          "icon": "phone",
+          "contextBoost": "phone",
+          "copyText": "The Forgotten Art of the LAN Party 견적"
+        }
+      },
+      {
+        "id": "2576066a-7a09-4827-b69b-0207f0d5e038",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20The%20Forgotten%20Art%20of%20the%20LAN%20Party%0Ahttps%3A%2F%2Fwww.superjumpmagazine.com%2Fthe-forgotten-art-of-the-lan-party%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: The Forgotten Art of the LAN Party\nhttps://www.superjumpmagazine.com/the-forgotten-art-of-the-lan-party/"
+        }
+      },
+      {
+        "id": "9c7c56b7-90d7-478c-b388-ea522fbd1265",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "The Forgotten Art of the LAN Party",
+          "url": "https://www.superjumpmagazine.com/the-forgotten-art-of-the-lan-party/"
+        }
+      },
+      {
+        "id": "74f3aa44-9c55-4e6f-a9db-b3377738e8a1",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "b0ca3bb6-3e3d-4efa-87d5-8c3152ec5d8f",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://www.superjumpmagazine.com/the-forgotten-art-of-the-lan-party/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "The Forgotten Art of the LAN Party"
+        }
+      },
+      {
+        "id": "eddb5d03-d0df-4d0c-83f2-b884a986b446",
+        "kind": "open",
+        "label": "🔗 The Forgotten Art … 열기",
+        "href": "https://www.superjumpmagazine.com/the-forgotten-art-of-the-lan-party/",
+        "payload": {
+          "icon": "external-link",
+          "fallbackHref": "https://www.superjumpmagazine.com/the-forgotten-art-of-the-lan-party/",
+          "copyText": "The Forgotten Art of the LAN Party"
+        }
+      }
+    ],
+    "visual_mode": "poster",
+    "source_type": "generic",
+    "created_at": "2026-05-27T00:49:11.018Z",
+    "expires_at": "2026-06-03T06:49:11.018Z"
+  },
+  {
+    "id": "crawl-article-202605271608i-7",
+    "user_id": null,
+    "original_url": "https://www.hankyung.com/article/202605271608i",
+    "title": "축구공 하루 5000개씩 판다\"…6200억 월드컵 '돈방석' 앉은 곳 [차이나 워치]",
+    "thumbnail_url": "https://img.hankyung.com/photo/202605/01.44433727.1.jpg",
+    "domain": "hankyung.com",
+    "category": "uncategorized",
+    "actions": [
+      {
+        "id": "a4b7a924-b3f5-43cd-bcee-f9cbb9006999",
+        "kind": "copy",
+        "label": "📋 축구공 하루 5000개씩 … 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "축구공 하루 5000개씩 판다\"…6200억 월드컵 '돈방석' 앉은 곳 [차이나 워치]"
+        }
+      },
+      {
+        "id": "cd99973d-937d-4df1-9a5b-f9ef79852fc8",
+        "kind": "open",
+        "label": "📌 3줄 요약/핵심어",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%20%ED%95%B5%EC%8B%AC%20%ED%82%A4%EC%9B%8C%EB%93%9C%205%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%B6%95%EA%B5%AC%EA%B3%B5%20%ED%95%98%EB%A3%A8%205000%EA%B0%9C%EC%94%A9%20%ED%8C%90%EB%8B%A4%22%E2%80%A66200%EC%96%B5%20%EC%9B%94%EB%93%9C%EC%BB%B5%20'%EB%8F%88%EB%B0%A9%EC%84%9D'%20%EC%95%89%EC%9D%80%20%EA%B3%B3%20%5B%EC%B0%A8%EC%9D%B4%EB%82%98%20%EC%9B%8C%EC%B9%98%5D%0Ahttps%3A%2F%2Fwww.hankyung.com%2Farticle%2F202605271608i",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 한국어로 3줄 요약하고 핵심 키워드 5개만 bullet로 정리해줘.\n제목: 축구공 하루 5000개씩 판다\"…6200억 월드컵 '돈방석' 앉은 곳 [차이나 워치]\nhttps://www.hankyung.com/article/202605271608i"
+        }
+      },
+      {
+        "id": "6bc550b0-c121-4451-84f3-fb66f19a5c7a",
+        "kind": "open",
+        "label": "🔊 오디오로 듣기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.hankyung.com%2Farticle%2F202605271608i",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://www.hankyung.com/article/202605271608i"
+        }
+      },
+      {
+        "id": "5a5c9a78-bf96-45f4-bfd2-f01922f7a569",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%B6%95%EA%B5%AC%EA%B3%B5%20%ED%95%98%EB%A3%A8%205000%EA%B0%9C%EC%94%A9%20%ED%8C%90%EB%8B%A4%22%E2%80%A66200%EC%96%B5%20%EC%9B%94%EB%93%9C%EC%BB%B5%20'%EB%8F%88%EB%B0%A9%EC%84%9D'%20%EC%95%89%EC%9D%80%20%EA%B3%B3%20%5B%EC%B0%A8%EC%9D%B4%EB%82%98%20%EC%9B%8C%EC%B9%98%5D%0Ahttps%3A%2F%2Fwww.hankyung.com%2Farticle%2F202605271608i",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 축구공 하루 5000개씩 판다\"…6200억 월드컵 '돈방석' 앉은 곳 [차이나 워치]\nhttps://www.hankyung.com/article/202605271608i"
+        }
+      },
+      {
+        "id": "5ec7ee63-2cdd-4b23-b979-5f8bb21da553",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "축구공 하루 5000개씩 판다\"…6200억 월드컵 '돈방석' 앉은 곳 [차이나 워치]",
+          "url": "https://www.hankyung.com/article/202605271608i"
+        }
+      },
+      {
+        "id": "11d9d9ca-24c8-40a0-9a45-de7428623873",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "3b16730a-076d-4bd7-8111-17882f868033",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://www.hankyung.com/article/202605271608i",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "축구공 하루 5000개씩 판다\"…6200억 월드컵 '돈방석' 앉은 곳 [차이나 워치]"
+        }
+      },
+      {
+        "id": "2711b791-5a92-41b8-920e-d15ca0d0b02b",
+        "kind": "open",
+        "label": "🔗 축구공 하루 5000개씩 판다\"…… 열기",
+        "href": "https://www.hankyung.com/article/202605271608i",
+        "payload": {
+          "icon": "external-link",
+          "fallbackHref": "https://www.hankyung.com/article/202605271608i",
+          "copyText": "축구공 하루 5000개씩 판다\"…6200억 월드컵 '돈방석' 앉은 곳 [차이나 워치]"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "generic",
+    "created_at": "2026-05-26T23:49:11.056Z",
+    "expires_at": "2026-06-03T06:49:11.056Z"
+  },
+  {
+    "id": "crawl-explore-8",
+    "user_id": null,
+    "original_url": "https://github.com/explore",
+    "title": "Explore GitHub",
+    "thumbnail_url": "https://github.githubassets.com/assets/social-2deb6d7d43e7.jpg",
+    "domain": "github.com",
+    "category": "research",
+    "actions": [
+      {
+        "id": "6d11d748-42e7-411f-80f7-894465bd2414",
+        "kind": "open",
+        "label": "📂 저장소 열기",
+        "href": "https://github.com/explore",
+        "payload": {
+          "icon": "github",
+          "copyText": "Explore GitHub"
+        }
+      },
+      {
+        "id": "b5e277d8-73b1-43f3-adc0-65167b90609a",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Explore%20GitHub%0Ahttps%3A%2F%2Fgithub.com%2Fexplore",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: Explore GitHub\nhttps://github.com/explore"
+        }
+      },
+      {
+        "id": "96e108b6-5c89-4d46-9347-38b3ca3dd9b3",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "Explore GitHub",
+          "url": "https://github.com/explore"
+        }
+      },
+      {
+        "id": "038d2996-fefb-421b-b9b0-12907be1032d",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "5ad09a0a-a6f1-4c62-be2a-44eb6c9226e4",
+        "kind": "remind",
+        "label": "⏰ 나중에 다시",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.remind_later",
+          "delayMinutes": 120
+        }
+      },
+      {
+        "id": "8faedb19-d54d-44a3-8782-45d5b2859ce7",
+        "kind": "open",
+        "label": "🤖 AI에게 물어보기",
+        "href": "https://www.perplexity.ai/search?q=%EC%9D%B4%20%EB%A7%81%ED%81%AC%20%EA%B8%B0%EC%A4%80%EC%9C%BC%EB%A1%9C%20%EC%A7%88%EB%AC%B8%EC%97%90%20%EB%8B%B5%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Explore%20GitHub%0Ahttps%3A%2F%2Fgithub.com%2Fexplore",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "이 링크 기준으로 질문에 답해줘.\n제목: Explore GitHub\nhttps://github.com/explore"
+        }
+      },
+      {
+        "id": "a761dd66-084e-45bd-ac35-1b6bf60aa9c3",
+        "kind": "open",
+        "label": "🌐 번역해서 읽기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fgithub.com%2Fexplore",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://github.com/explore"
+        }
+      },
+      {
+        "id": "e2960666-2e15-4add-8ed8-48239f3df480",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://github.com/explore",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "Explore GitHub"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "github",
+    "created_at": "2026-05-26T22:49:12.315Z",
+    "expires_at": "2026-06-03T06:49:12.315Z"
+  },
+  {
+    "id": "crawl-github-code-search-understanding-github-code-sea-9",
+    "user_id": null,
+    "original_url": "https://docs-internal.github.com/ko/search-github/github-code-search/understanding-github-code-search-syntax",
+    "title": "GitHub Code Search 구문 이해 - GitHub 문서",
+    "thumbnail_url": "https://docs.github.com/assets/cb-345/images/social-cards/search-github.png",
+    "domain": "docs.github.com",
+    "category": "research",
+    "actions": [
+      {
+        "id": "4e5afbc3-1e38-4b9f-9274-ed767f9da4e1",
+        "kind": "open",
+        "label": "🐙 GitHub 열기",
+        "href": "https://docs-internal.github.com/ko/search-github/github-code-search/understanding-github-code-search-syntax",
+        "payload": {
+          "icon": "link",
+          "copyText": "GitHub Code Search 구문 이해 - GitHub 문서",
+          "fallbackHref": "https://docs-internal.github.com/ko/search-github/github-code-search/understanding-github-code-search-syntax"
+        }
+      },
+      {
+        "id": "99af8ea8-f743-41ef-aafc-2d0720925502",
+        "kind": "open",
+        "label": "📞 고객센터 연결",
+        "href": "https://search.naver.com/search.naver?query=docs-internal%20%EA%B3%A0%EA%B0%9D%EC%84%BC%ED%84%B0%20%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8",
+        "payload": {
+          "icon": "phone",
+          "contextBoost": "phone",
+          "copyText": "docs-internal 고객센터"
+        }
+      },
+      {
+        "id": "7ffd0e8f-398e-4b52-864f-dae85b0e7915",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20GitHub%20Code%20Search%20%EA%B5%AC%EB%AC%B8%20%EC%9D%B4%ED%95%B4%20-%20GitHub%20%EB%AC%B8%EC%84%9C%0Ahttps%3A%2F%2Fdocs-internal.github.com%2Fko%2Fsearch-github%2Fgithub-code-search%2Funderstanding-github-code-search-syntax",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: GitHub Code Search 구문 이해 - GitHub 문서\nhttps://docs-internal.github.com/ko/search-github/github-code-search/understanding-github-code-search-syntax"
+        }
+      },
+      {
+        "id": "bc565c85-0e2a-4d3b-945d-6aedbebd4514",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "GitHub Code Search 구문 이해 - GitHub 문서",
+          "url": "https://docs-internal.github.com/ko/search-github/github-code-search/understanding-github-code-search-syntax"
+        }
+      },
+      {
+        "id": "844347bb-0713-46ab-8865-02c4c483acdf",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "b48a90f5-2791-475a-b5e3-fcc879d7e496",
+        "kind": "remind",
+        "label": "⏰ 나중에 다시",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.remind_later",
+          "delayMinutes": 120
+        }
+      },
+      {
+        "id": "c172896c-3413-4c4c-b588-b3a0e42e3e5d",
+        "kind": "open",
+        "label": "🤖 AI에게 물어보기",
+        "href": "https://www.perplexity.ai/search?q=%EC%9D%B4%20%EB%A7%81%ED%81%AC%20%EA%B8%B0%EC%A4%80%EC%9C%BC%EB%A1%9C%20%EC%A7%88%EB%AC%B8%EC%97%90%20%EB%8B%B5%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20GitHub%20Code%20Search%20%EA%B5%AC%EB%AC%B8%20%EC%9D%B4%ED%95%B4%20-%20GitHub%20%EB%AC%B8%EC%84%9C%0Ahttps%3A%2F%2Fdocs-internal.github.com%2Fko%2Fsearch-github%2Fgithub-code-search%2Funderstanding-github-code-search-syntax",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "이 링크 기준으로 질문에 답해줘.\n제목: GitHub Code Search 구문 이해 - GitHub 문서\nhttps://docs-internal.github.com/ko/search-github/github-code-search/understanding-github-code-search-syntax"
+        }
+      },
+      {
+        "id": "6f768a6e-c313-4f89-b4a1-7d584123ca01",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://docs-internal.github.com/ko/search-github/github-code-search/understanding-github-code-search-syntax",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "GitHub Code Search 구문 이해 - GitHub 문서"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "generic",
+    "created_at": "2026-05-26T21:49:15.272Z",
+    "expires_at": "2026-06-03T06:49:15.272Z"
+  },
+  {
+    "id": "crawl-000660-total-10",
+    "user_id": null,
+    "original_url": "https://m.stock.naver.com/",
+    "title": "Npay 증권",
+    "thumbnail_url": "https://ssl.pstatic.net/static/m/stock/im/2016/08/og_stock-200.png",
+    "domain": "m.stock.naver.com",
+    "category": "uncategorized",
+    "actions": [
+      {
+        "id": "ed0e3ff6-f2dd-4a6d-ba09-42d0a8917e04",
+        "kind": "copy",
+        "label": "📋 Npay 증권 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "Npay 증권"
+        }
+      },
+      {
+        "id": "f0a336b6-440e-44f7-883d-34e627b71325",
+        "kind": "custom",
+        "label": "🔔 가격 알림 설정",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.price_alert",
+          "title": "Npay 증권",
+          "url": "https://m.stock.naver.com/"
+        }
+      },
+      {
+        "id": "c1b46aa8-ab27-4e3e-b8f8-a70c19b08e10",
+        "kind": "open",
+        "label": "📈 종목 뉴스 감정 분석",
+        "href": "https://chatgpt.com/?hints=search&q=Npay%20%EC%A6%9D%EA%B6%8C%20%EA%B4%80%EB%A0%A8%20%EC%B5%9C%EA%B7%BC%20%EB%89%B4%EC%8A%A4%20%ED%97%A4%EB%93%9C%EB%9D%BC%EC%9D%B8%20%EA%B0%90%EC%A0%95%EC%9D%84%20%EA%B8%8D%EC%A0%95%2F%EC%A4%91%EB%A6%BD%2F%EB%B6%80%EC%A0%95%EC%9C%BC%EB%A1%9C%20%EB%82%98%EB%88%84%EA%B3%A0%2C%20%ED%88%AC%EC%9E%90%EC%9E%90%20%EA%B4%80%EC%A0%90%20%ED%95%B5%EC%8B%AC%203%EC%A4%84%EB%A7%8C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%20%EB%A7%81%ED%81%AC%3A%20https%3A%2F%2Fm.stock.naver.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "Npay 증권"
+        }
+      },
+      {
+        "id": "ebe89d8b-43ae-43ff-b343-8062ceb4849e",
+        "kind": "open",
+        "label": "📊 차트 요약",
+        "href": "https://chatgpt.com/?hints=search&q=Npay%20%EC%A6%9D%EA%B6%8C%20%EC%A2%85%EB%AA%A9%2F%EC%9E%90%EC%82%B0%EC%9D%98%20%EC%B5%9C%EA%B7%BC%20%EC%B0%A8%ED%8A%B8%20%ED%9D%90%EB%A6%84%EC%9D%84%203%EC%A4%84%EB%A1%9C%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EC%A7%80%EC%A7%80%C2%B7%EC%A0%80%ED%95%AD%20%ED%8F%AC%EC%9D%B8%ED%8A%B8%202%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%20%EB%A7%81%ED%81%AC%3A%20https%3A%2F%2Fm.stock.naver.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "Npay 증권",
+          "fallbackHref": "https://www.google.com/finance/quote/Npay%20%EC%A6%9D%EA%B6%8C"
+        }
+      },
+      {
+        "id": "ed2d45b5-46e6-4f94-9062-2200a28c8053",
+        "kind": "open",
+        "label": "💹 금융 뉴스",
+        "href": "https://search.naver.com/search.naver?where=news&query=Npay%20%EC%A6%9D%EA%B6%8C%20%EC%A3%BC%EC%8B%9D",
+        "payload": {
+          "icon": "link",
+          "copyText": "Npay 증권"
+        }
+      },
+      {
+        "id": "1f36e46e-c9c2-4c0e-ac7e-142a889efeac",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Npay%20%EC%A6%9D%EA%B6%8C%0Ahttps%3A%2F%2Fm.stock.naver.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: Npay 증권\nhttps://m.stock.naver.com/"
+        }
+      },
+      {
+        "id": "e0a32296-23d0-4119-9bab-353c5d96d609",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "Npay 증권",
+          "url": "https://m.stock.naver.com/"
+        }
+      },
+      {
+        "id": "bbc3e919-49ac-44e0-be64-8356cc56d013",
+        "kind": "open",
+        "label": "🔗 Npay 증권 열기",
+        "href": "https://m.stock.naver.com/",
+        "payload": {
+          "icon": "external-link",
+          "fallbackHref": "https://m.stock.naver.com/",
+          "copyText": "Npay 증권"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "generic",
+    "created_at": "2026-05-26T20:49:15.539Z",
+    "expires_at": "2026-06-03T06:49:15.539Z"
+  },
+  {
+    "id": "crawl-016-0002648767-11",
+    "user_id": null,
+    "original_url": "https://n.news.naver.com/mnews/ranking/article/016/0002648767",
+    "title": "[속보] 수서역 아파트서 하수관 정비 중 60대 남성 매몰돼 심정지",
+    "thumbnail_url": "https://imgnews.pstatic.net/image/016/2026/05/27/0002648767_001_20260527143908060.png?type=w800",
+    "domain": "n.news.naver.com",
+    "category": "social",
+    "actions": [
+      {
+        "id": "dca8aad1-c133-4bd0-ac2b-392b317815f4",
+        "kind": "open",
+        "label": "📰 뉴스 열기",
+        "href": "https://n.news.naver.com/mnews/ranking/article/016/0002648767",
+        "payload": {
+          "icon": "link",
+          "copyText": "[속보] 수서역 아파트서 하수관 정비 중 60대 남성 매몰돼 심정지"
+        }
+      },
+      {
+        "id": "52135ff1-7872-4166-b2fa-123482074d81",
+        "kind": "open",
+        "label": "📌 3줄 요약/핵심어",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%20%ED%95%B5%EC%8B%AC%20%ED%82%A4%EC%9B%8C%EB%93%9C%205%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%5B%EC%86%8D%EB%B3%B4%5D%20%EC%88%98%EC%84%9C%EC%97%AD%20%EC%95%84%ED%8C%8C%ED%8A%B8%EC%84%9C%20%ED%95%98%EC%88%98%EA%B4%80%20%EC%A0%95%EB%B9%84%20%EC%A4%91%2060%EB%8C%80%20%EB%82%A8%EC%84%B1%20%EB%A7%A4%EB%AA%B0%EB%8F%BC%20%EC%8B%AC%EC%A0%95%EC%A7%80%0Ahttps%3A%2F%2Fn.news.naver.com%2Fmnews%2Franking%2Farticle%2F016%2F0002648767",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 한국어로 3줄 요약하고 핵심 키워드 5개만 bullet로 정리해줘.\n제목: [속보] 수서역 아파트서 하수관 정비 중 60대 남성 매몰돼 심정지\nhttps://n.news.naver.com/mnews/ranking/article/016/0002648767"
+        }
+      },
+      {
+        "id": "453c7254-b0bb-4cb3-9963-2780a6caf1fc",
+        "kind": "open",
+        "label": "🔊 오디오로 듣기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fn.news.naver.com%2Fmnews%2Franking%2Farticle%2F016%2F0002648767",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://n.news.naver.com/mnews/ranking/article/016/0002648767"
+        }
+      },
+      {
+        "id": "3851c297-7351-43c0-b70c-42170cf6b955",
+        "kind": "open",
+        "label": "🚨 보험사 긴급출동",
+        "href": "https://search.naver.com/search.naver?query=%EC%9E%90%EB%8F%99%EC%B0%A8%20%EB%B3%B4%ED%97%98%20%EA%B8%B4%EA%B8%89%EC%B6%9C%EB%8F%99%20%EC%A0%84%ED%99%94",
+        "payload": {
+          "icon": "phone",
+          "copyText": "자동차 보험 긴급출동",
+          "fallbackHref": "https://search.naver.com/search.naver?query=%5B%EC%86%8D%EB%B3%B4%5D%20%EC%88%98%EC%84%9C%EC%97%AD%20%EC%95%84%ED%8C%8C%ED%8A%B8%EC%84%9C%20%ED%95%98%EC%88%98%EA%B4%80%20%EC%A0%95%EB%B9%84%20%EC%A4%91%2060%EB%8C%80%20%EB%82%A8%EC%84%B1%20%EB%A7%A4%EB%AA%B0%EB%8F%BC%20%EC%8B%AC%EC%A0%95%EC%A7%80%20%EB%B3%B4%ED%97%98%EC%82%AC%20%EA%B8%B4%EA%B8%89%EC%B6%9C%EB%8F%99"
+        }
+      },
+      {
+        "id": "99477b79-006e-434a-87c0-c767a6aed9ae",
+        "kind": "open",
+        "label": "🔧 가까운 정비소 연결",
+        "href": "https://map.naver.com/p/search/%5B%EC%86%8D%EB%B3%B4%5D%20%EC%88%98%EC%84%9C%EC%97%AD%20%EC%95%84%ED%8C%8C%ED%8A%B8%EC%84%9C%20%ED%95%98%EC%88%98%EA%B4%80%20%EC%A0%95%EB%B9%84%20%EC%A4%91%2060%EB%8C%80%20%EB%82%A8%EC%84%B1%20%EB%A7%A4%EB%AA%B0%EB%8F%BC%20%EC%8B%AC%EC%A0%95%EC%A7%80%20%EC%A0%95%EB%B9%84%EC%86%8C",
+        "payload": {
+          "icon": "map",
+          "copyText": "[속보] 수서역 아파트서 하수관 정비 중 60대 남성 매몰돼 심정지 정비소",
+          "fallbackHref": "http://m.map.kakao.com/scheme/search?q=%5B%EC%86%8D%EB%B3%B4%5D%20%EC%88%98%EC%84%9C%EC%97%AD%20%EC%95%84%ED%8C%8C%ED%8A%B8%EC%84%9C%20%ED%95%98%EC%88%98%EA%B4%80%20%EC%A0%95%EB%B9%84%20%EC%A4%91%2060%EB%8C%80%20%EB%82%A8%EC%84%B1%20%EB%A7%A4%EB%AA%B0%EB%8F%BC%20%EC%8B%AC%EC%A0%95%EC%A7%80%20%EC%A0%95%EB%B9%84%EC%86%8C"
+        }
+      },
+      {
+        "id": "575e03af-8c67-4b50-9f48-e8de76ce2953",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%5B%EC%86%8D%EB%B3%B4%5D%20%EC%88%98%EC%84%9C%EC%97%AD%20%EC%95%84%ED%8C%8C%ED%8A%B8%EC%84%9C%20%ED%95%98%EC%88%98%EA%B4%80%20%EC%A0%95%EB%B9%84%20%EC%A4%91%2060%EB%8C%80%20%EB%82%A8%EC%84%B1%20%EB%A7%A4%EB%AA%B0%EB%8F%BC%20%EC%8B%AC%EC%A0%95%EC%A7%80%0Ahttps%3A%2F%2Fn.news.naver.com%2Fmnews%2Franking%2Farticle%2F016%2F0002648767",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: [속보] 수서역 아파트서 하수관 정비 중 60대 남성 매몰돼 심정지\nhttps://n.news.naver.com/mnews/ranking/article/016/0002648767"
+        }
+      },
+      {
+        "id": "3bc0d8c2-3a5b-41c5-8f4c-12f08f6b955c",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "[속보] 수서역 아파트서 하수관 정비 중 60대 남성 매몰돼 심정지",
+          "url": "https://n.news.naver.com/mnews/ranking/article/016/0002648767"
+        }
+      },
+      {
+        "id": "f8480fb6-1725-4f59-b263-de6502bb4768",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://n.news.naver.com/mnews/ranking/article/016/0002648767",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "[속보] 수서역 아파트서 하수관 정비 중 60대 남성 매몰돼 심정지"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "naver",
+    "created_at": "2026-05-26T19:49:15.658Z",
+    "expires_at": "2026-06-03T06:49:15.658Z"
+  },
+  {
+    "id": "crawl-factcheck-main-12",
+    "user_id": null,
+    "original_url": "https://m.news.naver.com/factcheck/main",
+    "title": "factcheck",
+    "thumbnail_url": "https://mimgnews.pstatic.net/image/news/ogtag/navernews_800x420_20221201.png",
+    "domain": "m.news.naver.com",
+    "category": "social",
+    "actions": [
+      {
+        "id": "5bb5fea4-7378-4948-81a2-82599e396d86",
+        "kind": "copy",
+        "label": "📋 factcheck 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "factcheck"
+        }
+      },
+      {
+        "id": "2638fe4a-8504-4fdf-85b0-211b72985493",
+        "kind": "open",
+        "label": "📌 3줄 요약/핵심어",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%20%ED%95%B5%EC%8B%AC%20%ED%82%A4%EC%9B%8C%EB%93%9C%205%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20factcheck%0Ahttps%3A%2F%2Fm.news.naver.com%2Ffactcheck%2Fmain",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 한국어로 3줄 요약하고 핵심 키워드 5개만 bullet로 정리해줘.\n제목: factcheck\nhttps://m.news.naver.com/factcheck/main"
+        }
+      },
+      {
+        "id": "1cb4b97b-ea0f-4694-beef-501cfb9d9d24",
+        "kind": "open",
+        "label": "🔊 오디오로 듣기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fm.news.naver.com%2Ffactcheck%2Fmain",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://m.news.naver.com/factcheck/main"
+        }
+      },
+      {
+        "id": "30eac6ec-c861-4153-b30e-4f00719ffd22",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20factcheck%0Ahttps%3A%2F%2Fm.news.naver.com%2Ffactcheck%2Fmain",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: factcheck\nhttps://m.news.naver.com/factcheck/main"
+        }
+      },
+      {
+        "id": "67fc4ad0-edee-4dd2-994d-1fef4fc975d9",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "factcheck",
+          "url": "https://m.news.naver.com/factcheck/main"
+        }
+      },
+      {
+        "id": "84ab0113-0272-4859-b526-c4780a651cab",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "7f3c25f7-197b-4ace-9d90-ec2533051a30",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://m.news.naver.com/factcheck/main",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "factcheck"
+        }
+      },
+      {
+        "id": "ad6c5c4b-26dd-4564-a427-7b7f30d0a09c",
+        "kind": "open",
+        "label": "🔗 factcheck 열기",
+        "href": "https://m.news.naver.com/factcheck/main",
+        "payload": {
+          "icon": "external-link",
+          "fallbackHref": "https://m.news.naver.com/factcheck/main",
+          "copyText": "factcheck"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "generic",
+    "created_at": "2026-05-26T18:49:15.802Z",
+    "expires_at": "2026-06-03T06:49:15.802Z"
+  },
+  {
+    "id": "fun-google-portal",
+    "user_id": null,
+    "original_url": "https://www.google.com/",
+    "title": "구글 · 검색 · 번역 · 드라이브",
+    "thumbnail_url": null,
+    "domain": "google.com",
+    "category": "research",
+    "actions": [
+      {
+        "id": "b6303600-c1a1-4b3e-8863-045c4eff1571",
+        "kind": "open",
+        "label": "🌏 번역하기",
+        "href": "https://translate.google.com/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "구글",
+          "fallbackHref": "https://translate.google.com/"
+        }
+      },
+      {
+        "id": "a16ca34f-cf86-44f3-9642-bfeb6d33f9bf",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EA%B5%AC%EA%B8%80%0Ahttps%3A%2F%2Fwww.google.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 구글\nhttps://www.google.com/"
+        }
+      },
+      {
+        "id": "b2a3248f-0eba-4963-b210-249690a93d31",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "구글",
+          "url": "https://www.google.com/"
+        }
+      },
+      {
+        "id": "38a2ab92-3485-4c8f-af0f-68d689cd4bac",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "b6b09fe8-cb07-4a47-8f5b-8fde8e4597bf",
+        "kind": "remind",
+        "label": "⏰ 나중에 다시",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.remind_later",
+          "delayMinutes": 120
+        }
+      },
+      {
+        "id": "f9e6591d-1ecc-4562-80cb-f07fbe0cd083",
+        "kind": "open",
+        "label": "📁 드라이브",
+        "href": "https://drive.google.com/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "구글",
+          "fallbackHref": "https://drive.google.com/"
+        }
+      },
+      {
+        "id": "ce128c94-5d24-416c-951e-183552dd4f88",
+        "kind": "open",
+        "label": "📅 캘린더",
+        "href": "https://calendar.google.com/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "구글",
+          "fallbackHref": "https://calendar.google.com/"
+        }
+      },
+      {
+        "id": "2323f26b-b97f-46e3-910a-a544305e96e3",
+        "kind": "open",
+        "label": "🔍 구글 검색",
+        "href": "https://www.google.com/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "구글",
+          "fallbackHref": "https://www.google.com/"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "portal",
+    "created_at": "2026-05-27T06:48:50.450Z",
+    "expires_at": "2026-06-03T06:48:50.455Z"
+  },
+  {
+    "id": "fun-naver-portal",
+    "user_id": null,
+    "original_url": "https://www.naver.com/",
+    "title": "네이버 · 뉴스 · 메일 · 지도 · 쇼핑",
+    "thumbnail_url": null,
+    "domain": "naver.com",
+    "category": "social",
+    "actions": [
+      {
+        "id": "1975c75c-90fe-4747-982e-8f49854b66db",
+        "kind": "open",
+        "label": "🗺️ 지도",
+        "href": "https://map.naver.com/",
+        "payload": {
+          "icon": "kakaomap",
+          "copyText": "네이버",
+          "fallbackHref": "https://map.naver.com/"
+        }
+      },
+      {
+        "id": "6d1c45fa-f56d-4413-9f1e-c862a22e866c",
+        "kind": "open",
+        "label": "📌 3줄 요약/핵심어",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%20%ED%95%B5%EC%8B%AC%20%ED%82%A4%EC%9B%8C%EB%93%9C%205%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EB%84%A4%EC%9D%B4%EB%B2%84%0Ahttps%3A%2F%2Fwww.naver.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 한국어로 3줄 요약하고 핵심 키워드 5개만 bullet로 정리해줘.\n제목: 네이버\nhttps://www.naver.com/"
+        }
+      },
+      {
+        "id": "aacd8e52-84f1-41c1-8817-8257fc6274ab",
+        "kind": "open",
+        "label": "🔊 오디오로 듣기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.naver.com%2F",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://www.naver.com/"
+        }
+      },
+      {
+        "id": "97f194fa-1cc6-4de0-a5e9-670361171116",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EB%84%A4%EC%9D%B4%EB%B2%84%0Ahttps%3A%2F%2Fwww.naver.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 네이버\nhttps://www.naver.com/"
+        }
+      },
+      {
+        "id": "287e85ed-2775-4714-8c92-ec63b69933b9",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "네이버",
+          "url": "https://www.naver.com/"
+        }
+      },
+      {
+        "id": "20ac1562-d5b6-45a8-bf5d-048fa91cd5f4",
+        "kind": "open",
+        "label": "📰 뉴스",
+        "href": "https://news.naver.com/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "네이버",
+          "fallbackHref": "https://news.naver.com/"
+        }
+      },
+      {
+        "id": "7558d03b-8052-4700-a4ff-29d8d903b909",
+        "kind": "open",
+        "label": "✉️ 메일",
+        "href": "https://mail.naver.com/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "네이버",
+          "fallbackHref": "https://mail.naver.com/"
+        }
+      },
+      {
+        "id": "390c1847-85a0-4583-b9f3-e25e78633a91",
+        "kind": "open",
+        "label": "🛒 쇼핑",
+        "href": "https://shopping.naver.com/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "네이버",
+          "fallbackHref": "https://shopping.naver.com/"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "portal",
+    "created_at": "2026-05-27T05:48:50.458Z",
+    "expires_at": "2026-06-03T06:48:50.458Z"
+  },
+  {
+    "id": "fun-youtube-portal",
+    "user_id": null,
+    "original_url": "https://www.youtube.com/",
+    "title": "YouTube · 홈 · 구독 · Shorts",
+    "thumbnail_url": null,
+    "domain": "youtube.com",
+    "category": "media",
+    "actions": [
+      {
+        "id": "400e175d-2104-4064-a37c-a6b18696717f",
+        "kind": "open",
+        "label": "🏠 YouTube 홈",
+        "href": "https://www.youtube.com/",
+        "payload": {
+          "icon": "youtube",
+          "copyText": "YouTube",
+          "fallbackHref": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "c23d5034-6ba1-477e-abc6-61301d5a5dcc",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20YouTube%0Ahttps%3A%2F%2Fwww.youtube.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: YouTube\nhttps://www.youtube.com/"
+        }
+      },
+      {
+        "id": "94668d20-e427-4ed3-ac3e-503e0863c80d",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "YouTube",
+          "url": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "5090e7d0-295d-4a7b-a95a-6794aef330f6",
+        "kind": "open",
+        "label": "📺 구독",
+        "href": "https://www.youtube.com/feed/subscriptions",
+        "payload": {
+          "icon": "youtube",
+          "copyText": "YouTube",
+          "fallbackHref": "https://www.youtube.com/feed/subscriptions"
+        }
+      },
+      {
+        "id": "4d46c935-4fb2-4eb0-8f7b-087bbee7fde0",
+        "kind": "open",
+        "label": "📱 Shorts",
+        "href": "https://www.youtube.com/shorts",
+        "payload": {
+          "icon": "youtube",
+          "copyText": "YouTube",
+          "fallbackHref": "https://www.youtube.com/shorts"
+        }
+      },
+      {
+        "id": "69cb8f0b-7179-451f-a245-bef1b27991e4",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "6ae55d74-b784-42ff-ac61-043de43d02cf",
+        "kind": "remind",
+        "label": "⏰ 나중에 다시",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.remind_later",
+          "delayMinutes": 120
+        }
+      },
+      {
+        "id": "f942827a-dca0-4eaa-9b50-4e2b58d5ab12",
+        "kind": "open",
+        "label": "✨ 3줄 요약",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%20%EB%82%B4%EC%9A%A9%EC%9D%84%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20YouTube%0Ahttps%3A%2F%2Fwww.youtube.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크 내용을 한국어로 3줄 요약해줘.\n제목: YouTube\nhttps://www.youtube.com/"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "portal",
+    "created_at": "2026-05-27T04:48:50.460Z",
+    "expires_at": "2026-06-03T06:48:50.460Z"
+  },
+  {
+    "id": "fun-coupang-portal",
+    "user_id": null,
+    "original_url": "https://www.coupang.com/",
+    "title": "쿠팡 · 마켓 · 로켓 · 이츠",
+    "thumbnail_url": null,
+    "domain": "coupang.com",
+    "category": "shopping",
+    "actions": [
+      {
+        "id": "8e973fe6-7cc1-4f0b-b233-0eaa4617eaf9",
+        "kind": "open",
+        "label": "🚀 로켓배송",
+        "href": "https://www.coupang.com/np/campaigns/82",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "쿠팡",
+          "fallbackHref": "https://www.coupang.com/np/campaigns/82"
+        }
+      },
+      {
+        "id": "7e4cc97d-890e-4424-944d-b09dbc8293e0",
+        "kind": "custom",
+        "label": "🧮 N빵 계산",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.split_bill"
+        }
+      },
+      {
+        "id": "b377a305-106c-4a94-9d73-fa21b9c6b662",
+        "kind": "open",
+        "label": "🔔 최저가 추적",
+        "href": "https://search.shopping.naver.com/search/all?query=%EC%BF%A0%ED%8C%A1%20%EA%B0%80%EA%B2%A9%20%EC%95%8C%EB%A6%BC",
+        "payload": {
+          "icon": "bell",
+          "copyText": "쿠팡"
+        }
+      },
+      {
+        "id": "e55cfdce-35ba-4c92-9bc2-da30b62b0971",
+        "kind": "open",
+        "label": "⭐ 진짜 리뷰 필터",
+        "href": "https://search.naver.com/search.naver?where=blog&query=%EC%BF%A0%ED%8C%A1%20%EB%82%B4%EB%8F%88%EB%82%B4%EC%82%B0%20%EC%86%94%EC%A7%81%ED%9B%84%EA%B8%B0%20-%EA%B4%91%EA%B3%A0",
+        "payload": {
+          "icon": "link",
+          "copyText": "쿠팡",
+          "fallbackHref": "https://www.perplexity.ai/search?q=%EC%BF%A0%ED%8C%A1%20%EC%8B%A4%EC%A0%9C%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%ED%9B%84%EA%B8%B0%EB%A7%8C%20%EA%B3%A8%EB%9D%BC%EC%84%9C%20%EC%9E%A5%EB%8B%A8%EC%A0%90%203%EA%B0%9C%EC%94%A9%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98"
+        }
+      },
+      {
+        "id": "cc27d957-a7af-4938-b5f8-fd11f1c4283b",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%BF%A0%ED%8C%A1%0Ahttps%3A%2F%2Fwww.coupang.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 쿠팡\nhttps://www.coupang.com/"
+        }
+      },
+      {
+        "id": "0ca54890-e61c-4058-90b8-84fb6ed50c60",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "쿠팡",
+          "url": "https://www.coupang.com/"
+        }
+      },
+      {
+        "id": "465e19fe-efc9-4e19-bcfc-7b4db2b08634",
+        "kind": "open",
+        "label": "🍽 쿠팡이츠",
+        "href": "https://www.coupang.com/eats",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "쿠팡",
+          "fallbackHref": "https://www.coupang.com/eats"
+        }
+      },
+      {
+        "id": "1405ab7e-c354-45bd-85d6-7d27def524e0",
+        "kind": "open",
+        "label": "🛒 쿠팡 마켓",
+        "href": "https://www.coupang.com/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "쿠팡",
+          "fallbackHref": "https://www.coupang.com/"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "portal",
+    "created_at": "2026-05-27T03:48:50.463Z",
+    "expires_at": "2026-06-03T06:48:50.463Z"
+  },
+  {
+    "id": "fun-rickroll",
+    "user_id": null,
+    "original_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+    "thumbnail_url": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+    "domain": "youtube.com",
+    "category": "media",
+    "actions": [
+      {
+        "id": "5ee425aa-5578-4c2a-99f9-5be53df5f4f0",
+        "kind": "open",
+        "label": "▶️ 영상 바로 재생",
+        "href": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "payload": {
+          "icon": "youtube",
+          "copyText": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)"
+        }
+      },
+      {
+        "id": "eeab33bd-6a8b-4a90-95ed-84e28ab2526a",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20(Official%20Video)%20(4K%20Remaster)%0Ahttps%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)\nhttps://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+      },
+      {
+        "id": "dc704886-fc25-4b4c-bad4-55ea80637722",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+      },
+      {
+        "id": "542b9d16-5b70-4411-a732-f1be03934fa2",
+        "kind": "open",
+        "label": "📱 YouTube 앱으로",
+        "href": "youtube://watch?v=dQw4w9WgXcQ",
+        "payload": {
+          "icon": "youtube",
+          "contextBoost": "installed-app",
+          "copyText": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)"
+        }
+      },
+      {
+        "id": "256d972d-c327-49e8-8e06-229b83f04c9f",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "4be0cc0b-cb24-4827-806e-038643f7e514",
+        "kind": "remind",
+        "label": "⏰ 나중에 다시",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.remind_later",
+          "delayMinutes": 120
+        }
+      },
+      {
+        "id": "68da3504-d470-400f-ad9c-a950acf7ee14",
+        "kind": "open",
+        "label": "✨ 3줄 요약",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%20%EB%82%B4%EC%9A%A9%EC%9D%84%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20(Official%20Video)%20(4K%20Remaster)%0Ahttps%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크 내용을 한국어로 3줄 요약해줘.\n제목: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)\nhttps://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+      },
+      {
+        "id": "a36b3d27-4c15-4f46-85c7-f6c3316ba11e",
+        "kind": "open",
+        "label": "🌐 번역해서 읽기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+      }
+    ],
+    "visual_mode": "thumb",
+    "source_type": "youtube",
+    "created_at": "2026-05-27T02:48:52.081Z",
+    "expires_at": "2026-06-03T06:48:52.081Z"
+  },
+  {
+    "id": "fun-eiffel",
+    "user_id": null,
+    "original_url": "https://www.google.com/maps/place/Eiffel+Tower/@48.8584,2.2945",
+    "title": "Eiffel Tower",
+    "thumbnail_url": "https://www.google.com/maps/about/images/icons/maps_512dp.png",
+    "domain": "google.com/maps",
+    "category": "travel",
+    "actions": [
+      {
+        "id": "0790bf6d-07fb-4bce-b047-354cf36c3b93",
+        "kind": "open",
+        "label": "카카오맵 바로 열기",
+        "href": "https://map.kakao.com/link/map/https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FEiffel%2BTower%2F%4048.8584%2C2.2945",
+        "payload": {
+          "icon": "kakaomap",
+          "contextBoost": "installed-app",
+          "copyText": "Eiffel Tower"
+        }
+      },
+      {
+        "id": "e1c2852b-b915-4062-bfeb-31274daf0bf7",
+        "kind": "open",
+        "label": "🗺 Eiffel Tow 검색",
+        "href": "kakaomap://search?q=Eiffel%20Tower",
+        "payload": {
+          "icon": "kakaomap",
+          "copyText": "Eiffel Tower",
+          "contextBoost": "installed-app"
+        }
+      },
+      {
+        "id": "f4536001-5beb-4656-a03e-316fa550127d",
+        "kind": "open",
+        "label": "🚨 보험사 긴급출동",
+        "href": "https://search.naver.com/search.naver?query=%EC%9E%90%EB%8F%99%EC%B0%A8%20%EB%B3%B4%ED%97%98%20%EA%B8%B4%EA%B8%89%EC%B6%9C%EB%8F%99%20%EC%A0%84%ED%99%94",
+        "payload": {
+          "icon": "phone",
+          "copyText": "자동차 보험 긴급출동",
+          "fallbackHref": "https://search.naver.com/search.naver?query=Eiffel%20Tower%20%EB%B3%B4%ED%97%98%EC%82%AC%20%EA%B8%B4%EA%B8%89%EC%B6%9C%EB%8F%99"
+        }
+      },
+      {
+        "id": "a29f2980-8bf5-47f1-ad29-a11565742ec7",
+        "kind": "open",
+        "label": "🔧 가까운 정비소 연결",
+        "href": "https://map.naver.com/p/search/Eiffel%20Tower%20%EC%A0%95%EB%B9%84%EC%86%8C",
+        "payload": {
+          "icon": "map",
+          "copyText": "Eiffel Tower 정비소",
+          "fallbackHref": "http://m.map.kakao.com/scheme/search?q=Eiffel%20Tower%20%EC%A0%95%EB%B9%84%EC%86%8C"
+        }
+      },
+      {
+        "id": "11adc929-8d1b-4181-856e-ffec65a391ab",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Eiffel%20Tower%0Ahttps%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FEiffel%2BTower%2F%4048.8584%2C2.2945",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: Eiffel Tower\nhttps://www.google.com/maps/place/Eiffel+Tower/@48.8584,2.2945"
+        }
+      },
+      {
+        "id": "d7ffcbde-b439-4271-b514-55b53a54a62e",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "Eiffel Tower",
+          "url": "https://www.google.com/maps/place/Eiffel+Tower/@48.8584,2.2945"
+        }
+      },
+      {
+        "id": "069cf68c-78da-4f31-8991-fe3c92c7d992",
+        "kind": "open",
+        "label": "📍 지도 열기",
+        "href": "https://www.google.com/maps/place/Eiffel+Tower/@48.8584,2.2945",
+        "payload": {
+          "icon": "map",
+          "copyText": "Eiffel Tower"
+        }
+      },
+      {
+        "id": "f2be1835-9a0b-4467-9399-8f820be22274",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://www.google.com/maps/place/Eiffel+Tower/@48.8584,2.2945",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "Eiffel Tower"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "map",
+    "created_at": "2026-05-27T01:48:52.548Z",
+    "expires_at": "2026-06-03T06:48:52.548Z"
+  },
+  {
+    "id": "fun-jeju-airbnb",
+    "user_id": null,
+    "original_url": "https://www.airbnb.co.kr/",
+    "title": "에어비앤비 | 휴가지 숙소, 통나무집, 해변가 주택 등",
+    "thumbnail_url": "https://a0.muscache.com/im/pictures/fe7217ff-0b24-438d-880d-b94722c75bf5.jpg",
+    "domain": "airbnb.com",
+    "category": "travel",
+    "actions": [
+      {
+        "id": "1a82ca17-9d92-4c72-ada8-594ee6e4930a",
+        "kind": "open",
+        "label": "✈️ 항공·여행 열기",
+        "href": "https://www.airbnb.co.kr/",
+        "payload": {
+          "icon": "transit",
+          "copyText": "에어비앤비 | 휴가지 숙소, 통나무집, 해변가 주택 등"
+        }
+      },
+      {
+        "id": "3737e31d-59da-4e10-9f3d-c29ef2d2c795",
+        "kind": "open",
+        "label": "🗺️ 경로 지도 보기",
+        "href": "https://map.naver.com/p/search/%EC%97%90%EC%96%B4%EB%B9%84%EC%95%A4%EB%B9%84%20%7C%20%ED%9C%B4%EA%B0%80%EC%A7%80%20%EC%88%99%EC%86%8C%2C%20%ED%86%B5%EB%82%98%EB%AC%B4%EC%A7%91%2C%20%ED%95%B4%EB%B3%80%EA%B0%80%20%EC%A3%BC%ED%83%9D%20%EB%93%B1",
+        "payload": {
+          "icon": "map",
+          "copyText": "에어비앤비 | 휴가지 숙소, 통나무집, 해변가 주택 등",
+          "fallbackHref": "https://www.google.com/maps/dir/?api=1&destination=https%3A%2F%2Fwww.airbnb.co.kr%2F&travelmode=driving"
+        }
+      },
+      {
+        "id": "1c8d7a5b-d407-4f49-9643-2adac73d5526",
+        "kind": "custom",
+        "label": "💱 환율 변환",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.currency_convert",
+          "title": "에어비앤비 | 휴가지 숙소, 통나무집, 해변가 주택 등"
+        }
+      },
+      {
+        "id": "065f86ef-d7c2-4467-b68b-cddce6e5e288",
+        "kind": "open",
+        "label": "📅 일정 캘린더 등록",
+        "href": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%EC%97%90%EC%96%B4%EB%B9%84%EC%95%A4%EB%B9%84+%7C+%ED%9C%B4%EA%B0%80%EC%A7%80+%EC%88%99%EC%86%8C%2C+%ED%86%B5%EB%82%98%EB%AC%B4%EC%A7%91%2C+%ED%95%B4%EB%B3%80%EA%B0%80+%EC%A3%BC%ED%83%9D+%EB%93%B1&details=https%3A%2F%2Fwww.airbnb.co.kr%2F",
+        "payload": {
+          "icon": "link",
+          "copyText": "에어비앤비 | 휴가지 숙소, 통나무집, 해변가 주택 등"
+        }
+      },
+      {
+        "id": "6d3be114-0de8-459f-a934-921a41c83cf8",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%97%90%EC%96%B4%EB%B9%84%EC%95%A4%EB%B9%84%20%7C%20%ED%9C%B4%EA%B0%80%EC%A7%80%20%EC%88%99%EC%86%8C%2C%20%ED%86%B5%EB%82%98%EB%AC%B4%EC%A7%91%2C%20%ED%95%B4%EB%B3%80%EA%B0%80%20%EC%A3%BC%ED%83%9D%20%EB%93%B1%0Ahttps%3A%2F%2Fwww.airbnb.co.kr%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 에어비앤비 | 휴가지 숙소, 통나무집, 해변가 주택 등\nhttps://www.airbnb.co.kr/"
+        }
+      },
+      {
+        "id": "7edea05f-76d8-46fb-8ad2-62ca573d222d",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "에어비앤비 | 휴가지 숙소, 통나무집, 해변가 주택 등",
+          "url": "https://www.airbnb.co.kr/"
+        }
+      },
+      {
+        "id": "9097a274-811d-4315-8598-835f01a5bdd1",
+        "kind": "copy",
+        "label": "📋 에어비앤비 | 휴가지 숙소,  복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "에어비앤비 | 휴가지 숙소, 통나무집, 해변가 주택 등"
+        }
+      },
+      {
+        "id": "764ae8c5-cc5f-4b09-aa60-6d29cc96c35c",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://www.airbnb.co.kr/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "에어비앤비 | 휴가지 숙소, 통나무집, 해변가 주택 등"
+        }
+      }
+    ],
+    "visual_mode": "poster",
+    "source_type": "transport",
+    "created_at": "2026-05-27T00:48:54.045Z",
+    "expires_at": "2026-06-03T06:48:54.045Z"
+  },
+  {
+    "id": "fun-nyan",
+    "user_id": null,
+    "original_url": "https://en.wikipedia.org/wiki/Nyan_Cat",
+    "title": "Nyan Cat - Wikipedia",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG",
+    "domain": "en.wikipedia.org",
+    "category": "research",
+    "actions": [
+      {
+        "id": "95c9e5cc-9c31-4739-9ccb-3c2a5b6a1dfe",
+        "kind": "copy",
+        "label": "📋 Nyan Cat - Wik… 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "Nyan Cat - Wikipedia"
+        }
+      },
+      {
+        "id": "5e810e35-58e3-4505-8a9f-c65c00f3e280",
+        "kind": "open",
+        "label": "📌 3줄 요약/핵심어",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%20%ED%95%B5%EC%8B%AC%20%ED%82%A4%EC%9B%8C%EB%93%9C%205%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Nyan%20Cat%20-%20Wikipedia%0Ahttps%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNyan_Cat",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 한국어로 3줄 요약하고 핵심 키워드 5개만 bullet로 정리해줘.\n제목: Nyan Cat - Wikipedia\nhttps://en.wikipedia.org/wiki/Nyan_Cat"
+        }
+      },
+      {
+        "id": "e46d11f2-ab8e-4acd-8319-4506170185fd",
+        "kind": "open",
+        "label": "🔊 오디오로 듣기",
+        "href": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNyan_Cat",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://en.wikipedia.org/wiki/Nyan_Cat"
+        }
+      },
+      {
+        "id": "c0940c8b-7407-4953-bc0f-8d923cd5776a",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Nyan%20Cat%20-%20Wikipedia%0Ahttps%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNyan_Cat",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: Nyan Cat - Wikipedia\nhttps://en.wikipedia.org/wiki/Nyan_Cat"
+        }
+      },
+      {
+        "id": "7167d0d8-9e92-4a12-9182-c6e10628d84e",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "Nyan Cat - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nyan_Cat"
+        }
+      },
+      {
+        "id": "19cd8650-8509-4e34-98af-9124336b54b2",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "3dac5f78-89f0-4f4c-9a68-c331bba6b24b",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://en.wikipedia.org/wiki/Nyan_Cat",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "Nyan Cat - Wikipedia"
+        }
+      },
+      {
+        "id": "31af6e2d-14fd-4577-84ea-06a165adb04d",
+        "kind": "open",
+        "label": "🔗 Nyan Cat - Wikiped… 열기",
+        "href": "https://en.wikipedia.org/wiki/Nyan_Cat",
+        "payload": {
+          "icon": "external-link",
+          "fallbackHref": "https://en.wikipedia.org/wiki/Nyan_Cat",
+          "copyText": "Nyan Cat - Wikipedia"
+        }
+      }
+    ],
+    "visual_mode": "poster",
+    "source_type": "generic",
+    "created_at": "2026-05-26T23:48:54.665Z",
+    "expires_at": "2026-06-03T06:48:54.665Z"
+  },
+  {
+    "id": "fun-netflix",
+    "user_id": null,
+    "original_url": "https://www.netflix.com/browse",
+    "title": "Netflix",
+    "thumbnail_url": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png",
+    "domain": "netflix.com",
+    "category": "media",
+    "actions": [
+      {
+        "id": "0b2dc563-7a4d-4d8d-82b3-67a813fcabe4",
+        "kind": "open",
+        "label": "▶️ Netflix에서 보기",
+        "href": "https://www.netflix.com/browse",
+        "payload": {
+          "icon": "youtube",
+          "copyText": "Netflix"
+        }
+      },
+      {
+        "id": "0b71a1be-23ba-481c-8b15-d68d2dad1a66",
+        "kind": "custom",
+        "label": "🔔 가격 알림 설정",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.price_alert",
+          "title": "Netflix",
+          "url": "https://www.netflix.com/browse"
+        }
+      },
+      {
+        "id": "2f9aac4f-05e6-4845-96b8-84403960b44f",
+        "kind": "open",
+        "label": "📈 종목 뉴스 감정 분석",
+        "href": "https://chatgpt.com/?hints=search&q=Netflix%20%EA%B4%80%EB%A0%A8%20%EC%B5%9C%EA%B7%BC%20%EB%89%B4%EC%8A%A4%20%ED%97%A4%EB%93%9C%EB%9D%BC%EC%9D%B8%20%EA%B0%90%EC%A0%95%EC%9D%84%20%EA%B8%8D%EC%A0%95%2F%EC%A4%91%EB%A6%BD%2F%EB%B6%80%EC%A0%95%EC%9C%BC%EB%A1%9C%20%EB%82%98%EB%88%84%EA%B3%A0%2C%20%ED%88%AC%EC%9E%90%EC%9E%90%20%EA%B4%80%EC%A0%90%20%ED%95%B5%EC%8B%AC%203%EC%A4%84%EB%A7%8C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%20%EB%A7%81%ED%81%AC%3A%20https%3A%2F%2Fwww.netflix.com%2Fbrowse",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "Netflix"
+        }
+      },
+      {
+        "id": "18f7b698-4f21-4573-bab9-a1e30b37d4f8",
+        "kind": "open",
+        "label": "📊 차트 요약",
+        "href": "https://chatgpt.com/?hints=search&q=Netflix%20%EC%A2%85%EB%AA%A9%2F%EC%9E%90%EC%82%B0%EC%9D%98%20%EC%B5%9C%EA%B7%BC%20%EC%B0%A8%ED%8A%B8%20%ED%9D%90%EB%A6%84%EC%9D%84%203%EC%A4%84%EB%A1%9C%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EC%A7%80%EC%A7%80%C2%B7%EC%A0%80%ED%95%AD%20%ED%8F%AC%EC%9D%B8%ED%8A%B8%202%EA%B0%9C%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%20%EB%A7%81%ED%81%AC%3A%20https%3A%2F%2Fwww.netflix.com%2Fbrowse",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "Netflix",
+          "fallbackHref": "https://www.google.com/finance/quote/Netflix"
+        }
+      },
+      {
+        "id": "b7dad950-43fc-4691-8d39-038d8085b70b",
+        "kind": "open",
+        "label": "💹 금융 뉴스",
+        "href": "https://search.naver.com/search.naver?where=news&query=Netflix%20%EC%A3%BC%EC%8B%9D",
+        "payload": {
+          "icon": "link",
+          "copyText": "Netflix"
+        }
+      },
+      {
+        "id": "0f2061b3-41a5-46ff-803d-2af1e37fde15",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Netflix%0Ahttps%3A%2F%2Fwww.netflix.com%2Fbrowse",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: Netflix\nhttps://www.netflix.com/browse"
+        }
+      },
+      {
+        "id": "40c289a5-09b5-45eb-99ad-b838412e1d0f",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "Netflix",
+          "url": "https://www.netflix.com/browse"
+        }
+      },
+      {
+        "id": "4386f6de-508b-4aa6-9374-9f7f8bbbde08",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://www.netflix.com/browse",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "Netflix"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "ott",
+    "created_at": "2026-05-26T22:48:56.378Z",
+    "expires_at": "2026-06-03T06:48:56.378Z"
+  },
+  {
+    "id": "fun-tving",
+    "user_id": null,
+    "original_url": "https://www.tving.com/",
+    "title": "TVING",
+    "thumbnail_url": "https://www.tving.com/img/tving_logo_meta_new.png",
+    "domain": "tving.com",
+    "category": "media",
+    "actions": [
+      {
+        "id": "9b9514a5-340c-40ab-850e-95822c7819c0",
+        "kind": "open",
+        "label": "▶️ TVING에서 보기",
+        "href": "https://www.tving.com/",
+        "payload": {
+          "icon": "youtube",
+          "copyText": "TVING"
+        }
+      },
+      {
+        "id": "3bb6adf2-44db-4bba-8566-217e6f6a69dc",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20TVING%0Ahttps%3A%2F%2Fwww.tving.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: TVING\nhttps://www.tving.com/"
+        }
+      },
+      {
+        "id": "5aa71345-c2ad-4dc2-a4ca-d8cf2e815b51",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "TVING",
+          "url": "https://www.tving.com/"
+        }
+      },
+      {
+        "id": "0a9b89f9-ad72-43d5-94fd-71f930db1f98",
+        "kind": "open",
+        "label": "📱 TVING 앱으로",
+        "href": "tvingapp://open?url=https%3A%2F%2Fwww.tving.com%2F",
+        "payload": {
+          "icon": "youtube",
+          "contextBoost": "installed-app",
+          "copyText": "TVING"
+        }
+      },
+      {
+        "id": "1fca7b60-a9b9-44c7-bf17-902d116c9d58",
+        "kind": "copy",
+        "label": "📋 TVING 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "TVING"
+        }
+      },
+      {
+        "id": "c7e4413f-a9af-4fa0-aab3-32178ffb184e",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "389593a4-a88a-4065-8650-5e6c82efc7bd",
+        "kind": "remind",
+        "label": "⏰ 나중에 다시",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.remind_later",
+          "delayMinutes": 120
+        }
+      },
+      {
+        "id": "a2a0c3f1-f7e7-42bb-b817-8d7c222436dc",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://www.tving.com/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "TVING"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "ott",
+    "created_at": "2026-05-26T21:48:56.759Z",
+    "expires_at": "2026-06-03T06:48:56.759Z"
+  },
+  {
+    "id": "fun-musinsa",
+    "user_id": null,
+    "original_url": "https://www.musinsa.com/ranking/",
+    "title": "ranking",
+    "thumbnail_url": null,
+    "domain": "musinsa.com",
+    "category": "shopping",
+    "actions": [
+      {
+        "id": "822c48af-8832-4f66-a525-5b6287e540f4",
+        "kind": "open",
+        "label": "🛒 무신사에서 보기",
+        "href": "https://www.musinsa.com/ranking/",
+        "payload": {
+          "icon": "link",
+          "copyText": "ranking"
+        }
+      },
+      {
+        "id": "2a0c4571-e964-45a6-aad0-10ab714700b4",
+        "kind": "custom",
+        "label": "🧮 N빵 계산",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.split_bill"
+        }
+      },
+      {
+        "id": "46c50ef8-af93-4f40-80d6-5d9d760af56a",
+        "kind": "open",
+        "label": "🔔 최저가 추적",
+        "href": "https://search.shopping.naver.com/search/all?query=ranking%20%EA%B0%80%EA%B2%A9%20%EC%95%8C%EB%A6%BC",
+        "payload": {
+          "icon": "bell",
+          "copyText": "ranking"
+        }
+      },
+      {
+        "id": "27b3ef4d-0a47-445c-a3be-e61a2ac59206",
+        "kind": "open",
+        "label": "⭐ 진짜 리뷰 필터",
+        "href": "https://search.naver.com/search.naver?where=blog&query=ranking%20%EB%82%B4%EB%8F%88%EB%82%B4%EC%82%B0%20%EC%86%94%EC%A7%81%ED%9B%84%EA%B8%B0%20-%EA%B4%91%EA%B3%A0",
+        "payload": {
+          "icon": "link",
+          "copyText": "ranking",
+          "fallbackHref": "https://www.perplexity.ai/search?q=ranking%20%EC%8B%A4%EC%A0%9C%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%ED%9B%84%EA%B8%B0%EB%A7%8C%20%EA%B3%A8%EB%9D%BC%EC%84%9C%20%EC%9E%A5%EB%8B%A8%EC%A0%90%203%EA%B0%9C%EC%94%A9%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98"
+        }
+      },
+      {
+        "id": "59940b76-d3b0-4e90-8cdc-88790cec2ca8",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20ranking%0Ahttps%3A%2F%2Fwww.musinsa.com%2Franking%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: ranking\nhttps://www.musinsa.com/ranking/"
+        }
+      },
+      {
+        "id": "91a9f992-c1f0-48d5-a46d-94c49b9d75b3",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "ranking",
+          "url": "https://www.musinsa.com/ranking/"
+        }
+      },
+      {
+        "id": "27357dbe-00f7-43c8-96ea-ffadeda52f09",
+        "kind": "open",
+        "label": "📱 무신사 앱으로",
+        "href": "musinsaapp://web?url=https%3A%2F%2Fwww.musinsa.com%2Franking%2F",
+        "payload": {
+          "icon": "link",
+          "contextBoost": "installed-app",
+          "copyText": "ranking"
+        }
+      },
+      {
+        "id": "e104a7eb-9183-4b91-9610-bb630fb2c6eb",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://www.musinsa.com/ranking/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "ranking"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "commerce",
+    "created_at": "2026-05-26T20:48:57.375Z",
+    "expires_at": "2026-06-03T06:48:57.375Z"
+  },
+  {
+    "id": "fun-gangnam-map",
+    "user_id": null,
+    "original_url": "https://map.kakao.com/?q=%EA%B0%95%EB%82%A8%EC%97%AD",
+    "title": "카카오맵",
+    "thumbnail_url": "https://t1.kakaocdn.net/localimg/localimages/07/common/ogtag.png",
+    "domain": "map.kakao.com",
+    "category": "travel",
+    "actions": [
+      {
+        "id": "908b1a43-16ee-4916-bf4d-d1fb2d328251",
+        "kind": "open",
+        "label": "카카오맵 바로 열기",
+        "href": "https://map.kakao.com/?q=%EA%B0%95%EB%82%A8%EC%97%AD",
+        "payload": {
+          "icon": "kakaomap",
+          "contextBoost": "installed-app",
+          "copyText": "카카오맵"
+        }
+      },
+      {
+        "id": "d0fd6a96-a71c-4e57-a331-d041f9f0624a",
+        "kind": "open",
+        "label": "🗺 카카오맵 검색",
+        "href": "kakaomap://search?q=%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%A7%B5",
+        "payload": {
+          "icon": "kakaomap",
+          "copyText": "카카오맵",
+          "contextBoost": "installed-app"
+        }
+      },
+      {
+        "id": "ce60c6d4-08e2-458a-af5d-dda48dd5d0d9",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%A7%B5%0Ahttps%3A%2F%2Fmap.kakao.com%2F%3Fq%3D%25EA%25B0%2595%25EB%2582%25A8%25EC%2597%25AD",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 카카오맵\nhttps://map.kakao.com/?q=%EA%B0%95%EB%82%A8%EC%97%AD"
+        }
+      },
+      {
+        "id": "422780d1-c943-4f3c-8025-21c32f0b2b28",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "카카오맵",
+          "url": "https://map.kakao.com/?q=%EA%B0%95%EB%82%A8%EC%97%AD"
+        }
+      },
+      {
+        "id": "0249f2df-321f-4856-9a39-e4474d095b9e",
+        "kind": "open",
+        "label": "🚕 카카오T · 카카오맵",
+        "href": "kakaot://open",
+        "payload": {
+          "icon": "taxi",
+          "copyText": "카카오맵"
+        }
+      },
+      {
+        "id": "cf360cb0-69e5-4eb8-a726-54377c903c92",
+        "kind": "open",
+        "label": "📍 네이버지도 · 카카오맵",
+        "href": "nmap://search?query=%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%A7%B5&appname=Rimvio",
+        "payload": {
+          "icon": "map",
+          "copyText": "카카오맵"
+        }
+      },
+      {
+        "id": "9c04895d-6bb8-4684-a5b3-d3ca5a02ff33",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "c6aefd05-032a-448a-8594-59a91ef7726d",
+        "kind": "remind",
+        "label": "⏰ 나중에 다시",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.remind_later",
+          "delayMinutes": 120
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "map",
+    "created_at": "2026-05-26T19:48:57.507Z",
+    "expires_at": "2026-06-03T06:48:57.507Z"
+  },
+  {
+    "id": "fun-baemin",
+    "user_id": null,
+    "original_url": "https://www.baemin.com/",
+    "title": "배달의민족 - 배달팁 무료 배민클럽",
+    "thumbnail_url": "https://www.baemin.com/_next/static/media/baemin-og_thumbnail.31be89ff.png",
+    "domain": "baemin.com",
+    "category": "uncategorized",
+    "actions": [
+      {
+        "id": "73578564-7e28-4336-8dc6-1ec02995f7e9",
+        "kind": "open",
+        "label": "🍔 배민에서 보기",
+        "href": "https://www.baemin.com/",
+        "payload": {
+          "icon": "link",
+          "copyText": "배민"
+        }
+      },
+      {
+        "id": "0a2fe3f1-9137-476d-bb41-112fe36473c0",
+        "kind": "open",
+        "label": "🗺 배민 위치",
+        "href": "kakaomap://search?q=%EB%B0%B0%EB%AF%BC",
+        "payload": {
+          "icon": "kakaomap",
+          "copyText": "배민"
+        }
+      },
+      {
+        "id": "5c26ef97-d9ed-4db5-8a29-0ae2915b4aef",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EB%B0%B0%EB%AF%BC%0Ahttps%3A%2F%2Fwww.baemin.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 배민\nhttps://www.baemin.com/"
+        }
+      },
+      {
+        "id": "efc2bd5a-1e90-4a2f-a8dc-1516e71ddc97",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "배민",
+          "url": "https://www.baemin.com/"
+        }
+      },
+      {
+        "id": "03db2f80-23e9-4c01-8ddf-c18fef20512d",
+        "kind": "open",
+        "label": "📱 배민 앱으로",
+        "href": "baemin://webview?webview_url=https%3A%2F%2Fwww.baemin.com%2F",
+        "payload": {
+          "icon": "link",
+          "contextBoost": "installed-app",
+          "copyText": "배민"
+        }
+      },
+      {
+        "id": "d4b110fe-8f51-4075-a664-b119c8e2eee3",
+        "kind": "copy",
+        "label": "📋 배민 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "배민"
+        }
+      },
+      {
+        "id": "6745eccc-776d-4c9a-a66a-e73257ad4b78",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "c635fced-2839-495d-bae1-6266e96c87fa",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://www.baemin.com/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "배민"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "delivery",
+    "created_at": "2026-05-26T18:48:57.580Z",
+    "expires_at": "2026-06-03T06:48:57.580Z"
+  },
+  {
+    "id": "fun-interpark",
+    "user_id": null,
+    "original_url": "https://ticket.interpark.com/",
+    "title": "인터파크 티켓",
+    "thumbnail_url": "https://ticketimage.interpark.com/favicons/ticket/favicon-32x32.png",
+    "domain": "ticket.interpark.com",
+    "category": "media",
+    "actions": [
+      {
+        "id": "9cbc2d4f-724c-410d-9a62-243d4e71d050",
+        "kind": "open",
+        "label": "🎫 인터파크 티켓 열기",
+        "href": "https://ticket.interpark.com/",
+        "payload": {
+          "icon": "link",
+          "copyText": "인터파크 티켓"
+        }
+      },
+      {
+        "id": "c104724e-027e-4b9e-ac53-dcd8fab621ce",
+        "kind": "custom",
+        "label": "🧮 N빵 계산",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.split_bill"
+        }
+      },
+      {
+        "id": "57456861-8cd4-4205-8d6c-16025c2182d8",
+        "kind": "open",
+        "label": "🔔 최저가 추적",
+        "href": "https://search.shopping.naver.com/search/all?query=%EC%9D%B8%ED%84%B0%ED%8C%8C%ED%81%AC%20%ED%8B%B0%EC%BC%93%20%EA%B0%80%EA%B2%A9%20%EC%95%8C%EB%A6%BC",
+        "payload": {
+          "icon": "bell",
+          "copyText": "인터파크 티켓"
+        }
+      },
+      {
+        "id": "7870a75b-0f7e-41c3-828f-68d7c17264a4",
+        "kind": "open",
+        "label": "⭐ 진짜 리뷰 필터",
+        "href": "https://search.naver.com/search.naver?where=blog&query=%EC%9D%B8%ED%84%B0%ED%8C%8C%ED%81%AC%20%ED%8B%B0%EC%BC%93%20%EB%82%B4%EB%8F%88%EB%82%B4%EC%82%B0%20%EC%86%94%EC%A7%81%ED%9B%84%EA%B8%B0%20-%EA%B4%91%EA%B3%A0",
+        "payload": {
+          "icon": "link",
+          "copyText": "인터파크 티켓",
+          "fallbackHref": "https://www.perplexity.ai/search?q=%EC%9D%B8%ED%84%B0%ED%8C%8C%ED%81%AC%20%ED%8B%B0%EC%BC%93%20%EC%8B%A4%EC%A0%9C%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%ED%9B%84%EA%B8%B0%EB%A7%8C%20%EA%B3%A8%EB%9D%BC%EC%84%9C%20%EC%9E%A5%EB%8B%A8%EC%A0%90%203%EA%B0%9C%EC%94%A9%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98"
+        }
+      },
+      {
+        "id": "80c414b4-56fe-4fd8-aa88-2aba74f0a47e",
+        "kind": "open",
+        "label": "📅 스케줄 합치기",
+        "href": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%EC%9D%B8%ED%84%B0%ED%8C%8C%ED%81%AC+%ED%8B%B0%EC%BC%93&details=https%3A%2F%2Fticket.interpark.com%2F",
+        "payload": {
+          "icon": "link",
+          "copyText": "인터파크 티켓"
+        }
+      },
+      {
+        "id": "f1373fad-8f3b-45ff-9dfd-8f4bf351d3fe",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%9D%B8%ED%84%B0%ED%8C%8C%ED%81%AC%20%ED%8B%B0%EC%BC%93%0Ahttps%3A%2F%2Fticket.interpark.com%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 인터파크 티켓\nhttps://ticket.interpark.com/"
+        }
+      },
+      {
+        "id": "ed582554-8a45-4c41-bda7-f76c702dc02c",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "인터파크 티켓",
+          "url": "https://ticket.interpark.com/"
+        }
+      },
+      {
+        "id": "60afc7a2-f013-4a3a-bb6e-ee635f34cf68",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://ticket.interpark.com/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "인터파크 티켓"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "ticket",
+    "created_at": "2026-05-26T17:48:57.698Z",
+    "expires_at": "2026-06-03T06:48:57.698Z"
+  },
+  {
+    "id": "fun-kakao-chat",
+    "user_id": null,
+    "original_url": "https://open.kakao.com/o/gsXxUJui",
+    "title": "✨요고특가 알리미✨",
+    "thumbnail_url": "https://iopen.kakaocdn.net/img/og/v2/ko_scrap_sv_001.png",
+    "domain": "open.kakao.com",
+    "category": "social",
+    "actions": [
+      {
+        "id": "15a7fa18-f4fa-4d9d-8f74-262959a7874a",
+        "kind": "open",
+        "label": "💬 오픈채팅 입장",
+        "href": "https://open.kakao.com/o/gsXxUJui",
+        "payload": {
+          "icon": "kakao",
+          "copyText": "https://open.kakao.com/o/gsXxUJui"
+        }
+      },
+      {
+        "id": "f0a5d227-de9e-4425-b3be-b805d50ea1b1",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20https%3A%2F%2Fopen.kakao.com%2Fo%2FgsXxUJui%0Ahttps%3A%2F%2Fopen.kakao.com%2Fo%2FgsXxUJui",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: https://open.kakao.com/o/gsXxUJui\nhttps://open.kakao.com/o/gsXxUJui"
+        }
+      },
+      {
+        "id": "a9973b9c-ecdf-47a4-b6fe-aeda15bfd8f1",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "https://open.kakao.com/o/gsXxUJui",
+          "url": "https://open.kakao.com/o/gsXxUJui"
+        }
+      },
+      {
+        "id": "09bfc88f-470d-4aac-b8de-510442f7171a",
+        "kind": "open",
+        "label": "🔗 초대 링크 복사 후 입장",
+        "href": "https://open.kakao.com/o/gsXxUJui",
+        "payload": {
+          "icon": "link",
+          "copyText": "https://open.kakao.com/o/gsXxUJui"
+        }
+      },
+      {
+        "id": "31bc5e2e-bca8-4c13-99a0-ff90eb98ef2a",
+        "kind": "copy",
+        "label": "📋 ✨요고특가 알리미✨ 복사",
+        "payload": {
+          "icon": "copy",
+          "copyText": "✨요고특가 알리미✨"
+        }
+      },
+      {
+        "id": "c06ad77a-8fd2-4d30-b53a-d602cc33eb65",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "c3080742-2f83-4247-9e50-d94ad2b17e5e",
+        "kind": "remind",
+        "label": "⏰ 나중에 다시",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.remind_later",
+          "delayMinutes": 120
+        }
+      },
+      {
+        "id": "2df01e78-ac21-4bc2-9557-71b3624f289f",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://open.kakao.com/o/gsXxUJui",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "✨요고특가 알리미✨"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "kakao",
+    "created_at": "2026-05-26T16:48:57.743Z",
+    "expires_at": "2026-06-03T06:48:57.743Z"
+  },
+  {
+    "id": "fun-octocat",
+    "user_id": null,
+    "original_url": "https://github.com/octocat/Hello-World",
+    "title": "GitHub - octocat/Hello-World: My first repository on GitHub!",
+    "thumbnail_url": "https://opengraph.githubassets.com/30d090f72aa8737e8e04cfe289b589cafcabc68795e2d5fc65b87a67e157b435/octocat/Hello-World",
+    "domain": "github.com",
+    "category": "research",
+    "actions": [
+      {
+        "id": "b6aab6a3-5286-4a80-92c4-e5f95a70c077",
+        "kind": "open",
+        "label": "📂 저장소 열기",
+        "href": "https://github.com/octocat/Hello-World",
+        "payload": {
+          "icon": "github",
+          "copyText": "octocat/Hello-World"
+        }
+      },
+      {
+        "id": "9e8c8cee-d7f8-4963-b934-8fd2ab01b89d",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20octocat%2FHello-World%0Ahttps%3A%2F%2Fgithub.com%2Foctocat%2FHello-World",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: octocat/Hello-World\nhttps://github.com/octocat/Hello-World"
+        }
+      },
+      {
+        "id": "260509f8-ebfd-4706-a996-10e3eaa3a160",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "octocat/Hello-World",
+          "url": "https://github.com/octocat/Hello-World"
+        }
+      },
+      {
+        "id": "2a91947a-b11f-4c7e-b33e-29ef8ecda9ba",
+        "kind": "share",
+        "label": "📤 친구에게 바로 보내기",
+        "payload": {
+          "icon": "share",
+          "blinkAction": "blink.direct_share"
+        }
+      },
+      {
+        "id": "f837fc4b-a822-42a6-99dc-a7f6b38907ce",
+        "kind": "remind",
+        "label": "⏰ 나중에 다시",
+        "payload": {
+          "icon": "bell",
+          "blinkAction": "blink.remind_later",
+          "delayMinutes": 120
+        }
+      },
+      {
+        "id": "7fc34fa8-3793-405b-a882-9d88c5b3b93a",
+        "kind": "open",
+        "label": "🧠 이슈 목록",
+        "href": "https://github.com/octocat/Hello-World/issues",
+        "payload": {
+          "icon": "github",
+          "copyText": "octocat/Hello-World"
+        }
+      },
+      {
+        "id": "8669a455-e1ef-4193-897e-e3252b28105b",
+        "kind": "open",
+        "label": "🔍 PR 목록",
+        "href": "https://github.com/octocat/Hello-World/pulls",
+        "payload": {
+          "icon": "github",
+          "copyText": "octocat/Hello-World"
+        }
+      },
+      {
+        "id": "0ed85204-a0bf-4c35-b596-f7d920ec5efd",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://github.com/octocat/Hello-World",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "octocat/Hello-World"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "github",
+    "created_at": "2026-05-26T15:48:58.504Z",
+    "expires_at": "2026-06-03T06:48:58.504Z"
+  },
+  {
+    "id": "fun-figma",
+    "user_id": null,
+    "original_url": "https://www.figma.com/community",
+    "title": "Discover community-made templates, plugins, and widgets",
+    "thumbnail_url": "https://static.figma.com/uploads/3d791db872a0158f92798fa0134d8eeaf6af5535",
+    "domain": "figma.com",
+    "category": "research",
+    "actions": [
+      {
+        "id": "d6a5afce-dbb8-497f-ab2e-7849f60860ea",
+        "kind": "open",
+        "label": "🎨 Figma 열기",
+        "href": "https://www.figma.com/community",
+        "payload": {
+          "icon": "figma",
+          "copyText": "Discover community-made templates, plugins, and widgets",
+          "fallbackHref": "https://www.figma.com/community"
+        }
+      },
+      {
+        "id": "3ba6934b-6fbd-45af-8243-54f72db76b30",
+        "kind": "open",
+        "label": "🎨 컬러 추출",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%94%94%EC%9E%90%EC%9D%B8%20%EB%A0%88%ED%8D%BC%EB%9F%B0%EC%8A%A4%EC%97%90%EC%84%9C%20%EB%A9%94%EC%9D%B8%20%EC%BB%AC%EB%9F%AC%203%EA%B0%9C%EB%A5%BC%20HEX%20%EC%BD%94%EB%93%9C%EB%A1%9C%20%EC%B6%94%EC%B6%9C%ED%95%B4%EC%A4%98.%20%EB%A7%81%ED%81%AC%3A%20https%3A%2F%2Fwww.figma.com%2Fcommunity",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "Discover community-made templates, plugins, and widgets"
+        }
+      },
+      {
+        "id": "3d5b4c52-07e3-412d-a674-df4e6595f49a",
+        "kind": "open",
+        "label": "⭕ 라이선스 체크",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%94%94%EC%9E%90%EC%9D%B8%2F%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%A7%81%ED%81%AC%EC%9D%98%20%EC%83%81%EC%97%85%EC%A0%81%20%EC%9D%B4%EC%9A%A9%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%EC%99%80%20%EC%B6%9C%EC%B2%98%20%ED%91%9C%EA%B8%B0%20%EC%A1%B0%EA%B1%B4%EC%9D%84%20%E2%AD%95%20%EC%82%AC%EC%9A%A9%20%EA%B0%80%EB%8A%A5%20%2F%20%E2%9A%A0%EF%B8%8F%20%EC%A0%80%EC%9E%91%EA%B6%8C%20%EC%A3%BC%EC%9D%98%20%EC%A4%91%20%ED%95%98%EB%82%98%EB%A1%9C%20%ED%8C%90%EB%8B%A8%ED%95%B4%203%EC%A4%84%EB%A1%9C%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A4%98.%0Ahttps%3A%2F%2Fwww.figma.com%2Fcommunity",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 디자인/이미지 링크의 상업적 이용 가능 여부와 출처 표기 조건을 ⭕ 사용 가능 / ⚠️ 저작권 주의 중 하나로 판단해 3줄로 설명해줘.\nhttps://www.figma.com/community"
+        }
+      },
+      {
+        "id": "979e167a-3690-469e-a095-fe7f6005c55f",
+        "kind": "open",
+        "label": "🔍 유사 레퍼런스",
+        "href": "https://www.perplexity.ai/search?q=Discover%20community-made%20templates%2C%20plugins%2C%20and%20widgets%20%EB%94%94%EC%9E%90%EC%9D%B8%20%EB%A0%88%ED%8D%BC%EB%9F%B0%EC%8A%A4%20%EC%9C%A0%EC%82%AC%20%EC%8A%A4%ED%83%80%EC%9D%BC%205%EA%B0%9C",
+        "payload": {
+          "icon": "link",
+          "copyText": "Discover community-made templates, plugins, and widgets"
+        }
+      },
+      {
+        "id": "2e2e5fc8-a28a-44c3-9f0c-0ed3b32366d5",
+        "kind": "open",
+        "label": "📞 출장 기사 호출",
+        "href": "https://search.naver.com/search.naver?query=Discover%20community-made%20templates%2C%20plugins%2C%20and%20widgets%20%EC%B6%9C%EC%9E%A5%20AS%20%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8",
+        "payload": {
+          "icon": "phone",
+          "contextBoost": "phone",
+          "copyText": "Discover community-made templates, plugins, and widgets 출장 AS"
+        }
+      },
+      {
+        "id": "4f594585-a525-415d-9447-240d8680d66f",
+        "kind": "open",
+        "label": "🔧 수리 문의",
+        "href": "https://search.naver.com/search.naver?query=Discover%20community-made%20templates%2C%20plugins%2C%20and%20widgets%20AS%20%EC%84%BC%ED%84%B0%20%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8",
+        "payload": {
+          "icon": "phone",
+          "contextBoost": "phone",
+          "copyText": "Discover community-made templates, plugins, and widgets AS 센터"
+        }
+      },
+      {
+        "id": "a6454519-e1b8-4ceb-a639-982299bbdcf8",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20Discover%20community-made%20templates%2C%20plugins%2C%20and%20widgets%0Ahttps%3A%2F%2Fwww.figma.com%2Fcommunity",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: Discover community-made templates, plugins, and widgets\nhttps://www.figma.com/community"
+        }
+      },
+      {
+        "id": "6d5bd59d-8111-4a98-aa96-900e49658e09",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://www.figma.com/community",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "Discover community-made templates, plugins, and widgets"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "generic",
+    "created_at": "2026-05-26T14:48:58.963Z",
+    "expires_at": "2026-06-03T06:48:58.963Z"
+  },
+  {
+    "id": "fun-trip",
+    "user_id": null,
+    "original_url": "https://kr.trip.com/flights/",
+    "title": "최저가 항공권, 항공권 & 항공료 55% 할인 | 트립닷컴",
+    "thumbnail_url": "https://pages.trip.com/others/images/trip-og-image.png",
+    "domain": "kr.trip.com",
+    "category": "travel",
+    "actions": [
+      {
+        "id": "24e841b3-f846-4628-9955-3a1a68b0acc3",
+        "kind": "open",
+        "label": "✈️ 항공·여행 열기",
+        "href": "https://kr.trip.com/flights/",
+        "payload": {
+          "icon": "transit",
+          "copyText": "최저가 항공권, 항공권 & 항공료 55% 할인 | 트립닷컴"
+        }
+      },
+      {
+        "id": "f06d630b-c8c8-4537-bfb8-0f482d7c1f81",
+        "kind": "open",
+        "label": "🗺️ 경로 지도 보기",
+        "href": "https://map.naver.com/p/search/%EC%B5%9C%EC%A0%80%EA%B0%80%20%ED%95%AD%EA%B3%B5%EA%B6%8C%2C%20%ED%95%AD%EA%B3%B5%EA%B6%8C%20%26%20%ED%95%AD%EA%B3%B5%EB%A3%8C%2055%25%20%ED%95%A0%EC%9D%B8%20%7C%20%ED%8A%B8%EB%A6%BD%EB%8B%B7%EC%BB%B4",
+        "payload": {
+          "icon": "map",
+          "copyText": "최저가 항공권, 항공권 & 항공료 55% 할인 | 트립닷컴",
+          "fallbackHref": "https://www.google.com/maps/dir/?api=1&destination=https%3A%2F%2Fkr.trip.com%2Fflights%2F&travelmode=driving"
+        }
+      },
+      {
+        "id": "31433410-8ae1-43ac-b478-fc5fb425efa5",
+        "kind": "custom",
+        "label": "💱 환율 변환",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.currency_convert",
+          "title": "최저가 항공권, 항공권 & 항공료 55% 할인 | 트립닷컴"
+        }
+      },
+      {
+        "id": "147fbadd-d204-4699-8b2f-5f6a635b0ad1",
+        "kind": "open",
+        "label": "📅 일정 캘린더 등록",
+        "href": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%EC%B5%9C%EC%A0%80%EA%B0%80+%ED%95%AD%EA%B3%B5%EA%B6%8C%2C+%ED%95%AD%EA%B3%B5%EA%B6%8C+%26+%ED%95%AD%EA%B3%B5%EB%A3%8C+55%25+%ED%95%A0%EC%9D%B8+%7C+%ED%8A%B8%EB%A6%BD%EB%8B%B7%EC%BB%B4&details=https%3A%2F%2Fkr.trip.com%2Fflights%2F",
+        "payload": {
+          "icon": "link",
+          "copyText": "최저가 항공권, 항공권 & 항공료 55% 할인 | 트립닷컴"
+        }
+      },
+      {
+        "id": "a3f15992-0f59-45f9-82ad-d7ac88fd8bc9",
+        "kind": "open",
+        "label": "✈️ 항공/숙소 비교",
+        "href": "https://www.perplexity.ai/search?q=%EC%B5%9C%EC%A0%80%EA%B0%80%20%ED%95%AD%EA%B3%B5%EA%B6%8C%2C%20%ED%95%AD%EA%B3%B5%EA%B6%8C%20%26%20%ED%95%AD%EA%B3%B5%EB%A3%8C%2055%25%20%ED%95%A0%EC%9D%B8%20%7C%20%ED%8A%B8%EB%A6%BD%EB%8B%B7%EC%BB%B4%20%ED%95%AD%EA%B3%B5%EA%B6%8C%20%ED%98%B8%ED%85%94%20%EA%B0%80%EA%B2%A9%20%EB%B9%84%EA%B5%90",
+        "payload": {
+          "icon": "link",
+          "copyText": "최저가 항공권, 항공권 & 항공료 55% 할인 | 트립닷컴"
+        }
+      },
+      {
+        "id": "70a64b36-bf59-4800-bf54-23803f4c3088",
+        "kind": "open",
+        "label": "🧠 AI 요약/학습",
+        "href": "https://chatgpt.com/?hints=search&q=%EB%8B%A4%EC%9D%8C%20%EB%A7%81%ED%81%AC%EB%A5%BC%20%ED%95%99%EC%8A%B5%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%203%EC%A4%84%20%EC%9A%94%EC%95%BD%ED%95%98%EA%B3%A0%2C%20%EB%82%B4%EA%B0%80%20%EA%B8%B0%EC%96%B5%ED%95%A0%20%ED%95%B5%EC%8B%AC%203%EA%B0%80%EC%A7%80%EB%A7%8C%20bullet%EB%A1%9C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EC%A4%98.%0A%EC%A0%9C%EB%AA%A9%3A%20%EC%B5%9C%EC%A0%80%EA%B0%80%20%ED%95%AD%EA%B3%B5%EA%B6%8C%2C%20%ED%95%AD%EA%B3%B5%EA%B6%8C%20%26%20%ED%95%AD%EA%B3%B5%EB%A3%8C%2055%25%20%ED%95%A0%EC%9D%B8%20%7C%20%ED%8A%B8%EB%A6%BD%EB%8B%B7%EC%BB%B4%0Ahttps%3A%2F%2Fkr.trip.com%2Fflights%2F",
+        "payload": {
+          "icon": "sparkles",
+          "copyText": "다음 링크를 학습 관점에서 3줄 요약하고, 내가 기억할 핵심 3가지만 bullet로 정리해줘.\n제목: 최저가 항공권, 항공권 & 항공료 55% 할인 | 트립닷컴\nhttps://kr.trip.com/flights/"
+        }
+      },
+      {
+        "id": "6c1c15d9-f9c0-46b0-b3ab-f1460f3e8e5c",
+        "kind": "custom",
+        "label": "🏆 오늘의 성취 기록",
+        "payload": {
+          "icon": "copy",
+          "blinkAction": "blink.achievement_log",
+          "contextBoost": "chrono",
+          "title": "최저가 항공권, 항공권 & 항공료 55% 할인 | 트립닷컴",
+          "url": "https://kr.trip.com/flights/"
+        }
+      },
+      {
+        "id": "931d312c-0877-4bb8-8c4d-457b2fb343fc",
+        "kind": "open",
+        "label": "🌐 그 페이지로 가기",
+        "href": "https://kr.trip.com/flights/",
+        "payload": {
+          "icon": "external-link",
+          "copyText": "최저가 항공권, 항공권 & 항공료 55% 할인 | 트립닷컴"
+        }
+      }
+    ],
+    "visual_mode": "brand",
+    "source_type": "transport",
+    "created_at": "2026-05-26T13:48:59.309Z",
+    "expires_at": "2026-06-03T06:48:59.309Z"
+  }
+]

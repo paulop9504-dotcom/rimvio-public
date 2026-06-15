@@ -1,0 +1,552 @@
+﻿{
+  "status": "PASS",
+  "violations": [],
+  "proofHashes": {
+    "approve": "1b818f3594023c70ab4b87f22599fc6fb6fc3660d6d25be50a539f9ef9e21e32",
+    "date": "afaafd48cf11cdd3a1d2ebb0d4d5ab4562ed9b5a6cb8c84ab2fea7bf1f942a26",
+    "confirm": "202fd85eb207a719f83cef99caddbe23b65d9b1c8b9c5f51c6763bd90b120019"
+  },
+  "traces": {
+    "approve": {
+      "proofVersion": "v1",
+      "input": {
+        "action": "留욎븘",
+        "step": "approve",
+        "scopeId": "default",
+        "clockIso": "2026-06-01T03:00:00.000Z"
+      },
+      "plan": {
+        "triggeredFunction": "approveCandidate ??orchestrateEventReviewApproval",
+        "triggeredChain": [
+          "inferApprovalAction",
+          "executeApprovePendingEvents",
+          "validatePendingEventCandidate"
+        ],
+        "intendedCommit": "BLOCKED"
+      },
+      "execution": {
+        "dryRun": false,
+        "stepsExecuted": [
+          "inferApprovalAction",
+          "executeApprovePendingEvents",
+          "validatePendingEventCandidate"
+        ],
+        "blockedByLock": false,
+        "executionRoute": "EVENT_REVIEW_DATE_PICKER"
+      },
+      "stateBefore": {
+        "reviewState": "PENDING_EVENT_REVIEW",
+        "reviewCandidateCount": 3,
+        "pendingCandidates": [
+          {
+            "id": "ocr-cand-test-1",
+            "title": "湲곗긽",
+            "date": null,
+            "time": "07:00"
+          },
+          {
+            "id": "ocr-cand-test-2",
+            "title": "?먯떖",
+            "date": null,
+            "time": "11:30"
+          },
+          {
+            "id": "ocr-cand-test-3",
+            "title": "蹂묒썝",
+            "date": null,
+            "time": "14:00"
+          }
+        ],
+        "scheduledEventCount": 0,
+        "actionProjectionEntryCount": 0,
+        "actionProjectionRevision": 0
+      },
+      "stateAfter": {
+        "reviewState": "PENDING_EVENT_REVIEW",
+        "reviewCandidateCount": 3,
+        "pendingCandidates": [
+          {
+            "id": "ocr-cand-test-1",
+            "title": "湲곗긽",
+            "date": null,
+            "time": "07:00"
+          },
+          {
+            "id": "ocr-cand-test-2",
+            "title": "?먯떖",
+            "date": null,
+            "time": "11:30"
+          },
+          {
+            "id": "ocr-cand-test-3",
+            "title": "蹂묒썝",
+            "date": null,
+            "time": "14:00"
+          }
+        ],
+        "scheduledEventCount": 0,
+        "actionProjectionEntryCount": 0,
+        "actionProjectionRevision": 0
+      },
+      "stateDiff": {
+        "reviewStateChanged": false,
+        "scheduledEventDelta": 0,
+        "projectionRevisionDelta": 0,
+        "projectionEntryDelta": 0,
+        "pendingDatesResolved": false
+      },
+      "validationProof": {
+        "result": "MISSING_DATE",
+        "rows": [
+          {
+            "candidateId": "ocr-cand-test-1",
+            "status": "needs_input",
+            "blockedBy": [
+              "MISSING_DATE"
+            ],
+            "title": "湲곗긽",
+            "date": null,
+            "time": "07:00"
+          },
+          {
+            "candidateId": "ocr-cand-test-2",
+            "status": "needs_input",
+            "blockedBy": [
+              "MISSING_DATE"
+            ],
+            "title": "?먯떖",
+            "date": null,
+            "time": "11:30"
+          },
+          {
+            "candidateId": "ocr-cand-test-3",
+            "status": "needs_input",
+            "blockedBy": [
+              "MISSING_DATE"
+            ],
+            "title": "蹂묒썝",
+            "date": null,
+            "time": "14:00"
+          }
+        ]
+      },
+      "commitDecision": "BLOCKED",
+      "ssotDelta": {
+        "before": 0,
+        "after": 0,
+        "delta": 0,
+        "changed": false
+      },
+      "projectionDelta": {
+        "revisionBefore": 0,
+        "revisionAfter": 0,
+        "entryCountBefore": 0,
+        "entryCountAfter": 0,
+        "impact": "none"
+      },
+      "uiDiff": "show DATE_PICKER",
+      "causalChain": [
+        "User clicked approve",
+        "Validation: MISSING_DATE",
+        "commit blocked",
+        "UI: DATE_PICKER"
+      ],
+      "relationGraph": {
+        "nodes": [
+          "UI_Button",
+          "Candidate_State",
+          "Validation_Layer",
+          "Event_SSOT",
+          "Timeline",
+          "Action_Projection",
+          "UI_Layer"
+        ],
+        "edges": [
+          {
+            "from": "UI_Button",
+            "to": "Candidate_State",
+            "label": "user intent"
+          },
+          {
+            "from": "Candidate_State",
+            "to": "Validation_Layer",
+            "label": "validate"
+          },
+          {
+            "from": "Validation_Layer",
+            "to": "Event_SSOT",
+            "label": "commit gate"
+          },
+          {
+            "from": "Event_SSOT",
+            "to": "Timeline",
+            "label": "derive"
+          },
+          {
+            "from": "Timeline",
+            "to": "Action_Projection",
+            "label": "project"
+          },
+          {
+            "from": "Action_Projection",
+            "to": "UI_Layer",
+            "label": "overlay render"
+          }
+        ]
+      },
+      "anomalies": [],
+      "proofHash": "1b818f3594023c70ab4b87f22599fc6fb6fc3660d6d25be50a539f9ef9e21e32"
+    },
+    "dateSelected": {
+      "proofVersion": "v1",
+      "input": {
+        "action": "date_selected",
+        "step": "date",
+        "scopeId": "default",
+        "clockIso": "2026-06-01T03:00:00.000Z",
+        "patches": [
+          {
+            "candidateId": "ocr-cand-test-1",
+            "date": "2026-06-03"
+          },
+          {
+            "candidateId": "ocr-cand-test-2",
+            "date": "2026-06-03"
+          },
+          {
+            "candidateId": "ocr-cand-test-3",
+            "date": "2026-06-03"
+          }
+        ]
+      },
+      "plan": {
+        "triggeredFunction": "setCandidateDate ??orchestrateEventReviewDateResolution",
+        "triggeredChain": [
+          "parseOcrReviewDatePayload",
+          "applyPendingEventCandidateDatePatches",
+          "validatePendingEventCandidates"
+        ],
+        "intendedCommit": "PENDING_CONFIRM"
+      },
+      "execution": {
+        "dryRun": false,
+        "stepsExecuted": [
+          "parseOcrReviewDatePayload",
+          "applyPendingEventCandidateDatePatches",
+          "validatePendingEventCandidates"
+        ],
+        "blockedByLock": false,
+        "executionRoute": "EVENT_REVIEW_DATE_CONFIRM"
+      },
+      "stateBefore": {
+        "reviewState": "PENDING_EVENT_REVIEW",
+        "reviewCandidateCount": 3,
+        "pendingCandidates": [
+          {
+            "id": "ocr-cand-test-1",
+            "title": "湲곗긽",
+            "date": null,
+            "time": "07:00"
+          },
+          {
+            "id": "ocr-cand-test-2",
+            "title": "?먯떖",
+            "date": null,
+            "time": "11:30"
+          },
+          {
+            "id": "ocr-cand-test-3",
+            "title": "蹂묒썝",
+            "date": null,
+            "time": "14:00"
+          }
+        ],
+        "scheduledEventCount": 0,
+        "actionProjectionEntryCount": 0,
+        "actionProjectionRevision": 0
+      },
+      "stateAfter": {
+        "reviewState": "PENDING_EVENT_REVIEW",
+        "reviewCandidateCount": 3,
+        "pendingCandidates": [
+          {
+            "id": "ocr-cand-test-1",
+            "title": "湲곗긽",
+            "date": "2026-06-03",
+            "time": "07:00"
+          },
+          {
+            "id": "ocr-cand-test-2",
+            "title": "?먯떖",
+            "date": "2026-06-03",
+            "time": "11:30"
+          },
+          {
+            "id": "ocr-cand-test-3",
+            "title": "蹂묒썝",
+            "date": "2026-06-03",
+            "time": "14:00"
+          }
+        ],
+        "scheduledEventCount": 0,
+        "actionProjectionEntryCount": 0,
+        "actionProjectionRevision": 0
+      },
+      "stateDiff": {
+        "reviewStateChanged": false,
+        "scheduledEventDelta": 0,
+        "projectionRevisionDelta": 0,
+        "projectionEntryDelta": 0,
+        "pendingDatesResolved": true
+      },
+      "validationProof": {
+        "result": "RESOLVED",
+        "rows": [
+          {
+            "candidateId": "ocr-cand-test-1",
+            "status": "ready",
+            "blockedBy": [],
+            "title": "湲곗긽",
+            "date": "2026-06-03",
+            "time": "07:00"
+          },
+          {
+            "candidateId": "ocr-cand-test-2",
+            "status": "ready",
+            "blockedBy": [],
+            "title": "?먯떖",
+            "date": "2026-06-03",
+            "time": "11:30"
+          },
+          {
+            "candidateId": "ocr-cand-test-3",
+            "status": "ready",
+            "blockedBy": [],
+            "title": "蹂묒썝",
+            "date": "2026-06-03",
+            "time": "14:00"
+          }
+        ]
+      },
+      "commitDecision": "PENDING_CONFIRM",
+      "ssotDelta": {
+        "before": 0,
+        "after": 0,
+        "delta": 0,
+        "changed": false
+      },
+      "projectionDelta": {
+        "revisionBefore": 0,
+        "revisionAfter": 0,
+        "entryCountBefore": 0,
+        "entryCountAfter": 0,
+        "impact": "none"
+      },
+      "uiDiff": "show CONFIRM_SCREEN",
+      "causalChain": [
+        "User selected date",
+        "Candidate_State updated only",
+        "SSOT unchanged",
+        "Projection revision 0 ??0",
+        "UI: CONFIRM_SCREEN"
+      ],
+      "relationGraph": {
+        "nodes": [
+          "UI_Button",
+          "Candidate_State",
+          "Validation_Layer",
+          "Event_SSOT",
+          "Timeline",
+          "Action_Projection",
+          "UI_Layer"
+        ],
+        "edges": [
+          {
+            "from": "UI_Button",
+            "to": "Candidate_State",
+            "label": "user intent"
+          },
+          {
+            "from": "Candidate_State",
+            "to": "Validation_Layer",
+            "label": "validate"
+          },
+          {
+            "from": "Validation_Layer",
+            "to": "Event_SSOT",
+            "label": "commit gate"
+          },
+          {
+            "from": "Event_SSOT",
+            "to": "Timeline",
+            "label": "derive"
+          },
+          {
+            "from": "Timeline",
+            "to": "Action_Projection",
+            "label": "project"
+          },
+          {
+            "from": "Action_Projection",
+            "to": "UI_Layer",
+            "label": "overlay render"
+          }
+        ]
+      },
+      "anomalies": [],
+      "proofHash": "afaafd48cf11cdd3a1d2ebb0d4d5ab4562ed9b5a6cb8c84ab2fea7bf1f942a26"
+    },
+    "confirm": {
+      "proofVersion": "v1",
+      "input": {
+        "action": "??,
+        "step": "confirm",
+        "scopeId": "default",
+        "clockIso": "2026-06-01T03:00:00.000Z",
+        "syncClient": true
+      },
+      "plan": {
+        "triggeredFunction": "confirm ??commitOcrCandidateToEventStore",
+        "triggeredChain": [
+          "executeApprovePendingEvents",
+          "commitOcrCandidateToEventStore",
+          "upsertEventCandidate",
+          "invalidateActionProjection"
+        ],
+        "intendedCommit": "EXECUTED"
+      },
+      "execution": {
+        "dryRun": false,
+        "stepsExecuted": [
+          "executeApprovePendingEvents",
+          "commitOcrCandidateToEventStore",
+          "invalidateActionProjection"
+        ],
+        "blockedByLock": false,
+        "executionRoute": "CALENDAR_COMMIT"
+      },
+      "stateBefore": {
+        "reviewState": "PENDING_EVENT_REVIEW",
+        "reviewCandidateCount": 3,
+        "pendingCandidates": [
+          {
+            "id": "ocr-cand-test-1",
+            "title": "湲곗긽",
+            "date": "2026-06-03",
+            "time": "07:00"
+          },
+          {
+            "id": "ocr-cand-test-2",
+            "title": "?먯떖",
+            "date": "2026-06-03",
+            "time": "11:30"
+          },
+          {
+            "id": "ocr-cand-test-3",
+            "title": "蹂묒썝",
+            "date": "2026-06-03",
+            "time": "14:00"
+          }
+        ],
+        "scheduledEventCount": 0,
+        "actionProjectionEntryCount": 0,
+        "actionProjectionRevision": 0
+      },
+      "stateAfter": {
+        "reviewState": "EVENTS_APPROVED",
+        "reviewCandidateCount": 3,
+        "pendingCandidates": [],
+        "scheduledEventCount": 3,
+        "actionProjectionEntryCount": 0,
+        "actionProjectionRevision": 9
+      },
+      "stateDiff": {
+        "reviewStateChanged": true,
+        "scheduledEventDelta": 3,
+        "projectionRevisionDelta": 9,
+        "projectionEntryDelta": 0,
+        "pendingDatesResolved": false
+      },
+      "validationProof": {
+        "result": "PASS",
+        "rows": []
+      },
+      "commitDecision": "EXECUTED",
+      "ssotDelta": {
+        "before": 0,
+        "after": 3,
+        "delta": 3,
+        "changed": true
+      },
+      "projectionDelta": {
+        "revisionBefore": 0,
+        "revisionAfter": 9,
+        "entryCountBefore": 0,
+        "entryCountAfter": 0,
+        "impact": "invalidate + recompute"
+      },
+      "uiDiff": "calendar_update + action_overlay",
+      "causalChain": [
+        "User confirmed",
+        "Validation passed",
+        "Event SSOT written",
+        "Projection 0 ??9",
+        "Overlay rows: 3"
+      ],
+      "relationGraph": {
+        "nodes": [
+          "UI_Button",
+          "Candidate_State",
+          "Validation_Layer",
+          "Event_SSOT",
+          "Timeline",
+          "Action_Projection",
+          "UI_Layer"
+        ],
+        "edges": [
+          {
+            "from": "UI_Button",
+            "to": "Candidate_State",
+            "label": "user intent"
+          },
+          {
+            "from": "Candidate_State",
+            "to": "Validation_Layer",
+            "label": "validate"
+          },
+          {
+            "from": "Validation_Layer",
+            "to": "Event_SSOT",
+            "label": "commit gate"
+          },
+          {
+            "from": "Event_SSOT",
+            "to": "Timeline",
+            "label": "derive"
+          },
+          {
+            "from": "Timeline",
+            "to": "Action_Projection",
+            "label": "project"
+          },
+          {
+            "from": "Action_Projection",
+            "to": "UI_Layer",
+            "label": "overlay render"
+          }
+        ]
+      },
+      "anomalies": [],
+      "overlayRowCount": 3,
+      "proofHash": "202fd85eb207a719f83cef99caddbe23b65d9b1c8b9c5f51c6763bd90b120019"
+    }
+  },
+  "downstreamChain": [
+    "Event SSOT scheduled count: 3",
+    "Action Projection invalidated",
+    "Timeline ??Action Projection entries: 2",
+    "Event Calendar chips: 3",
+    "Unified UI overlay rows: 3"
+  ]
+}
+test-event-os-causal-trace: ok

@@ -1,0 +1,66 @@
+---
+description: Rimvio product & engineering guidelines (Action OS, PWA, orchestrator)
+alwaysApply: true
+---
+
+# Rimvio product guidelines
+
+**Canonical doctrine:** `docs/RIMVIO_CONSTITUTION.md` (Experience OS — truth/projection/surface law, PR review law).
+
+**Experience layers (build in order):** `docs/RIMVIO_EXPERIENCE_LAYERS.md` — `FACT → EXPERIENCE → MEANING → RECALL → ACTION`. Do not ship generic AI that skips layers. 2026 focus: strengthen MEANING + RECALL; ACTION already context-gated.
+
+**Feed UI (Three Floors):** `docs/RIMVIO_THREE_FLOORS.md` — **1 Replay** (globe pins · shorts · one-line caption) → **2 Context** (people · experience · place · time) → **3 Action** (navigate · schedule · share · @). Feed hero is NOT search/chat/recommendation lists. Search tab = capture ingress only.
+
+**Rimvio** — personal Experience OS. Structures lived context; suggests and runs next actions from Feed. Apple UX simplicity + deterministic orchestrator first, LLM fallback second.
+
+> Not Silent Ghost. See `.cursor/rules/rimvio-isolation.mdc`.
+
+## Stack
+
+- Next.js App Router, TypeScript
+- Tailwind CSS, shadcn/ui, framer-motion
+- Supabase (@supabase/ssr) for DB/Auth (optional)
+- iOS-first PWA (Share Target API)
+
+## Core guidelines
+
+1. **Apple-level simplicity** — No heavy borders. Padding + `shadow-sm`. Mockups: `.cursor/rules/apple-mobile-ui-prompt.mdc` + `lib/design/apple-mobile-web-ui-prompt.ts`.
+2. **1–2 tap rule** — Action Cards, not plain lists. Prefetch next action before tap.
+3. **Optimistic UI & shimmer** — No spinners. Shimmer skeletons while loading.
+4. **Operable > conversational** — Orchestrator gates before LLM; routing bugs are not prompt bugs.
+5. **PWA first** — Safe-area insets, standalone display, Share Target.
+
+## Enrichment
+
+Link parsing: **`.cursor/rules/rimvio-enrichment.mdc`**
+
+## Surface layers
+
+Product UX: **`.cursor/rules/rimvio-jobs-layers.mdc`**
+
+- `/` Feed (Shorts) · `/stack` one-card focus · `/now` Share landing · `/inbox` deep feed
+- Share → `/now` → Done (do not dump into scroll feed)
+
+## UI vocabulary
+
+- Action Card, Prefetch, Shimmer — allowed
+- User copy: Rimvio / 림비오 — not Blink, not Silent Ghost
+- Avoid internal infra terms in user-facing copy
+
+## File conventions
+
+- `components/action-card.tsx` — primary interaction surface
+- `lib/enrichers/` — domain enrichers + registry
+- `lib/action-chat/orchestrator/` — chat routing pipeline
+- `lib/supabase/` — client, server, middleware
+- `app/share/` — Share Target bridge
+
+## Action OS spine (current focus)
+
+**`.cursor/rules/action-os-spine.mdc`** + **`docs/ACTION_OS_SPINE.md`**
+
+Only the Context → @ Registry → Proactive prep → Archive ranking loop. Frozen backlog items stay out until the vertical slice ships.
+
+## Tests
+
+After substantive Rimvio changes: `npm test` **in this repo** (not Silent Ghost).

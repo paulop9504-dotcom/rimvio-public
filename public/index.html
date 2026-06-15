@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Rimvio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+        display: grid;
+        min-height: 100dvh;
+        place-items: center;
+        background: #0a0a0f;
+        color: #c4b5fd;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Rimvio 로딩 중…</p>
+    <script>
+      // Packaged fallback only — dev/prod mobile loads CAPACITOR_SERVER_URL in WebView.
+      if (!window.Capacitor) {
+        window.location.replace("/");
+      }
+    </script>
+  </body>
+</html>
