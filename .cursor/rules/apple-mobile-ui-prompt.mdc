@@ -1,0 +1,20 @@
+---
+description: Apple-style mobile web UI screenshot prompts for mockups and image generation
+globs:
+  - lib/design/**
+  - docs/APPLE_MOBILE_WEB_UI_PROMPT.md
+  - lib/actions/smart-suite-actions.ts
+---
+
+# Apple-style mobile web UI prompts
+
+When generating **mobile web UI screenshots**, marketing mockups, or feed hero art in this style:
+
+1. Use `buildAppleMobileWebCardPrompt()` or presets in `lib/design/apple-mobile-web-ui-prompt.ts`.
+2. Read `docs/APPLE_MOBILE_WEB_UI_PROMPT.md` for the full Korean guide.
+3. **Fixed chrome:** iOS status bar, header tagline, card bottom-right avatar, bottom URL nav (`<` · URL · `…`).
+4. **Card:** white background, large rounded corners — category (grey small) → title (bold KO) → body (fine KO) → topic graphic.
+5. Optional title gradient on one word (blue → green).
+6. Rimvio product mockups: `{ brand: "rimvio" }`, `urlBar: "rimvio.app"`, preset `rimvioAction`.
+
+Do not invent new layout patterns; only change category, title, body, and graphic per card.

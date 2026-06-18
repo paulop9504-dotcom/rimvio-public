@@ -1,0 +1,44 @@
+---
+description: Rimvio is NOT Silent Ghost — repo, runtime, and Cursor rules are separate
+alwaysApply: true
+---
+
+# Rimvio ↔ Silent Ghost isolation
+
+**Rimvio and Silent Ghost are completely different projects.** Do not merge patterns, imports, or rules across them.
+
+## Rimvio (this repo)
+
+| Item | Value |
+|------|--------|
+| Path | `c:\Users\userguest\Desktop\new-project` |
+| Git | `https://github.com/paulop9504-dotcom/rimvio.git` |
+| Package | `rimvio` |
+| Dev server | `http://localhost:3000` |
+| Product | Personal Action OS — chat, orchestrator, share → action |
+
+**Use Rimvio rules only:** `.cursor/rules/rimvio-*.mdc`
+
+## Silent Ghost (other repo — do NOT apply here)
+
+| Item | Value |
+|------|--------|
+| Path | `c:\Users\userguest\Desktop\ghostsilence-programmer` |
+| Git | `ghostsilence-programmer` |
+| Bridge | `http://127.0.0.1:38471` |
+| Product | VS Code extension + Figma bridge + truth log / projections |
+
+**Never in Rimvio code:**
+
+- `appendCanonicalEvent`, `UnifiedTruthLineageLog`, `ProjectionRegistry`
+- `siteToolEgress`, `deriveNarrative` / SITE_VOCAB engine-site patterns
+- Silent Ghost `npm test` / `golden:protocol` as Rimvio verification
+
+## Workspace
+
+Open **`rimvio.code-workspace`** (this folder) for Rimvio-only work.
+Multi-root: **`Desktop/rimvio-and-silent-ghost.code-workspace`** — edit the folder that matches the task.
+
+## Legacy storage keys
+
+`blink-local-links` and similar keys are **Rimvio-internal legacy names** only — not shared with Silent Ghost runtime.

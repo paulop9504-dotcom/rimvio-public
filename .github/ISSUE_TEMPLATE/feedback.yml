@@ -1,0 +1,40 @@
+name: Feedback
+description: Beta feedback, bugs, or ideas for Rimvio
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying [Rimvio](https://rimvio.app)! One line is enough.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened / what do you want?
+      placeholder: e.g. Context hub didn't connect after creating Jeju trip
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Globe / map
+        - Context hubs
+        - Feed
+        - Share / Now
+        - Sign-in
+        - Friends / chat
+        - Other
+  - type: input
+    id: device
+    attributes:
+      label: Device / browser (optional)
+      placeholder: e.g. iPhone Safari, Chrome desktop
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Follow-up
+      options:
+        - label: OK to contact me via GitHub about this issue
+          required: false

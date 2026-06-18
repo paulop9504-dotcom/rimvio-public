@@ -1,0 +1,47 @@
+﻿[
+    {
+        "url":  "https://www.youtube.com/watch?v=yfHasxI_s2A",
+        "enricher":  "youtube-v1",
+        "title":  "Youtube",
+        "hasImage":  false,
+        "descLen":  0,
+        "titleFallback":  true,
+        "actions":  "â¶ï¸ ìì ë°ë¡ ì¬ì"
+    },
+    {
+        "url":  "https://map.naver.com/p/search/%EA%B0%95%EB%A6%89",
+        "enricher":  "generic-v1",
+        "title":  "Map",
+        "hasImage":  true,
+        "descLen":  0,
+        "titleFallback":  true,
+        "actions":  "ì¹´ì¹´ì¤ë§µ ë°ë¡ ì´ê¸°; ìë³¸ ì´ê¸°"
+    },
+    {
+        "url":  "https://yo-go.co.kr/",
+        "enricher":  "generic-v1",
+        "title":  "ìê³  YOGO_365ì¼ ì´í¹ê° ì´ë²¤í¸!â¨",
+        "hasImage":  false,
+        "descLen":  110,
+        "titleFallback":  false,
+        "actions":  "ìë³¸ ì´ê¸°"
+    },
+    {
+        "url":  "https://github.com/vercel/next.js",
+        "enricher":  "generic-v1",
+        "title":  "GitHub - vercel/next.js: The React Framework",
+        "hasImage":  true,
+        "descLen":  95,
+        "titleFallback":  false,
+        "actions":  "ìë³¸ ì´ê¸°"
+    },
+    {
+        "url":  "https://open.kakao.com/o/gsXxUJui",
+        "enricher":  "generic-v1",
+        "title":  "â¨ìê³ í¹ê° ìë¦¬ë¯¸â¨",
+        "hasImage":  true,
+        "descLen":  84,
+        "titleFallback":  false,
+        "actions":  "ìë³¸ ì´ê¸°"
+    }
+]

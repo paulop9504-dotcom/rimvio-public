@@ -1,0 +1,46 @@
+---
+description: Rimvio L0–L3 story vocabulary — user copy vs product vs engineering
+alwaysApply: true
+---
+
+# Rimvio Story Layer
+
+**Canonical spec:** `docs/RIMVIO_STORY_LAYER.md` · **Code SSOT:** `lib/copy/story-layer.ts` · **UI copy:** `lib/copy/human-ko.ts`
+
+## Stack (do not collapse layers)
+
+| Layer | Audience | Example |
+|-------|----------|---------|
+| **L0 Brand** | Keynote, App Store | You were here. And it mattered. |
+| **L1 User** | UI, toast, onboarding KO | 흔적 남기기 · 발견 · 그때 거기 |
+| **L2 Product** | PRD, Cursor tasks | Trace · Recall · Lineage · Visibility |
+| **L3 Engineering** | code, migrations | PinEntity · EventCandidate · `@` registry |
+
+Experience layers (`FACT → ACTION`) map through L1–L3 — see doc table.
+
+## Globe / spatial surfaces
+
+- **L0 personal:** You were here. And it mattered.
+- **L1:** 흔적 · 맥락 · 순간 · 그때 거기 — not 「핀 박기」「GPS」「AI Layer」 in hero/empty/toast
+- **L2 Hub · Resource (locked):** `docs/GLOBE_HUB_RESOURCE.md` — Hub = pipeline/transaction/factory (no ranking); Resource = rank target → MAIN slot + swipe
+- **L3:** Globe = renderer; pins = SSOT; default `visibility: private`
+- **Modes:** Personal (now) vs external discovery (Phase 2) — never mix on one screen
+
+## Forbidden in user-facing copy
+
+업로드 · 게시 · 포스팅 · Geo Social · Experience Graph · Marketplace · 좋아요 · 별점
+
+Hero/empty: avoid **핀 박기**, **GPS**, **AI** — OK in **Settings > 위치** only.
+
+## When writing UI or features
+
+1. Add strings to `lib/copy/human-ko.ts` (L1), not inline hardcode when reusable
+2. PRD / task description: L2 nouns + L3 constraints
+3. Cursor prompt for Globe work: start with `buildStoryLayerPromptHeader("globe")` intent — one L1 line + L3 rules
+4. Do not rename DB/code symbols to Korean story words
+
+## PR reject
+
+- Marketing poetry in component names or table columns
+- 「Social network」「map app」 positioning in onboarding
+- Public like counts or review stars on traces

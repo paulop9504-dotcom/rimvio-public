@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Rimvio</string>
+    <string name="title_activity_main">Rimvio</string>
+    <string name="package_name">com.rimvio.app</string>
+    <string name="custom_url_scheme">com.rimvio.app</string>
+    <string name="notification_listener_label">Rimvio 알림 관리</string>
+</resources>

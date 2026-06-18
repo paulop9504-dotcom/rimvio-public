@@ -1,0 +1,11 @@
+name: Verify
+
+# Deprecated — use CI workflow (.github/workflows/ci.yml). Kept as alias for branch protection migration.
+on:
+  workflow_dispatch:
+
+jobs:
+  redirect:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Use the CI workflow — verify.yml is no longer triggered on push/PR."

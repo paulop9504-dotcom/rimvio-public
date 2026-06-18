@@ -1,0 +1,52 @@
+---
+description: Rimvio enrichment — link-to-action pipeline & enricher rules
+globs: lib/enrichers/**,lib/share/**,app/api/scrape/**,app/share/**,components/action-card.tsx,types/database.ts
+alwaysApply: false
+---
+
+# Rimvio enrichment 👀
+
+> **공유 한 번 = 내일 할 일이 카드로 떨어진다.**
+> Rimvio는 링크 저장소가 아니다. **링크를 실행 가능한 행동으로 변환하는 OS**다.
+
+## North Star
+
+유저가 YouTube·카톡·쇼핑몰 링크를 공유하면 **3초 안에**:
+
+- 🎬 영상 제목 + 채널 + 「영상 보기」
+- 📅 설명란 일정 3개 → 각각 「알림 설정」
+- 💬 카카오 / 🛒 타임딜 / 🎁 쿠폰 → **원탭 액션 버튼**
+
+**벽 of text 금지.** raw HTML·설명 전문을 카드에 노출하지 않는다.
+
+---
+
+## 헌법 (절대 불변)
+
+1. **3층 파이프라인** — `Generic → Domain → Intent`
+2. **단일 출력 포맷** — `facts[]` + `actions[]`
+3. **UI는 actions만 본다**
+4. **1–2 Tap Rule**
+5. **Fallback은 우아하게** — Generic + URL; AI는 enricher 없을 때만
+6. **Optimistic First** — shimmer only, no spinner
+
+---
+
+## 법률 (도메인별 enricher)
+
+```
+lib/enrichers/
+  generic.ts
+  registry.ts
+  youtube.ts
+  commerce.ts
+  kakao.ts
+```
+
+새 사이트 = enricher 1개 + registry 등록. 카드 UI·DB 스키마는 건드리지 않는다.
+
+## 금지
+
+- ❌ 사이트마다 다른 카드 컴포넌트
+- ❌ enricher 없이 AI만으로 전부 처리
+- ❌ spinner

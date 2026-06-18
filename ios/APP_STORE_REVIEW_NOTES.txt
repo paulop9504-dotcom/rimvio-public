@@ -1,0 +1,18 @@
+Rimvio — App Store Review Notes (Photo Library)
+
+Feature: Experience context photo auto-import (Settings → 경험 맥락에 맞는 사진 자동 찾기)
+
+- User must opt in via in-app toggle before any photo library access.
+- The app scans photo metadata (date, location) locally on device.
+- Only photos that match user-created experience contexts (date window + place) are imported.
+- The full photo library is NOT uploaded to our servers.
+- Unmatched photos are never copied or stored by Rimvio.
+
+NSPhotoLibraryUsageDescription (Korean, in Info.plist):
+「기록한 여행·경험과 날짜·장소가 맞는 사진만 찾아 붙입니다. 사진첩 전체를 업로드하지 않으며, 맥락에 맞지 않는 사진은 사용하지 않습니다.」
+
+Test path:
+1. Create a manual context on Globe home (place + past date range).
+2. Enable photo auto-import in Globe settings.
+3. Grant photo library access when prompted.
+4. Only photos within that context window should attach to the experience pin.

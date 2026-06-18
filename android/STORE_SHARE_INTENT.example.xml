@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Rimvio Android share intent — v1.1 scaffold (NOT merged yet).
+
+  Merge into android/app/src/main/AndroidManifest.xml inside MainActivity:
+
+  <intent-filter>
+    <action android:name="android.intent.action.SEND" />
+    <category android:name="android.intent.category.DEFAULT" />
+    <data android:mimeType="text/plain" />
+  </intent-filter>
+  <intent-filter>
+    <action android:name="android.intent.action.SEND" />
+    <category android:name="android.intent.category.DEFAULT" />
+    <data android:mimeType="image/*" />
+  </intent-filter>
+  <intent-filter>
+    <action android:name="android.intent.action.SEND" />
+    <category android:name="android.intent.category.DEFAULT" />
+    <data android:mimeType="video/*" />
+  </intent-filter>
+
+  Then handle in MainActivity / Capacitor App plugin → route to /share on web.
+  See docs/STORE_LAUNCH_ANDROID.md §6
+-->

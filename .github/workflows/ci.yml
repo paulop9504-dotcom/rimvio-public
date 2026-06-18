@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master, release/v1-rimvio-core]
+  pull_request:
+    branches: [main, master, release/v1-rimvio-core]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Rimvio pipeline gate
+        run: npm run verify:pipeline
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Playbook regression
+        run: npm run test:playbook
+
+      - name: Self-learning gate (95%)
+        run: npm run self-learning:gate
+
+      - name: Unified stress
+        run: npm run test:unified-stress
+
+      - name: Server pipeline tests
+        run: npm run experiment:server
+
+      - name: URL intelligence tests
+        run: npm run experiment:url
+
+      - name: Build
+        run: npm run build

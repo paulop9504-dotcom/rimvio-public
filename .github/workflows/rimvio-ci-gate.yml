@@ -1,0 +1,11 @@
+name: Rimvio CI Gate
+
+# Deprecated — merged into .github/workflows/ci.yml
+on:
+  workflow_dispatch:
+
+jobs:
+  redirect:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Use the CI workflow — rimvio-ci-gate.yml is no longer triggered on push/PR."
